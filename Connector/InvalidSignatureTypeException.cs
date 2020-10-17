@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CodeReactor.CRGameJolt.Connector
 {
     /// <summary>
-    /// Represent a invalid or not supported signature type
+    /// Represent a invaliwd or not supported signature type
     /// </summary>
     public class InvalidSignatureTypeException : Exception
     {

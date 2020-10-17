@@ -1,36 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Runtime.InteropServices.ComTypes;
-using System.Security.Cryptography;
+﻿using System.Security.Cryptography;
 using System.Text;
 
 namespace CodeReactor.CRGameJolt.Connector
 {
-    /// <summary>
-    /// Enum that specify a GameJolt Game API version to url builder
-    /// </summary>
-    public enum APIVersion
-    {
-        /// <summary>
-        /// Value that represent GameJolt Game API v1.2
-        /// </summary>
-        V1_2 = 0x0102,
-        /// <summary>
-        /// Value that represent GameJolt Game API v1.1 (Not supported)
-        /// </summary>
-        V1_1 = 0x0101,
-        /// <summary>
-        /// Value that represent GameJolt Game API v1.0 (Not supported)
-        /// </summary>
-        V1_0 = 0x0100
-    }
-
-    public enum SignatureType
-    {
-        MD5,
-        SHA1
-    }
-
     /// <summary>
     /// Construct urls to make GameJolt Game API calls
     /// </summary>
@@ -47,7 +19,7 @@ namespace CodeReactor.CRGameJolt.Connector
         /// <value>
         /// String representation of Game API version
         /// </value>
-        private string GameAPIVersion;
+        private APIVersion GameAPIVersion;
         /// <value>
         /// The signature type provided for signer
         /// </value>
@@ -72,7 +44,7 @@ namespace CodeReactor.CRGameJolt.Connector
 
                     SignatureType = signatureType;
 
-                    GameAPIVersion = "v1_2";
+                    GameAPIVersion = APIVersion.V1_2;
 
                     break;
                 case APIVersion.V1_1:
@@ -108,6 +80,26 @@ namespace CodeReactor.CRGameJolt.Connector
         public URLConstructor(string gameId, string gameKey) : this(gameId, gameKey, SignatureType.MD5, APIVersion.V1_2) { }
 
         /// <summary>
+        /// Convert from enum APIVersion to a string that are a valid in GameJolt Game API
+        /// </summary>
+        /// <param name="apiVersion"></param>
+        /// <returns></returns>
+        public static string APIVersionToString(APIVersion apiVersion)
+        {
+            switch (apiVersion)
+            {
+                case APIVersion.V1_2:
+                    return "v1_2";
+                case APIVersion.V1_1:
+                    return "v1_1";
+                case APIVersion.V1_0:
+                    return "v1_0";
+                default:
+                    throw new InvalidAPIVersionException("Unknown version");
+            }
+        }
+
+        /// <summary>
         /// Construct and sign a Game API URL ready to call
         /// </summary>
         /// <param name="endpoint">Game API endpoint</param>
@@ -115,7 +107,7 @@ namespace CodeReactor.CRGameJolt.Connector
         /// <returns>Constructed Game API url ready to call</returns>
         public string Call(string endpoint, string[] query)
         {
-            string url = "https://api.gamejolt.com/api/game/" + GameAPIVersion + "/" + endpoint + "/?game_id=" + GameKey;
+            string url = "https://api.gamejolt.com/api/game/" + APIVersionToString(GameAPIVersion) + "/" + endpoint + "/?game_id=" + GameId + "&format=xml";
             foreach(string singleQuery in query) {
                 url += "&" + singleQuery;
             }
@@ -123,13 +115,24 @@ namespace CodeReactor.CRGameJolt.Connector
         }
 
         /// <summary>
-        /// Sign a Game API call URL with game key
+        /// Sign a Game API call URL with game key and signature type from SignatureType
         /// </summary>
         /// <param name="url">Game API call url to sign</param>
         /// <returns>Signed call url</returns>
         public string Sign(string url)
         {
-            switch (SignatureType)
+            return Sign(url, SignatureType);
+        }
+
+        /// <summary>
+        /// Sign a Game API call URL with game key
+        /// </summary>
+        /// <param name="url">Game API call url to sign</param>
+        /// <param name="signatureType">A signature type to specify sign</param>
+        /// <returns>Signed call url</returns>
+        public static string Sign(string url, SignatureType signatureType)
+        {
+            switch (signatureType)
             {
                 case SignatureType.MD5:
                     string signatureMd5 = "";
@@ -154,6 +157,6 @@ namespace CodeReactor.CRGameJolt.Connector
                 default:
                     throw new InvalidSignatureTypeException("Invalid signature type provided");
             }
-        } 
+        }
     }
 }
