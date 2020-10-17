@@ -17,6 +17,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include=".github\FUNDING.yml" />
     <None Include="LICENSE.txt">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
