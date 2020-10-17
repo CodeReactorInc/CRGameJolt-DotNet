@@ -1,0 +1,191 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: CodeReactor.CRGameJolt.Connector
+  name: CodeReactor.CRGameJolt.Connector
+  href: api/CodeReactor.CRGameJolt.Connector.html
+  commentId: N:CodeReactor.CRGameJolt.Connector
+  fullName: CodeReactor.CRGameJolt.Connector
+  nameWithType: CodeReactor.CRGameJolt.Connector
+- uid: CodeReactor.CRGameJolt.Connector.APIVersion
+  name: APIVersion
+  href: api/CodeReactor.CRGameJolt.Connector.APIVersion.html
+  commentId: T:CodeReactor.CRGameJolt.Connector.APIVersion
+  fullName: CodeReactor.CRGameJolt.Connector.APIVersion
+  nameWithType: APIVersion
+- uid: CodeReactor.CRGameJolt.Connector.APIVersion.V1_0
+  name: V1_0
+  href: api/CodeReactor.CRGameJolt.Connector.APIVersion.html#CodeReactor_CRGameJolt_Connector_APIVersion_V1_0
+  commentId: F:CodeReactor.CRGameJolt.Connector.APIVersion.V1_0
+  fullName: CodeReactor.CRGameJolt.Connector.APIVersion.V1_0
+  nameWithType: APIVersion.V1_0
+- uid: CodeReactor.CRGameJolt.Connector.APIVersion.V1_1
+  name: V1_1
+  href: api/CodeReactor.CRGameJolt.Connector.APIVersion.html#CodeReactor_CRGameJolt_Connector_APIVersion_V1_1
+  commentId: F:CodeReactor.CRGameJolt.Connector.APIVersion.V1_1
+  fullName: CodeReactor.CRGameJolt.Connector.APIVersion.V1_1
+  nameWithType: APIVersion.V1_1
+- uid: CodeReactor.CRGameJolt.Connector.APIVersion.V1_2
+  name: V1_2
+  href: api/CodeReactor.CRGameJolt.Connector.APIVersion.html#CodeReactor_CRGameJolt_Connector_APIVersion_V1_2
+  commentId: F:CodeReactor.CRGameJolt.Connector.APIVersion.V1_2
+  fullName: CodeReactor.CRGameJolt.Connector.APIVersion.V1_2
+  nameWithType: APIVersion.V1_2
+- uid: CodeReactor.CRGameJolt.Connector.InvalidAPIVersionException
+  name: InvalidAPIVersionException
+  href: api/CodeReactor.CRGameJolt.Connector.InvalidAPIVersionException.html
+  commentId: T:CodeReactor.CRGameJolt.Connector.InvalidAPIVersionException
+  fullName: CodeReactor.CRGameJolt.Connector.InvalidAPIVersionException
+  nameWithType: InvalidAPIVersionException
+- uid: CodeReactor.CRGameJolt.Connector.InvalidAPIVersionException.#ctor
+  name: InvalidAPIVersionException()
+  href: api/CodeReactor.CRGameJolt.Connector.InvalidAPIVersionException.html#CodeReactor_CRGameJolt_Connector_InvalidAPIVersionException__ctor
+  commentId: M:CodeReactor.CRGameJolt.Connector.InvalidAPIVersionException.#ctor
+  fullName: CodeReactor.CRGameJolt.Connector.InvalidAPIVersionException.InvalidAPIVersionException()
+  nameWithType: InvalidAPIVersionException.InvalidAPIVersionException()
+- uid: CodeReactor.CRGameJolt.Connector.InvalidAPIVersionException.#ctor(System.String)
+  name: InvalidAPIVersionException(String)
+  href: api/CodeReactor.CRGameJolt.Connector.InvalidAPIVersionException.html#CodeReactor_CRGameJolt_Connector_InvalidAPIVersionException__ctor_System_String_
+  commentId: M:CodeReactor.CRGameJolt.Connector.InvalidAPIVersionException.#ctor(System.String)
+  fullName: CodeReactor.CRGameJolt.Connector.InvalidAPIVersionException.InvalidAPIVersionException(System.String)
+  nameWithType: InvalidAPIVersionException.InvalidAPIVersionException(String)
+- uid: CodeReactor.CRGameJolt.Connector.InvalidAPIVersionException.#ctor(System.String,System.Exception)
+  name: InvalidAPIVersionException(String, Exception)
+  href: api/CodeReactor.CRGameJolt.Connector.InvalidAPIVersionException.html#CodeReactor_CRGameJolt_Connector_InvalidAPIVersionException__ctor_System_String_System_Exception_
+  commentId: M:CodeReactor.CRGameJolt.Connector.InvalidAPIVersionException.#ctor(System.String,System.Exception)
+  fullName: CodeReactor.CRGameJolt.Connector.InvalidAPIVersionException.InvalidAPIVersionException(System.String, System.Exception)
+  nameWithType: InvalidAPIVersionException.InvalidAPIVersionException(String, Exception)
+- uid: CodeReactor.CRGameJolt.Connector.InvalidAPIVersionException.#ctor*
+  name: InvalidAPIVersionException
+  href: api/CodeReactor.CRGameJolt.Connector.InvalidAPIVersionException.html#CodeReactor_CRGameJolt_Connector_InvalidAPIVersionException__ctor_
+  commentId: Overload:CodeReactor.CRGameJolt.Connector.InvalidAPIVersionException.#ctor
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Connector.InvalidAPIVersionException.InvalidAPIVersionException
+  nameWithType: InvalidAPIVersionException.InvalidAPIVersionException
+- uid: CodeReactor.CRGameJolt.Connector.InvalidSignatureTypeException
+  name: InvalidSignatureTypeException
+  href: api/CodeReactor.CRGameJolt.Connector.InvalidSignatureTypeException.html
+  commentId: T:CodeReactor.CRGameJolt.Connector.InvalidSignatureTypeException
+  fullName: CodeReactor.CRGameJolt.Connector.InvalidSignatureTypeException
+  nameWithType: InvalidSignatureTypeException
+- uid: CodeReactor.CRGameJolt.Connector.InvalidSignatureTypeException.#ctor
+  name: InvalidSignatureTypeException()
+  href: api/CodeReactor.CRGameJolt.Connector.InvalidSignatureTypeException.html#CodeReactor_CRGameJolt_Connector_InvalidSignatureTypeException__ctor
+  commentId: M:CodeReactor.CRGameJolt.Connector.InvalidSignatureTypeException.#ctor
+  fullName: CodeReactor.CRGameJolt.Connector.InvalidSignatureTypeException.InvalidSignatureTypeException()
+  nameWithType: InvalidSignatureTypeException.InvalidSignatureTypeException()
+- uid: CodeReactor.CRGameJolt.Connector.InvalidSignatureTypeException.#ctor(System.String)
+  name: InvalidSignatureTypeException(String)
+  href: api/CodeReactor.CRGameJolt.Connector.InvalidSignatureTypeException.html#CodeReactor_CRGameJolt_Connector_InvalidSignatureTypeException__ctor_System_String_
+  commentId: M:CodeReactor.CRGameJolt.Connector.InvalidSignatureTypeException.#ctor(System.String)
+  fullName: CodeReactor.CRGameJolt.Connector.InvalidSignatureTypeException.InvalidSignatureTypeException(System.String)
+  nameWithType: InvalidSignatureTypeException.InvalidSignatureTypeException(String)
+- uid: CodeReactor.CRGameJolt.Connector.InvalidSignatureTypeException.#ctor(System.String,System.Exception)
+  name: InvalidSignatureTypeException(String, Exception)
+  href: api/CodeReactor.CRGameJolt.Connector.InvalidSignatureTypeException.html#CodeReactor_CRGameJolt_Connector_InvalidSignatureTypeException__ctor_System_String_System_Exception_
+  commentId: M:CodeReactor.CRGameJolt.Connector.InvalidSignatureTypeException.#ctor(System.String,System.Exception)
+  fullName: CodeReactor.CRGameJolt.Connector.InvalidSignatureTypeException.InvalidSignatureTypeException(System.String, System.Exception)
+  nameWithType: InvalidSignatureTypeException.InvalidSignatureTypeException(String, Exception)
+- uid: CodeReactor.CRGameJolt.Connector.InvalidSignatureTypeException.#ctor*
+  name: InvalidSignatureTypeException
+  href: api/CodeReactor.CRGameJolt.Connector.InvalidSignatureTypeException.html#CodeReactor_CRGameJolt_Connector_InvalidSignatureTypeException__ctor_
+  commentId: Overload:CodeReactor.CRGameJolt.Connector.InvalidSignatureTypeException.#ctor
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Connector.InvalidSignatureTypeException.InvalidSignatureTypeException
+  nameWithType: InvalidSignatureTypeException.InvalidSignatureTypeException
+- uid: CodeReactor.CRGameJolt.Connector.SignatureType
+  name: SignatureType
+  href: api/CodeReactor.CRGameJolt.Connector.SignatureType.html
+  commentId: T:CodeReactor.CRGameJolt.Connector.SignatureType
+  fullName: CodeReactor.CRGameJolt.Connector.SignatureType
+  nameWithType: SignatureType
+- uid: CodeReactor.CRGameJolt.Connector.SignatureType.MD5
+  name: MD5
+  href: api/CodeReactor.CRGameJolt.Connector.SignatureType.html#CodeReactor_CRGameJolt_Connector_SignatureType_MD5
+  commentId: F:CodeReactor.CRGameJolt.Connector.SignatureType.MD5
+  fullName: CodeReactor.CRGameJolt.Connector.SignatureType.MD5
+  nameWithType: SignatureType.MD5
+- uid: CodeReactor.CRGameJolt.Connector.SignatureType.SHA1
+  name: SHA1
+  href: api/CodeReactor.CRGameJolt.Connector.SignatureType.html#CodeReactor_CRGameJolt_Connector_SignatureType_SHA1
+  commentId: F:CodeReactor.CRGameJolt.Connector.SignatureType.SHA1
+  fullName: CodeReactor.CRGameJolt.Connector.SignatureType.SHA1
+  nameWithType: SignatureType.SHA1
+- uid: CodeReactor.CRGameJolt.Connector.URLConstructor
+  name: URLConstructor
+  href: api/CodeReactor.CRGameJolt.Connector.URLConstructor.html
+  commentId: T:CodeReactor.CRGameJolt.Connector.URLConstructor
+  fullName: CodeReactor.CRGameJolt.Connector.URLConstructor
+  nameWithType: URLConstructor
+- uid: CodeReactor.CRGameJolt.Connector.URLConstructor.#ctor(System.String,System.String)
+  name: URLConstructor(String, String)
+  href: api/CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor__ctor_System_String_System_String_
+  commentId: M:CodeReactor.CRGameJolt.Connector.URLConstructor.#ctor(System.String,System.String)
+  fullName: CodeReactor.CRGameJolt.Connector.URLConstructor.URLConstructor(System.String, System.String)
+  nameWithType: URLConstructor.URLConstructor(String, String)
+- uid: CodeReactor.CRGameJolt.Connector.URLConstructor.#ctor(System.String,System.String,CodeReactor.CRGameJolt.Connector.APIVersion)
+  name: URLConstructor(String, String, APIVersion)
+  href: api/CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor__ctor_System_String_System_String_CodeReactor_CRGameJolt_Connector_APIVersion_
+  commentId: M:CodeReactor.CRGameJolt.Connector.URLConstructor.#ctor(System.String,System.String,CodeReactor.CRGameJolt.Connector.APIVersion)
+  fullName: CodeReactor.CRGameJolt.Connector.URLConstructor.URLConstructor(System.String, System.String, CodeReactor.CRGameJolt.Connector.APIVersion)
+  nameWithType: URLConstructor.URLConstructor(String, String, APIVersion)
+- uid: CodeReactor.CRGameJolt.Connector.URLConstructor.#ctor(System.String,System.String,CodeReactor.CRGameJolt.Connector.SignatureType)
+  name: URLConstructor(String, String, SignatureType)
+  href: api/CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor__ctor_System_String_System_String_CodeReactor_CRGameJolt_Connector_SignatureType_
+  commentId: M:CodeReactor.CRGameJolt.Connector.URLConstructor.#ctor(System.String,System.String,CodeReactor.CRGameJolt.Connector.SignatureType)
+  fullName: CodeReactor.CRGameJolt.Connector.URLConstructor.URLConstructor(System.String, System.String, CodeReactor.CRGameJolt.Connector.SignatureType)
+  nameWithType: URLConstructor.URLConstructor(String, String, SignatureType)
+- uid: CodeReactor.CRGameJolt.Connector.URLConstructor.#ctor(System.String,System.String,CodeReactor.CRGameJolt.Connector.SignatureType,CodeReactor.CRGameJolt.Connector.APIVersion)
+  name: URLConstructor(String, String, SignatureType, APIVersion)
+  href: api/CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor__ctor_System_String_System_String_CodeReactor_CRGameJolt_Connector_SignatureType_CodeReactor_CRGameJolt_Connector_APIVersion_
+  commentId: M:CodeReactor.CRGameJolt.Connector.URLConstructor.#ctor(System.String,System.String,CodeReactor.CRGameJolt.Connector.SignatureType,CodeReactor.CRGameJolt.Connector.APIVersion)
+  fullName: CodeReactor.CRGameJolt.Connector.URLConstructor.URLConstructor(System.String, System.String, CodeReactor.CRGameJolt.Connector.SignatureType, CodeReactor.CRGameJolt.Connector.APIVersion)
+  nameWithType: URLConstructor.URLConstructor(String, String, SignatureType, APIVersion)
+- uid: CodeReactor.CRGameJolt.Connector.URLConstructor.#ctor*
+  name: URLConstructor
+  href: api/CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor__ctor_
+  commentId: Overload:CodeReactor.CRGameJolt.Connector.URLConstructor.#ctor
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Connector.URLConstructor.URLConstructor
+  nameWithType: URLConstructor.URLConstructor
+- uid: CodeReactor.CRGameJolt.Connector.URLConstructor.Call(System.String,System.String[])
+  name: Call(String, String[])
+  href: api/CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor_Call_System_String_System_String___
+  commentId: M:CodeReactor.CRGameJolt.Connector.URLConstructor.Call(System.String,System.String[])
+  name.vb: Call(String, String())
+  fullName: CodeReactor.CRGameJolt.Connector.URLConstructor.Call(System.String, System.String[])
+  fullName.vb: CodeReactor.CRGameJolt.Connector.URLConstructor.Call(System.String, System.String())
+  nameWithType: URLConstructor.Call(String, String[])
+  nameWithType.vb: URLConstructor.Call(String, String())
+- uid: CodeReactor.CRGameJolt.Connector.URLConstructor.Call*
+  name: Call
+  href: api/CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor_Call_
+  commentId: Overload:CodeReactor.CRGameJolt.Connector.URLConstructor.Call
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Connector.URLConstructor.Call
+  nameWithType: URLConstructor.Call
+- uid: CodeReactor.CRGameJolt.Connector.URLConstructor.GameId
+  name: GameId
+  href: api/CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor_GameId
+  commentId: F:CodeReactor.CRGameJolt.Connector.URLConstructor.GameId
+  fullName: CodeReactor.CRGameJolt.Connector.URLConstructor.GameId
+  nameWithType: URLConstructor.GameId
+- uid: CodeReactor.CRGameJolt.Connector.URLConstructor.Sign(System.String)
+  name: Sign(String)
+  href: api/CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor_Sign_System_String_
+  commentId: M:CodeReactor.CRGameJolt.Connector.URLConstructor.Sign(System.String)
+  fullName: CodeReactor.CRGameJolt.Connector.URLConstructor.Sign(System.String)
+  nameWithType: URLConstructor.Sign(String)
+- uid: CodeReactor.CRGameJolt.Connector.URLConstructor.Sign*
+  name: Sign
+  href: api/CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor_Sign_
+  commentId: Overload:CodeReactor.CRGameJolt.Connector.URLConstructor.Sign
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Connector.URLConstructor.Sign
+  nameWithType: URLConstructor.Sign
+- uid: CodeReactor.CRGameJolt.Connector.URLConstructor.SignatureType
+  name: SignatureType
+  href: api/CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor_SignatureType
+  commentId: F:CodeReactor.CRGameJolt.Connector.URLConstructor.SignatureType
+  fullName: CodeReactor.CRGameJolt.Connector.URLConstructor.SignatureType
+  nameWithType: URLConstructor.SignatureType

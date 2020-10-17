@@ -2,6 +2,32 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>NatsumiUIX</Authors>
+    <Company>Code Reactor</Company>
+    <Product>CRGameJolt</Product>
+    <Description>The library from CR Series to manage and connect your .Net programs to GameJolt Game API</Description>
+    <Copyright>© 2020 Code Reactor.  All rights reserved.</Copyright>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/CodeReactorInc/CRGameJolt-DotNet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/CodeReactorInc/CRGameJolt-DotNet.git</RepositoryUrl>
+    <PackageTags>CRGameJolt, GameJolt, Game API</PackageTags>
+    <PackageReleaseNotes>First Release</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RootNamespace>CodeReactor.CRGameJolt</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="docfx.console" Version="2.56.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
 
 </Project>
