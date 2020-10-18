@@ -4,12 +4,24 @@
   "xrefmap": "xrefmap.yml",
   "files": [
     {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html",
+          "hash": "XtPbcPHjv5KqYRXxmgAhjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "ManagedReference",
       "source_relative_path": "api/CodeReactor.CRGameJolt.Connector.APIVersion.yml",
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Connector.APIVersion.html",
-          "hash": "LaaLefzGLudOfia8IaBdOA=="
+          "hash": "ppsBHB+gg5Kvk8OKNYdezA=="
         }
       },
       "is_incremental": false,
@@ -21,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Connector.InvalidAPIVersionException.html",
-          "hash": "flhubTcciV7GsC2GywsPUA=="
+          "hash": "xKjOjGSztOUEKjS4fOU6gg=="
         }
       },
       "is_incremental": false,
@@ -33,7 +45,19 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Connector.InvalidSignatureTypeException.html",
-          "hash": "7QR2k5d0UxrOAyCtKhqEeA=="
+          "hash": "dXyuUFMsQM2fF/VaU4YZWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeReactor.CRGameJolt.Connector.InvalidWebProtocolException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeReactor.CRGameJolt.Connector.InvalidWebProtocolException.html",
+          "hash": "kSIKl4T4ON06YRVHQlpZVA=="
         }
       },
       "is_incremental": false,
@@ -45,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Connector.SignatureType.html",
-          "hash": "kaX47sWd/GgrJNnCpYyWyg=="
+          "hash": "WOxVxy/3RINIZL+j/wPckQ=="
         }
       },
       "is_incremental": false,
@@ -57,7 +81,31 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Connector.URLConstructor.html",
-          "hash": "QQuI5cO729IEcPPQqAfv1g=="
+          "hash": "+qLkhF1dbL81rsmWIk0q5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeReactor.CRGameJolt.Connector.WebCaller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeReactor.CRGameJolt.Connector.WebCaller.html",
+          "hash": "5XTB/7WNp4R1GRh2GePkhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeReactor.CRGameJolt.Connector.WebProtocol.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeReactor.CRGameJolt.Connector.WebProtocol.html",
+          "hash": "rw1Z63hF49PSq0+o97HX3Q=="
         }
       },
       "is_incremental": false,
@@ -69,7 +117,31 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Connector.html",
-          "hash": "Js/0t4zJ4dblgsqk8An+UA=="
+          "hash": "SPLbjbHwIlu+WRcyix20QA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html",
+          "hash": "YpDY1Wygbh8AuRomSNIgsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeReactor.CRGameJolt.DataStorage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeReactor.CRGameJolt.DataStorage.html",
+          "hash": "bvV9W3Epw/7KsCBQolBXBg=="
         }
       },
       "is_incremental": false,
@@ -93,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "vh0QcrkyXEXOVYHKaJLtAA=="
+          "hash": "twElbhMjw9ax+acikZ6Rkg=="
         }
       },
       "is_incremental": false,
@@ -132,7 +204,7 @@
           "hash": "A+lErBBB8hjRC6/I/HklvQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -141,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "+rHUkRZHZRi5gd1aTU6lJA=="
+          "hash": "G2AoE5T/2VarbHvzLEo4TQ=="
         }
       },
       "is_incremental": false,
@@ -160,13 +232,13 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 3,
+          "total_file_count": 4,
           "skipped_file_count": 3
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 6,
+          "total_file_count": 11,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

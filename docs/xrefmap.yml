@@ -93,6 +93,37 @@ references:
   isSpec: "True"
   fullName: CodeReactor.CRGameJolt.Connector.InvalidSignatureTypeException.InvalidSignatureTypeException
   nameWithType: InvalidSignatureTypeException.InvalidSignatureTypeException
+- uid: CodeReactor.CRGameJolt.Connector.InvalidWebProtocolException
+  name: InvalidWebProtocolException
+  href: api/CodeReactor.CRGameJolt.Connector.InvalidWebProtocolException.html
+  commentId: T:CodeReactor.CRGameJolt.Connector.InvalidWebProtocolException
+  fullName: CodeReactor.CRGameJolt.Connector.InvalidWebProtocolException
+  nameWithType: InvalidWebProtocolException
+- uid: CodeReactor.CRGameJolt.Connector.InvalidWebProtocolException.#ctor
+  name: InvalidWebProtocolException()
+  href: api/CodeReactor.CRGameJolt.Connector.InvalidWebProtocolException.html#CodeReactor_CRGameJolt_Connector_InvalidWebProtocolException__ctor
+  commentId: M:CodeReactor.CRGameJolt.Connector.InvalidWebProtocolException.#ctor
+  fullName: CodeReactor.CRGameJolt.Connector.InvalidWebProtocolException.InvalidWebProtocolException()
+  nameWithType: InvalidWebProtocolException.InvalidWebProtocolException()
+- uid: CodeReactor.CRGameJolt.Connector.InvalidWebProtocolException.#ctor(System.String)
+  name: InvalidWebProtocolException(String)
+  href: api/CodeReactor.CRGameJolt.Connector.InvalidWebProtocolException.html#CodeReactor_CRGameJolt_Connector_InvalidWebProtocolException__ctor_System_String_
+  commentId: M:CodeReactor.CRGameJolt.Connector.InvalidWebProtocolException.#ctor(System.String)
+  fullName: CodeReactor.CRGameJolt.Connector.InvalidWebProtocolException.InvalidWebProtocolException(System.String)
+  nameWithType: InvalidWebProtocolException.InvalidWebProtocolException(String)
+- uid: CodeReactor.CRGameJolt.Connector.InvalidWebProtocolException.#ctor(System.String,System.Exception)
+  name: InvalidWebProtocolException(String, Exception)
+  href: api/CodeReactor.CRGameJolt.Connector.InvalidWebProtocolException.html#CodeReactor_CRGameJolt_Connector_InvalidWebProtocolException__ctor_System_String_System_Exception_
+  commentId: M:CodeReactor.CRGameJolt.Connector.InvalidWebProtocolException.#ctor(System.String,System.Exception)
+  fullName: CodeReactor.CRGameJolt.Connector.InvalidWebProtocolException.InvalidWebProtocolException(System.String, System.Exception)
+  nameWithType: InvalidWebProtocolException.InvalidWebProtocolException(String, Exception)
+- uid: CodeReactor.CRGameJolt.Connector.InvalidWebProtocolException.#ctor*
+  name: InvalidWebProtocolException
+  href: api/CodeReactor.CRGameJolt.Connector.InvalidWebProtocolException.html#CodeReactor_CRGameJolt_Connector_InvalidWebProtocolException__ctor_
+  commentId: Overload:CodeReactor.CRGameJolt.Connector.InvalidWebProtocolException.#ctor
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Connector.InvalidWebProtocolException.InvalidWebProtocolException
+  nameWithType: InvalidWebProtocolException.InvalidWebProtocolException
 - uid: CodeReactor.CRGameJolt.Connector.SignatureType
   name: SignatureType
   href: api/CodeReactor.CRGameJolt.Connector.SignatureType.html
@@ -148,6 +179,19 @@ references:
   isSpec: "True"
   fullName: CodeReactor.CRGameJolt.Connector.URLConstructor.URLConstructor
   nameWithType: URLConstructor.URLConstructor
+- uid: CodeReactor.CRGameJolt.Connector.URLConstructor.APIVersionToString(CodeReactor.CRGameJolt.Connector.APIVersion)
+  name: APIVersionToString(APIVersion)
+  href: api/CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor_APIVersionToString_CodeReactor_CRGameJolt_Connector_APIVersion_
+  commentId: M:CodeReactor.CRGameJolt.Connector.URLConstructor.APIVersionToString(CodeReactor.CRGameJolt.Connector.APIVersion)
+  fullName: CodeReactor.CRGameJolt.Connector.URLConstructor.APIVersionToString(CodeReactor.CRGameJolt.Connector.APIVersion)
+  nameWithType: URLConstructor.APIVersionToString(APIVersion)
+- uid: CodeReactor.CRGameJolt.Connector.URLConstructor.APIVersionToString*
+  name: APIVersionToString
+  href: api/CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor_APIVersionToString_
+  commentId: Overload:CodeReactor.CRGameJolt.Connector.URLConstructor.APIVersionToString
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Connector.URLConstructor.APIVersionToString
+  nameWithType: URLConstructor.APIVersionToString
 - uid: CodeReactor.CRGameJolt.Connector.URLConstructor.Call(System.String,System.String[])
   name: Call(String, String[])
   href: api/CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor_Call_System_String_System_String___
@@ -157,6 +201,15 @@ references:
   fullName.vb: CodeReactor.CRGameJolt.Connector.URLConstructor.Call(System.String, System.String())
   nameWithType: URLConstructor.Call(String, String[])
   nameWithType.vb: URLConstructor.Call(String, String())
+- uid: CodeReactor.CRGameJolt.Connector.URLConstructor.Call(System.String,System.String[],CodeReactor.CRGameJolt.Connector.WebProtocol)
+  name: Call(String, String[], WebProtocol)
+  href: api/CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor_Call_System_String_System_String___CodeReactor_CRGameJolt_Connector_WebProtocol_
+  commentId: M:CodeReactor.CRGameJolt.Connector.URLConstructor.Call(System.String,System.String[],CodeReactor.CRGameJolt.Connector.WebProtocol)
+  name.vb: Call(String, String(), WebProtocol)
+  fullName: CodeReactor.CRGameJolt.Connector.URLConstructor.Call(System.String, System.String[], CodeReactor.CRGameJolt.Connector.WebProtocol)
+  fullName.vb: CodeReactor.CRGameJolt.Connector.URLConstructor.Call(System.String, System.String(), CodeReactor.CRGameJolt.Connector.WebProtocol)
+  nameWithType: URLConstructor.Call(String, String[], WebProtocol)
+  nameWithType.vb: URLConstructor.Call(String, String(), WebProtocol)
 - uid: CodeReactor.CRGameJolt.Connector.URLConstructor.Call*
   name: Call
   href: api/CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor_Call_
@@ -176,6 +229,12 @@ references:
   commentId: M:CodeReactor.CRGameJolt.Connector.URLConstructor.Sign(System.String)
   fullName: CodeReactor.CRGameJolt.Connector.URLConstructor.Sign(System.String)
   nameWithType: URLConstructor.Sign(String)
+- uid: CodeReactor.CRGameJolt.Connector.URLConstructor.Sign(System.String,CodeReactor.CRGameJolt.Connector.SignatureType)
+  name: Sign(String, SignatureType)
+  href: api/CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor_Sign_System_String_CodeReactor_CRGameJolt_Connector_SignatureType_
+  commentId: M:CodeReactor.CRGameJolt.Connector.URLConstructor.Sign(System.String,CodeReactor.CRGameJolt.Connector.SignatureType)
+  fullName: CodeReactor.CRGameJolt.Connector.URLConstructor.Sign(System.String, CodeReactor.CRGameJolt.Connector.SignatureType)
+  nameWithType: URLConstructor.Sign(String, SignatureType)
 - uid: CodeReactor.CRGameJolt.Connector.URLConstructor.Sign*
   name: Sign
   href: api/CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor_Sign_
@@ -189,3 +248,115 @@ references:
   commentId: F:CodeReactor.CRGameJolt.Connector.URLConstructor.SignatureType
   fullName: CodeReactor.CRGameJolt.Connector.URLConstructor.SignatureType
   nameWithType: URLConstructor.SignatureType
+- uid: CodeReactor.CRGameJolt.Connector.URLConstructor.WebProtocolToString(CodeReactor.CRGameJolt.Connector.WebProtocol)
+  name: WebProtocolToString(WebProtocol)
+  href: api/CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor_WebProtocolToString_CodeReactor_CRGameJolt_Connector_WebProtocol_
+  commentId: M:CodeReactor.CRGameJolt.Connector.URLConstructor.WebProtocolToString(CodeReactor.CRGameJolt.Connector.WebProtocol)
+  fullName: CodeReactor.CRGameJolt.Connector.URLConstructor.WebProtocolToString(CodeReactor.CRGameJolt.Connector.WebProtocol)
+  nameWithType: URLConstructor.WebProtocolToString(WebProtocol)
+- uid: CodeReactor.CRGameJolt.Connector.URLConstructor.WebProtocolToString*
+  name: WebProtocolToString
+  href: api/CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor_WebProtocolToString_
+  commentId: Overload:CodeReactor.CRGameJolt.Connector.URLConstructor.WebProtocolToString
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Connector.URLConstructor.WebProtocolToString
+  nameWithType: URLConstructor.WebProtocolToString
+- uid: CodeReactor.CRGameJolt.Connector.WebCaller
+  name: WebCaller
+  href: api/CodeReactor.CRGameJolt.Connector.WebCaller.html
+  commentId: T:CodeReactor.CRGameJolt.Connector.WebCaller
+  fullName: CodeReactor.CRGameJolt.Connector.WebCaller
+  nameWithType: WebCaller
+- uid: CodeReactor.CRGameJolt.Connector.WebCaller.#ctor(CodeReactor.CRGameJolt.Connector.URLConstructor)
+  name: WebCaller(URLConstructor)
+  href: api/CodeReactor.CRGameJolt.Connector.WebCaller.html#CodeReactor_CRGameJolt_Connector_WebCaller__ctor_CodeReactor_CRGameJolt_Connector_URLConstructor_
+  commentId: M:CodeReactor.CRGameJolt.Connector.WebCaller.#ctor(CodeReactor.CRGameJolt.Connector.URLConstructor)
+  fullName: CodeReactor.CRGameJolt.Connector.WebCaller.WebCaller(CodeReactor.CRGameJolt.Connector.URLConstructor)
+  nameWithType: WebCaller.WebCaller(URLConstructor)
+- uid: CodeReactor.CRGameJolt.Connector.WebCaller.#ctor(CodeReactor.CRGameJolt.Connector.URLConstructor,CodeReactor.CRGameJolt.Connector.WebProtocol)
+  name: WebCaller(URLConstructor, WebProtocol)
+  href: api/CodeReactor.CRGameJolt.Connector.WebCaller.html#CodeReactor_CRGameJolt_Connector_WebCaller__ctor_CodeReactor_CRGameJolt_Connector_URLConstructor_CodeReactor_CRGameJolt_Connector_WebProtocol_
+  commentId: M:CodeReactor.CRGameJolt.Connector.WebCaller.#ctor(CodeReactor.CRGameJolt.Connector.URLConstructor,CodeReactor.CRGameJolt.Connector.WebProtocol)
+  fullName: CodeReactor.CRGameJolt.Connector.WebCaller.WebCaller(CodeReactor.CRGameJolt.Connector.URLConstructor, CodeReactor.CRGameJolt.Connector.WebProtocol)
+  nameWithType: WebCaller.WebCaller(URLConstructor, WebProtocol)
+- uid: CodeReactor.CRGameJolt.Connector.WebCaller.#ctor*
+  name: WebCaller
+  href: api/CodeReactor.CRGameJolt.Connector.WebCaller.html#CodeReactor_CRGameJolt_Connector_WebCaller__ctor_
+  commentId: Overload:CodeReactor.CRGameJolt.Connector.WebCaller.#ctor
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Connector.WebCaller.WebCaller
+  nameWithType: WebCaller.WebCaller
+- uid: CodeReactor.CRGameJolt.Connector.WebCaller.GetAsText(System.String,System.String[])
+  name: GetAsText(String, String[])
+  href: api/CodeReactor.CRGameJolt.Connector.WebCaller.html#CodeReactor_CRGameJolt_Connector_WebCaller_GetAsText_System_String_System_String___
+  commentId: M:CodeReactor.CRGameJolt.Connector.WebCaller.GetAsText(System.String,System.String[])
+  name.vb: GetAsText(String, String())
+  fullName: CodeReactor.CRGameJolt.Connector.WebCaller.GetAsText(System.String, System.String[])
+  fullName.vb: CodeReactor.CRGameJolt.Connector.WebCaller.GetAsText(System.String, System.String())
+  nameWithType: WebCaller.GetAsText(String, String[])
+  nameWithType.vb: WebCaller.GetAsText(String, String())
+- uid: CodeReactor.CRGameJolt.Connector.WebCaller.GetAsText*
+  name: GetAsText
+  href: api/CodeReactor.CRGameJolt.Connector.WebCaller.html#CodeReactor_CRGameJolt_Connector_WebCaller_GetAsText_
+  commentId: Overload:CodeReactor.CRGameJolt.Connector.WebCaller.GetAsText
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Connector.WebCaller.GetAsText
+  nameWithType: WebCaller.GetAsText
+- uid: CodeReactor.CRGameJolt.Connector.WebCaller.GetAsXML(System.String,System.String[])
+  name: GetAsXML(String, String[])
+  href: api/CodeReactor.CRGameJolt.Connector.WebCaller.html#CodeReactor_CRGameJolt_Connector_WebCaller_GetAsXML_System_String_System_String___
+  commentId: M:CodeReactor.CRGameJolt.Connector.WebCaller.GetAsXML(System.String,System.String[])
+  name.vb: GetAsXML(String, String())
+  fullName: CodeReactor.CRGameJolt.Connector.WebCaller.GetAsXML(System.String, System.String[])
+  fullName.vb: CodeReactor.CRGameJolt.Connector.WebCaller.GetAsXML(System.String, System.String())
+  nameWithType: WebCaller.GetAsXML(String, String[])
+  nameWithType.vb: WebCaller.GetAsXML(String, String())
+- uid: CodeReactor.CRGameJolt.Connector.WebCaller.GetAsXML*
+  name: GetAsXML
+  href: api/CodeReactor.CRGameJolt.Connector.WebCaller.html#CodeReactor_CRGameJolt_Connector_WebCaller_GetAsXML_
+  commentId: Overload:CodeReactor.CRGameJolt.Connector.WebCaller.GetAsXML
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Connector.WebCaller.GetAsXML
+  nameWithType: WebCaller.GetAsXML
+- uid: CodeReactor.CRGameJolt.Connector.WebCaller.Protocol
+  name: Protocol
+  href: api/CodeReactor.CRGameJolt.Connector.WebCaller.html#CodeReactor_CRGameJolt_Connector_WebCaller_Protocol
+  commentId: F:CodeReactor.CRGameJolt.Connector.WebCaller.Protocol
+  fullName: CodeReactor.CRGameJolt.Connector.WebCaller.Protocol
+  nameWithType: WebCaller.Protocol
+- uid: CodeReactor.CRGameJolt.Connector.WebCaller.URLBuilder
+  name: URLBuilder
+  href: api/CodeReactor.CRGameJolt.Connector.WebCaller.html#CodeReactor_CRGameJolt_Connector_WebCaller_URLBuilder
+  commentId: F:CodeReactor.CRGameJolt.Connector.WebCaller.URLBuilder
+  fullName: CodeReactor.CRGameJolt.Connector.WebCaller.URLBuilder
+  nameWithType: WebCaller.URLBuilder
+- uid: CodeReactor.CRGameJolt.Connector.WebProtocol
+  name: WebProtocol
+  href: api/CodeReactor.CRGameJolt.Connector.WebProtocol.html
+  commentId: T:CodeReactor.CRGameJolt.Connector.WebProtocol
+  fullName: CodeReactor.CRGameJolt.Connector.WebProtocol
+  nameWithType: WebProtocol
+- uid: CodeReactor.CRGameJolt.Connector.WebProtocol.HTTP
+  name: HTTP
+  href: api/CodeReactor.CRGameJolt.Connector.WebProtocol.html#CodeReactor_CRGameJolt_Connector_WebProtocol_HTTP
+  commentId: F:CodeReactor.CRGameJolt.Connector.WebProtocol.HTTP
+  fullName: CodeReactor.CRGameJolt.Connector.WebProtocol.HTTP
+  nameWithType: WebProtocol.HTTP
+- uid: CodeReactor.CRGameJolt.Connector.WebProtocol.HTTPS
+  name: HTTPS
+  href: api/CodeReactor.CRGameJolt.Connector.WebProtocol.html#CodeReactor_CRGameJolt_Connector_WebProtocol_HTTPS
+  commentId: F:CodeReactor.CRGameJolt.Connector.WebProtocol.HTTPS
+  fullName: CodeReactor.CRGameJolt.Connector.WebProtocol.HTTPS
+  nameWithType: WebProtocol.HTTPS
+- uid: CodeReactor.CRGameJolt.DataStorage
+  name: CodeReactor.CRGameJolt.DataStorage
+  href: api/CodeReactor.CRGameJolt.DataStorage.html
+  commentId: N:CodeReactor.CRGameJolt.DataStorage
+  fullName: CodeReactor.CRGameJolt.DataStorage
+  nameWithType: CodeReactor.CRGameJolt.DataStorage
+- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage
+  name: IGJDataStorage
+  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html
+  commentId: T:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage
+  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage
+  nameWithType: IGJDataStorage
