@@ -1,4 +1,6 @@
-﻿using System.Security.Cryptography;
+﻿using System.Linq;
+using System.Net;
+using System.Security.Cryptography;
 using System.Text;
 
 namespace CodeReactor.CRGameJolt.Connector
@@ -100,18 +102,49 @@ namespace CodeReactor.CRGameJolt.Connector
         }
 
         /// <summary>
+        /// Convert from enum to a valid web protocol to place on front of the URL
+        /// </summary>
+        /// <param name="protocol">Set the protocol to build URL</param>
+        /// <returns>A web protocol formated like "https://"</returns>
+        public static string WebProtocolToString(WebProtocol protocol)
+        {
+            switch(protocol)
+            {
+                case WebProtocol.HTTPS:
+                    return "https://";
+                case WebProtocol.HTTP:
+                    return "http://";
+                default:
+                    throw new InvalidWebProtocolException("Invalid web protocol");
+            }
+        }
+
+        /// <summary>
         /// Construct and sign a Game API URL ready to call
+        /// </summary>
+        /// <param name="endpoint">Game API endpoint</param>
+        /// <param name="query">A URL enconded query string array</param>
+        /// <param name="protocol">Set the protocol to build URL</param>
+        /// <returns>Constructed Game API url ready to call</returns>
+        public string Call(string endpoint, string[] query, WebProtocol protocol)
+        {
+            string url = WebProtocolToString(protocol) + "api.gamejolt.com/api/game/" + APIVersionToString(GameAPIVersion) + "/" + endpoint + "/?game_id=" + GameId + "&format=xml";
+            foreach (string singleQuery in query)
+            {
+                url += "&" + singleQuery;
+            }
+            return url + "&signature=" + Sign(url + GameKey);
+        }
+
+        /// <summary>
+        /// Construct and sign a Game API URL ready to call using HTTPS
         /// </summary>
         /// <param name="endpoint">Game API endpoint</param>
         /// <param name="query">A URL enconded query string array</param>
         /// <returns>Constructed Game API url ready to call</returns>
         public string Call(string endpoint, string[] query)
         {
-            string url = "https://api.gamejolt.com/api/game/" + APIVersionToString(GameAPIVersion) + "/" + endpoint + "/?game_id=" + GameId + "&format=xml";
-            foreach(string singleQuery in query) {
-                url += "&" + singleQuery;
-            }
-            return url + "&signature=" + Sign(url + GameKey);
+            return Call(endpoint, query, WebProtocol.HTTPS);
         }
 
         /// <summary>
