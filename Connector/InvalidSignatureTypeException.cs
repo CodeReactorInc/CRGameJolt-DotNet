@@ -3,7 +3,7 @@
 namespace CodeReactor.CRGameJolt.Connector
 {
     /// <summary>
-    /// Represent a invaliwd or not supported signature type
+    /// Represent a invalid or not supported signature type
     /// </summary>
     public class InvalidSignatureTypeException : Exception
     {
