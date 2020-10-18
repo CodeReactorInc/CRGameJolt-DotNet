@@ -217,12 +217,45 @@ references:
   isSpec: "True"
   fullName: CodeReactor.CRGameJolt.Connector.URLConstructor.Call
   nameWithType: URLConstructor.Call
+- uid: CodeReactor.CRGameJolt.Connector.URLConstructor.GameAPIVersion
+  name: GameAPIVersion
+  href: api/CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor_GameAPIVersion
+  commentId: P:CodeReactor.CRGameJolt.Connector.URLConstructor.GameAPIVersion
+  fullName: CodeReactor.CRGameJolt.Connector.URLConstructor.GameAPIVersion
+  nameWithType: URLConstructor.GameAPIVersion
+- uid: CodeReactor.CRGameJolt.Connector.URLConstructor.GameAPIVersion*
+  name: GameAPIVersion
+  href: api/CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor_GameAPIVersion_
+  commentId: Overload:CodeReactor.CRGameJolt.Connector.URLConstructor.GameAPIVersion
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Connector.URLConstructor.GameAPIVersion
+  nameWithType: URLConstructor.GameAPIVersion
 - uid: CodeReactor.CRGameJolt.Connector.URLConstructor.GameId
   name: GameId
   href: api/CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor_GameId
-  commentId: F:CodeReactor.CRGameJolt.Connector.URLConstructor.GameId
+  commentId: P:CodeReactor.CRGameJolt.Connector.URLConstructor.GameId
   fullName: CodeReactor.CRGameJolt.Connector.URLConstructor.GameId
   nameWithType: URLConstructor.GameId
+- uid: CodeReactor.CRGameJolt.Connector.URLConstructor.GameId*
+  name: GameId
+  href: api/CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor_GameId_
+  commentId: Overload:CodeReactor.CRGameJolt.Connector.URLConstructor.GameId
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Connector.URLConstructor.GameId
+  nameWithType: URLConstructor.GameId
+- uid: CodeReactor.CRGameJolt.Connector.URLConstructor.SetGameKey(System.String)
+  name: SetGameKey(String)
+  href: api/CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor_SetGameKey_System_String_
+  commentId: M:CodeReactor.CRGameJolt.Connector.URLConstructor.SetGameKey(System.String)
+  fullName: CodeReactor.CRGameJolt.Connector.URLConstructor.SetGameKey(System.String)
+  nameWithType: URLConstructor.SetGameKey(String)
+- uid: CodeReactor.CRGameJolt.Connector.URLConstructor.SetGameKey*
+  name: SetGameKey
+  href: api/CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor_SetGameKey_
+  commentId: Overload:CodeReactor.CRGameJolt.Connector.URLConstructor.SetGameKey
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Connector.URLConstructor.SetGameKey
+  nameWithType: URLConstructor.SetGameKey
 - uid: CodeReactor.CRGameJolt.Connector.URLConstructor.Sign(System.String)
   name: Sign(String)
   href: api/CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor_Sign_System_String_
@@ -245,7 +278,14 @@ references:
 - uid: CodeReactor.CRGameJolt.Connector.URLConstructor.SignatureType
   name: SignatureType
   href: api/CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor_SignatureType
-  commentId: F:CodeReactor.CRGameJolt.Connector.URLConstructor.SignatureType
+  commentId: P:CodeReactor.CRGameJolt.Connector.URLConstructor.SignatureType
+  fullName: CodeReactor.CRGameJolt.Connector.URLConstructor.SignatureType
+  nameWithType: URLConstructor.SignatureType
+- uid: CodeReactor.CRGameJolt.Connector.URLConstructor.SignatureType*
+  name: SignatureType
+  href: api/CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor_SignatureType_
+  commentId: Overload:CodeReactor.CRGameJolt.Connector.URLConstructor.SignatureType
+  isSpec: "True"
   fullName: CodeReactor.CRGameJolt.Connector.URLConstructor.SignatureType
   nameWithType: URLConstructor.SignatureType
 - uid: CodeReactor.CRGameJolt.Connector.URLConstructor.WebProtocolToString(CodeReactor.CRGameJolt.Connector.WebProtocol)
@@ -321,15 +361,29 @@ references:
 - uid: CodeReactor.CRGameJolt.Connector.WebCaller.Protocol
   name: Protocol
   href: api/CodeReactor.CRGameJolt.Connector.WebCaller.html#CodeReactor_CRGameJolt_Connector_WebCaller_Protocol
-  commentId: F:CodeReactor.CRGameJolt.Connector.WebCaller.Protocol
+  commentId: P:CodeReactor.CRGameJolt.Connector.WebCaller.Protocol
   fullName: CodeReactor.CRGameJolt.Connector.WebCaller.Protocol
   nameWithType: WebCaller.Protocol
-- uid: CodeReactor.CRGameJolt.Connector.WebCaller.URLBuilder
-  name: URLBuilder
-  href: api/CodeReactor.CRGameJolt.Connector.WebCaller.html#CodeReactor_CRGameJolt_Connector_WebCaller_URLBuilder
-  commentId: F:CodeReactor.CRGameJolt.Connector.WebCaller.URLBuilder
-  fullName: CodeReactor.CRGameJolt.Connector.WebCaller.URLBuilder
-  nameWithType: WebCaller.URLBuilder
+- uid: CodeReactor.CRGameJolt.Connector.WebCaller.Protocol*
+  name: Protocol
+  href: api/CodeReactor.CRGameJolt.Connector.WebCaller.html#CodeReactor_CRGameJolt_Connector_WebCaller_Protocol_
+  commentId: Overload:CodeReactor.CRGameJolt.Connector.WebCaller.Protocol
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Connector.WebCaller.Protocol
+  nameWithType: WebCaller.Protocol
+- uid: CodeReactor.CRGameJolt.Connector.WebCaller.URLConstructor
+  name: URLConstructor
+  href: api/CodeReactor.CRGameJolt.Connector.WebCaller.html#CodeReactor_CRGameJolt_Connector_WebCaller_URLConstructor
+  commentId: P:CodeReactor.CRGameJolt.Connector.WebCaller.URLConstructor
+  fullName: CodeReactor.CRGameJolt.Connector.WebCaller.URLConstructor
+  nameWithType: WebCaller.URLConstructor
+- uid: CodeReactor.CRGameJolt.Connector.WebCaller.URLConstructor*
+  name: URLConstructor
+  href: api/CodeReactor.CRGameJolt.Connector.WebCaller.html#CodeReactor_CRGameJolt_Connector_WebCaller_URLConstructor_
+  commentId: Overload:CodeReactor.CRGameJolt.Connector.WebCaller.URLConstructor
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Connector.WebCaller.URLConstructor
+  nameWithType: WebCaller.URLConstructor
 - uid: CodeReactor.CRGameJolt.Connector.WebProtocol
   name: WebProtocol
   href: api/CodeReactor.CRGameJolt.Connector.WebProtocol.html

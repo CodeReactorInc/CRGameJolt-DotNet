@@ -12,7 +12,7 @@
           "hash": "XtPbcPHjv5KqYRXxmgAhjg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -24,7 +24,7 @@
           "hash": "ppsBHB+gg5Kvk8OKNYdezA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -36,7 +36,7 @@
           "hash": "xKjOjGSztOUEKjS4fOU6gg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -48,7 +48,7 @@
           "hash": "dXyuUFMsQM2fF/VaU4YZWw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -60,7 +60,7 @@
           "hash": "kSIKl4T4ON06YRVHQlpZVA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -72,7 +72,7 @@
           "hash": "WOxVxy/3RINIZL+j/wPckQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Connector.URLConstructor.html",
-          "hash": "+qLkhF1dbL81rsmWIk0q5Q=="
+          "hash": "zl3Sg+7Xo5JdR0xlU2WwmQ=="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Connector.WebCaller.html",
-          "hash": "5XTB/7WNp4R1GRh2GePkhQ=="
+          "hash": "mqTHDUfEHCKP0MavhDergg=="
         }
       },
       "is_incremental": false,
@@ -108,7 +108,7 @@
           "hash": "rw1Z63hF49PSq0+o97HX3Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -132,7 +132,7 @@
           "hash": "YpDY1Wygbh8AuRomSNIgsQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -144,7 +144,7 @@
           "hash": "bvV9W3Epw/7KsCBQolBXBg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -156,7 +156,7 @@
           "hash": "t7c+zWVRgP+u+TPDNoxnKg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -204,7 +204,7 @@
           "hash": "A+lErBBB8hjRC6/I/HklvQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -233,13 +233,13 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 4,
-          "skipped_file_count": 3
+          "skipped_file_count": 4
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 11,
-          "skipped_file_count": 0
+          "skipped_file_count": 9
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
