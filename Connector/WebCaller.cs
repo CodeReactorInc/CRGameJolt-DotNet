@@ -11,11 +11,11 @@ namespace CodeReactor.CRGameJolt.Connector
         /// <value>
         /// Protocol to be pass to URLConstructor
         /// </value>
-        public WebProtocol Protocol;
+        public WebProtocol Protocol { get; set; }
         /// <value>
         /// The URLConstructor prepared to create the URLs
         /// </value>
-        public URLConstructor URLBuilder;
+        public URLConstructor URLConstructor { get; set; }
 
         /// <summary>
         /// Create a WebCaller with the URLConstructor and a custom web protocol
@@ -25,7 +25,7 @@ namespace CodeReactor.CRGameJolt.Connector
         public WebCaller(URLConstructor constructor, WebProtocol protocol)
         {
             Protocol = protocol;
-            URLBuilder = constructor;
+            URLConstructor = constructor;
         }
 
         /// <summary>
@@ -42,7 +42,7 @@ namespace CodeReactor.CRGameJolt.Connector
         /// <returns>Response from GameJolt Game API</returns>
         public string GetAsText(string endpoint, string[] query)
         {
-            string url = URLBuilder.Call(endpoint, query, Protocol);
+            string url = URLConstructor.Call(endpoint, query, Protocol);
             WebClient client = new WebClient();
             return client.DownloadString(url);
         }

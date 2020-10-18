@@ -13,7 +13,7 @@ namespace CodeReactor.CRGameJolt.Connector
         /// <value>
         /// This represent the Game Id on GameJolt
         /// </value>
-        public string GameId;
+        public string GameId { get; set; }
         /// <value>
         /// GameJolt Game API private key to sign the calls
         /// </value>
@@ -21,11 +21,11 @@ namespace CodeReactor.CRGameJolt.Connector
         /// <value>
         /// String representation of Game API version
         /// </value>
-        private APIVersion GameAPIVersion;
+        public APIVersion GameAPIVersion { get; set; }
         /// <value>
         /// The signature type provided for signer
         /// </value>
-        public SignatureType SignatureType;
+        public SignatureType SignatureType { get; set; }
         
         /// <summary>
         /// This initialize URLConstructor without anything from default
@@ -190,6 +190,15 @@ namespace CodeReactor.CRGameJolt.Connector
                 default:
                     throw new InvalidSignatureTypeException("Invalid signature type provided");
             }
+        }
+
+        /// <summary>
+        /// Edit the Game key used by signer
+        /// </summary>
+        /// <param name="gameKey">Game private key getted from Manage Achivements tab</param>
+        public void SetGameKey(string gameKey)
+        {
+            GameKey = gameKey;
         }
     }
 }
