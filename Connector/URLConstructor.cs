@@ -84,8 +84,8 @@ namespace CodeReactor.CRGameJolt.Connector
         /// <summary>
         /// Convert from enum APIVersion to a string that are a valid in GameJolt Game API
         /// </summary>
-        /// <param name="apiVersion"></param>
-        /// <returns></returns>
+        /// <param name="apiVersion">APIVersion enum to convert</param>
+        /// <returns>A valid callable version in Game API</returns>
         public static string APIVersionToString(APIVersion apiVersion)
         {
             switch (apiVersion)
@@ -128,12 +128,12 @@ namespace CodeReactor.CRGameJolt.Connector
         /// <returns>Constructed Game API url ready to call</returns>
         public string Call(string endpoint, string[] query, WebProtocol protocol)
         {
-            string url = WebProtocolToString(protocol) + "api.gamejolt.com/api/game/" + APIVersionToString(GameAPIVersion) + "/" + endpoint + "/?game_id=" + GameId + "&format=xml";
+            string url = WebProtocolToString(protocol) + "api.gamejolt.com/api/game/" + APIVersionToString(GameAPIVersion) + "/" + endpoint + "/?game_id=" + WebUtility.UrlEncode(GameId) + "&format=xml";
             foreach (string singleQuery in query)
             {
                 url += "&" + singleQuery;
             }
-            return url + "&signature=" + Sign(url + GameKey);
+            return url + "&signature=" + WebUtility.UrlEncode(Sign(url + GameKey));
         }
 
         /// <summary>
