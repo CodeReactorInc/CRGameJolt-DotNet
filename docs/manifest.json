@@ -24,7 +24,7 @@
           "hash": "ppsBHB+gg5Kvk8OKNYdezA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -36,7 +36,7 @@
           "hash": "xKjOjGSztOUEKjS4fOU6gg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -48,7 +48,7 @@
           "hash": "dXyuUFMsQM2fF/VaU4YZWw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -60,7 +60,7 @@
           "hash": "kSIKl4T4ON06YRVHQlpZVA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -72,7 +72,7 @@
           "hash": "WOxVxy/3RINIZL+j/wPckQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Connector.URLConstructor.html",
-          "hash": "zl3Sg+7Xo5JdR0xlU2WwmQ=="
+          "hash": "lOVRgLbnmYf8qS6Onc1www=="
         }
       },
       "is_incremental": false,
@@ -108,7 +108,7 @@
           "hash": "rw1Z63hF49PSq0+o97HX3Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -125,14 +125,62 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CodeReactor.CRGameJolt.DataStorage.GJDataType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeReactor.CRGameJolt.DataStorage.GJDataType.html",
+          "hash": "srGP+C9RDhNqFFDuXyioXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.html",
+          "hash": "K8CTpJpISxnkWKWD/eD8fA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html",
+          "hash": "eLjEdUv1bCRA+DOpn8gVJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.yml",
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html",
-          "hash": "YpDY1Wygbh8AuRomSNIgsQ=="
+          "hash": "0go9fE9vRN/UZPAVBvjZvA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException.html",
+          "hash": "SY1xyMPPt2oRkPItj5sVpA=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -141,10 +189,46 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.DataStorage.html",
-          "hash": "bvV9W3Epw/7KsCBQolBXBg=="
+          "hash": "hhQAB7UaGnk9l+URjFDx5A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeReactor.CRGameJolt.GameJoltAPIException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeReactor.CRGameJolt.GameJoltAPIException.html",
+          "hash": "dv6ilPwOLCSE+L1eUOdH0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeReactor.CRGameJolt.IGJObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeReactor.CRGameJolt.IGJObject.html",
+          "hash": "dBOhfOjNfvwLc4GOPwH3ug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeReactor.CRGameJolt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeReactor.CRGameJolt.html",
+          "hash": "7C5ms6HlcG9O2I6Z+gY/GA=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -156,7 +240,7 @@
           "hash": "t7c+zWVRgP+u+TPDNoxnKg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -165,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "twElbhMjw9ax+acikZ6Rkg=="
+          "hash": "yHXrjDwZsy94dIDqrijOog=="
         }
       },
       "is_incremental": false,
@@ -238,8 +322,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 11,
-          "skipped_file_count": 9
+          "total_file_count": 18,
+          "skipped_file_count": 7
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

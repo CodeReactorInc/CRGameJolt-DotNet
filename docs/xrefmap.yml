@@ -1,6 +1,12 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: CodeReactor.CRGameJolt
+  name: CodeReactor.CRGameJolt
+  href: api/CodeReactor.CRGameJolt.html
+  commentId: N:CodeReactor.CRGameJolt
+  fullName: CodeReactor.CRGameJolt
+  nameWithType: CodeReactor.CRGameJolt
 - uid: CodeReactor.CRGameJolt.Connector
   name: CodeReactor.CRGameJolt.Connector
   href: api/CodeReactor.CRGameJolt.Connector.html
@@ -408,9 +414,812 @@ references:
   commentId: N:CodeReactor.CRGameJolt.DataStorage
   fullName: CodeReactor.CRGameJolt.DataStorage
   nameWithType: CodeReactor.CRGameJolt.DataStorage
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataType
+  name: GJDataType
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataType.html
+  commentId: T:CodeReactor.CRGameJolt.DataStorage.GJDataType
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataType
+  nameWithType: GJDataType
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataType.INTEGER
+  name: INTEGER
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataType.html#CodeReactor_CRGameJolt_DataStorage_GJDataType_INTEGER
+  commentId: F:CodeReactor.CRGameJolt.DataStorage.GJDataType.INTEGER
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataType.INTEGER
+  nameWithType: GJDataType.INTEGER
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataType.NULL
+  name: "NULL"
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataType.html#CodeReactor_CRGameJolt_DataStorage_GJDataType_NULL
+  commentId: F:CodeReactor.CRGameJolt.DataStorage.GJDataType.NULL
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataType.NULL
+  nameWithType: GJDataType.NULL
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataType.STRING
+  name: STRING
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataType.html#CodeReactor_CRGameJolt_DataStorage_GJDataType_STRING
+  commentId: F:CodeReactor.CRGameJolt.DataStorage.GJDataType.STRING
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataType.STRING
+  nameWithType: GJDataType.STRING
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataValue
+  name: GJDataValue
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.html
+  commentId: T:CodeReactor.CRGameJolt.DataStorage.GJDataValue
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataValue
+  nameWithType: GJDataValue
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataValue.#ctor
+  name: GJDataValue()
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.html#CodeReactor_CRGameJolt_DataStorage_GJDataValue__ctor
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GJDataValue.#ctor
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataValue.GJDataValue()
+  nameWithType: GJDataValue.GJDataValue()
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataValue.#ctor(System.Int32)
+  name: GJDataValue(Int32)
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.html#CodeReactor_CRGameJolt_DataStorage_GJDataValue__ctor_System_Int32_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GJDataValue.#ctor(System.Int32)
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataValue.GJDataValue(System.Int32)
+  nameWithType: GJDataValue.GJDataValue(Int32)
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataValue.#ctor(System.String)
+  name: GJDataValue(String)
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.html#CodeReactor_CRGameJolt_DataStorage_GJDataValue__ctor_System_String_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GJDataValue.#ctor(System.String)
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataValue.GJDataValue(System.String)
+  nameWithType: GJDataValue.GJDataValue(String)
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataValue.#ctor*
+  name: GJDataValue
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.html#CodeReactor_CRGameJolt_DataStorage_GJDataValue__ctor_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.GJDataValue.#ctor
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataValue.GJDataValue
+  nameWithType: GJDataValue.GJDataValue
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Add(System.Int32)
+  name: Add(Int32)
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.html#CodeReactor_CRGameJolt_DataStorage_GJDataValue_Add_System_Int32_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GJDataValue.Add(System.Int32)
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Add(System.Int32)
+  nameWithType: GJDataValue.Add(Int32)
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Add*
+  name: Add
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.html#CodeReactor_CRGameJolt_DataStorage_GJDataValue_Add_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.GJDataValue.Add
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Add
+  nameWithType: GJDataValue.Add
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Append(System.String)
+  name: Append(String)
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.html#CodeReactor_CRGameJolt_DataStorage_GJDataValue_Append_System_String_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GJDataValue.Append(System.String)
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Append(System.String)
+  nameWithType: GJDataValue.Append(String)
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Append*
+  name: Append
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.html#CodeReactor_CRGameJolt_DataStorage_GJDataValue_Append_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.GJDataValue.Append
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Append
+  nameWithType: GJDataValue.Append
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Clear
+  name: Clear()
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.html#CodeReactor_CRGameJolt_DataStorage_GJDataValue_Clear
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GJDataValue.Clear
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Clear()
+  nameWithType: GJDataValue.Clear()
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Clear*
+  name: Clear
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.html#CodeReactor_CRGameJolt_DataStorage_GJDataValue_Clear_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.GJDataValue.Clear
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Clear
+  nameWithType: GJDataValue.Clear
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Divide(System.Int32)
+  name: Divide(Int32)
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.html#CodeReactor_CRGameJolt_DataStorage_GJDataValue_Divide_System_Int32_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GJDataValue.Divide(System.Int32)
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Divide(System.Int32)
+  nameWithType: GJDataValue.Divide(Int32)
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Divide*
+  name: Divide
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.html#CodeReactor_CRGameJolt_DataStorage_GJDataValue_Divide_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.GJDataValue.Divide
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Divide
+  nameWithType: GJDataValue.Divide
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataValue.IntegerBuffer
+  name: IntegerBuffer
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.html#CodeReactor_CRGameJolt_DataStorage_GJDataValue_IntegerBuffer
+  commentId: P:CodeReactor.CRGameJolt.DataStorage.GJDataValue.IntegerBuffer
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataValue.IntegerBuffer
+  nameWithType: GJDataValue.IntegerBuffer
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataValue.IntegerBuffer*
+  name: IntegerBuffer
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.html#CodeReactor_CRGameJolt_DataStorage_GJDataValue_IntegerBuffer_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.GJDataValue.IntegerBuffer
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataValue.IntegerBuffer
+  nameWithType: GJDataValue.IntegerBuffer
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Multiply(System.Int32)
+  name: Multiply(Int32)
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.html#CodeReactor_CRGameJolt_DataStorage_GJDataValue_Multiply_System_Int32_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GJDataValue.Multiply(System.Int32)
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Multiply(System.Int32)
+  nameWithType: GJDataValue.Multiply(Int32)
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Multiply*
+  name: Multiply
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.html#CodeReactor_CRGameJolt_DataStorage_GJDataValue_Multiply_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.GJDataValue.Multiply
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Multiply
+  nameWithType: GJDataValue.Multiply
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataValue.op_Implicit(CodeReactor.CRGameJolt.DataStorage.GJDataValue)~System.Int32
+  name: Implicit(GJDataValue to Int32)
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.html#CodeReactor_CRGameJolt_DataStorage_GJDataValue_op_Implicit_CodeReactor_CRGameJolt_DataStorage_GJDataValue__System_Int32
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GJDataValue.op_Implicit(CodeReactor.CRGameJolt.DataStorage.GJDataValue)~System.Int32
+  name.vb: Widening(GJDataValue to Int32)
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Implicit(CodeReactor.CRGameJolt.DataStorage.GJDataValue to System.Int32)
+  fullName.vb: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Widening(CodeReactor.CRGameJolt.DataStorage.GJDataValue to System.Int32)
+  nameWithType: GJDataValue.Implicit(GJDataValue to Int32)
+  nameWithType.vb: GJDataValue.Widening(GJDataValue to Int32)
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataValue.op_Implicit(CodeReactor.CRGameJolt.DataStorage.GJDataValue)~System.String
+  name: Implicit(GJDataValue to String)
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.html#CodeReactor_CRGameJolt_DataStorage_GJDataValue_op_Implicit_CodeReactor_CRGameJolt_DataStorage_GJDataValue__System_String
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GJDataValue.op_Implicit(CodeReactor.CRGameJolt.DataStorage.GJDataValue)~System.String
+  name.vb: Widening(GJDataValue to String)
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Implicit(CodeReactor.CRGameJolt.DataStorage.GJDataValue to System.String)
+  fullName.vb: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Widening(CodeReactor.CRGameJolt.DataStorage.GJDataValue to System.String)
+  nameWithType: GJDataValue.Implicit(GJDataValue to String)
+  nameWithType.vb: GJDataValue.Widening(GJDataValue to String)
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataValue.op_Implicit*
+  name: Implicit
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.html#CodeReactor_CRGameJolt_DataStorage_GJDataValue_op_Implicit_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.GJDataValue.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Implicit
+  fullName.vb: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Widening
+  nameWithType: GJDataValue.Implicit
+  nameWithType.vb: GJDataValue.Widening
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Prepend(System.String)
+  name: Prepend(String)
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.html#CodeReactor_CRGameJolt_DataStorage_GJDataValue_Prepend_System_String_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GJDataValue.Prepend(System.String)
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Prepend(System.String)
+  nameWithType: GJDataValue.Prepend(String)
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Prepend*
+  name: Prepend
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.html#CodeReactor_CRGameJolt_DataStorage_GJDataValue_Prepend_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.GJDataValue.Prepend
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Prepend
+  nameWithType: GJDataValue.Prepend
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Set(System.Int32)
+  name: Set(Int32)
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.html#CodeReactor_CRGameJolt_DataStorage_GJDataValue_Set_System_Int32_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GJDataValue.Set(System.Int32)
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Set(System.Int32)
+  nameWithType: GJDataValue.Set(Int32)
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Set(System.String)
+  name: Set(String)
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.html#CodeReactor_CRGameJolt_DataStorage_GJDataValue_Set_System_String_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GJDataValue.Set(System.String)
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Set(System.String)
+  nameWithType: GJDataValue.Set(String)
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Set*
+  name: Set
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.html#CodeReactor_CRGameJolt_DataStorage_GJDataValue_Set_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.GJDataValue.Set
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Set
+  nameWithType: GJDataValue.Set
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataValue.StringBuffer
+  name: StringBuffer
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.html#CodeReactor_CRGameJolt_DataStorage_GJDataValue_StringBuffer
+  commentId: P:CodeReactor.CRGameJolt.DataStorage.GJDataValue.StringBuffer
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataValue.StringBuffer
+  nameWithType: GJDataValue.StringBuffer
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataValue.StringBuffer*
+  name: StringBuffer
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.html#CodeReactor_CRGameJolt_DataStorage_GJDataValue_StringBuffer_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.GJDataValue.StringBuffer
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataValue.StringBuffer
+  nameWithType: GJDataValue.StringBuffer
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Subtract(System.Int32)
+  name: Subtract(Int32)
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.html#CodeReactor_CRGameJolt_DataStorage_GJDataValue_Subtract_System_Int32_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GJDataValue.Subtract(System.Int32)
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Subtract(System.Int32)
+  nameWithType: GJDataValue.Subtract(Int32)
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Subtract*
+  name: Subtract
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.html#CodeReactor_CRGameJolt_DataStorage_GJDataValue_Subtract_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.GJDataValue.Subtract
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Subtract
+  nameWithType: GJDataValue.Subtract
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Type
+  name: Type
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.html#CodeReactor_CRGameJolt_DataStorage_GJDataValue_Type
+  commentId: P:CodeReactor.CRGameJolt.DataStorage.GJDataValue.Type
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Type
+  nameWithType: GJDataValue.Type
+- uid: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Type*
+  name: Type
+  href: api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.html#CodeReactor_CRGameJolt_DataStorage_GJDataValue_Type_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.GJDataValue.Type
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.GJDataValue.Type
+  nameWithType: GJDataValue.Type
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage
+  name: GlobalDataStorage
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html
+  commentId: T:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage
+  nameWithType: GlobalDataStorage
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.#ctor(CodeReactor.CRGameJolt.Connector.WebCaller)
+  name: GlobalDataStorage(WebCaller)
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage__ctor_CodeReactor_CRGameJolt_Connector_WebCaller_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.#ctor(CodeReactor.CRGameJolt.Connector.WebCaller)
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.GlobalDataStorage(CodeReactor.CRGameJolt.Connector.WebCaller)
+  nameWithType: GlobalDataStorage.GlobalDataStorage(WebCaller)
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.#ctor*
+  name: GlobalDataStorage
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage__ctor_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.#ctor
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.GlobalDataStorage
+  nameWithType: GlobalDataStorage.GlobalDataStorage
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Add(System.String,System.Int32)
+  name: Add(String, Int32)
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Add_System_String_System_Int32_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Add(System.String,System.Int32)
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Add(System.String, System.Int32)
+  nameWithType: GlobalDataStorage.Add(String, Int32)
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Add*
+  name: Add
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Add_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Add
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Add
+  nameWithType: GlobalDataStorage.Add
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Append(System.String,System.String)
+  name: Append(String, String)
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Append_System_String_System_String_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Append(System.String,System.String)
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Append(System.String, System.String)
+  nameWithType: GlobalDataStorage.Append(String, String)
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Append*
+  name: Append
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Append_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Append
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Append
+  nameWithType: GlobalDataStorage.Append
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Cache
+  name: Cache
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Cache
+  commentId: P:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Cache
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Cache
+  nameWithType: GlobalDataStorage.Cache
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Cache*
+  name: Cache
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Cache_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Cache
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Cache
+  nameWithType: GlobalDataStorage.Cache
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Divide(System.String,System.Int32)
+  name: Divide(String, Int32)
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Divide_System_String_System_Int32_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Divide(System.String,System.Int32)
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Divide(System.String, System.Int32)
+  nameWithType: GlobalDataStorage.Divide(String, Int32)
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Divide*
+  name: Divide
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Divide_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Divide
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Divide
+  nameWithType: GlobalDataStorage.Divide
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Get(System.String)
+  name: Get(String)
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Get_System_String_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Get(System.String)
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Get(System.String)
+  nameWithType: GlobalDataStorage.Get(String)
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Get*
+  name: Get
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Get_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Get
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Get
+  nameWithType: GlobalDataStorage.Get
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Multiply(System.String,System.Int32)
+  name: Multiply(String, Int32)
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Multiply_System_String_System_Int32_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Multiply(System.String,System.Int32)
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Multiply(System.String, System.Int32)
+  nameWithType: GlobalDataStorage.Multiply(String, Int32)
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Multiply*
+  name: Multiply
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Multiply_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Multiply
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Multiply
+  nameWithType: GlobalDataStorage.Multiply
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Prepend(System.String,System.String)
+  name: Prepend(String, String)
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Prepend_System_String_System_String_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Prepend(System.String,System.String)
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Prepend(System.String, System.String)
+  nameWithType: GlobalDataStorage.Prepend(String, String)
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Prepend*
+  name: Prepend
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Prepend_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Prepend
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Prepend
+  nameWithType: GlobalDataStorage.Prepend
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Read
+  name: Read()
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Read
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Read
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Read()
+  nameWithType: GlobalDataStorage.Read()
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Read(CodeReactor.CRGameJolt.Connector.WebCaller)
+  name: Read(WebCaller)
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Read_CodeReactor_CRGameJolt_Connector_WebCaller_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Read(CodeReactor.CRGameJolt.Connector.WebCaller)
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Read(CodeReactor.CRGameJolt.Connector.WebCaller)
+  nameWithType: GlobalDataStorage.Read(WebCaller)
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Read(System.String)
+  name: Read(String)
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Read_System_String_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Read(System.String)
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Read(System.String)
+  nameWithType: GlobalDataStorage.Read(String)
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Read(System.String,CodeReactor.CRGameJolt.Connector.WebCaller)
+  name: Read(String, WebCaller)
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Read_System_String_CodeReactor_CRGameJolt_Connector_WebCaller_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Read(System.String,CodeReactor.CRGameJolt.Connector.WebCaller)
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Read(System.String, CodeReactor.CRGameJolt.Connector.WebCaller)
+  nameWithType: GlobalDataStorage.Read(String, WebCaller)
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Read*
+  name: Read
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Read_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Read
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Read
+  nameWithType: GlobalDataStorage.Read
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Remove(System.String)
+  name: Remove(String)
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Remove_System_String_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Remove(System.String)
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Remove(System.String)
+  nameWithType: GlobalDataStorage.Remove(String)
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Remove(System.String,CodeReactor.CRGameJolt.Connector.WebCaller)
+  name: Remove(String, WebCaller)
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Remove_System_String_CodeReactor_CRGameJolt_Connector_WebCaller_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Remove(System.String,CodeReactor.CRGameJolt.Connector.WebCaller)
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Remove(System.String, CodeReactor.CRGameJolt.Connector.WebCaller)
+  nameWithType: GlobalDataStorage.Remove(String, WebCaller)
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Remove*
+  name: Remove
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Remove_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Remove
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Remove
+  nameWithType: GlobalDataStorage.Remove
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Set(System.String,CodeReactor.CRGameJolt.DataStorage.GJDataValue)
+  name: Set(String, GJDataValue)
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Set_System_String_CodeReactor_CRGameJolt_DataStorage_GJDataValue_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Set(System.String,CodeReactor.CRGameJolt.DataStorage.GJDataValue)
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Set(System.String, CodeReactor.CRGameJolt.DataStorage.GJDataValue)
+  nameWithType: GlobalDataStorage.Set(String, GJDataValue)
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Set(System.String,System.Int32)
+  name: Set(String, Int32)
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Set_System_String_System_Int32_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Set(System.String,System.Int32)
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Set(System.String, System.Int32)
+  nameWithType: GlobalDataStorage.Set(String, Int32)
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Set(System.String,System.String)
+  name: Set(String, String)
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Set_System_String_System_String_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Set(System.String,System.String)
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Set(System.String, System.String)
+  nameWithType: GlobalDataStorage.Set(String, String)
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Set*
+  name: Set
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Set_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Set
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Set
+  nameWithType: GlobalDataStorage.Set
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Subtract(System.String,System.Int32)
+  name: Subtract(String, Int32)
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Subtract_System_String_System_Int32_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Subtract(System.String,System.Int32)
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Subtract(System.String, System.Int32)
+  nameWithType: GlobalDataStorage.Subtract(String, Int32)
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Subtract*
+  name: Subtract
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Subtract_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Subtract
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Subtract
+  nameWithType: GlobalDataStorage.Subtract
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Update
+  name: Update()
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Update
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Update
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Update()
+  nameWithType: GlobalDataStorage.Update()
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Update(CodeReactor.CRGameJolt.Connector.WebCaller)
+  name: Update(WebCaller)
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Update_CodeReactor_CRGameJolt_Connector_WebCaller_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Update(CodeReactor.CRGameJolt.Connector.WebCaller)
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Update(CodeReactor.CRGameJolt.Connector.WebCaller)
+  nameWithType: GlobalDataStorage.Update(WebCaller)
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Update*
+  name: Update
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Update_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Update
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Update
+  nameWithType: GlobalDataStorage.Update
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.WebCaller
+  name: WebCaller
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_WebCaller
+  commentId: P:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.WebCaller
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.WebCaller
+  nameWithType: GlobalDataStorage.WebCaller
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.WebCaller*
+  name: WebCaller
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_WebCaller_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.WebCaller
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.WebCaller
+  nameWithType: GlobalDataStorage.WebCaller
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Write
+  name: Write()
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Write
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Write
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Write()
+  nameWithType: GlobalDataStorage.Write()
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Write(CodeReactor.CRGameJolt.Connector.WebCaller)
+  name: Write(WebCaller)
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Write_CodeReactor_CRGameJolt_Connector_WebCaller_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Write(CodeReactor.CRGameJolt.Connector.WebCaller)
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Write(CodeReactor.CRGameJolt.Connector.WebCaller)
+  nameWithType: GlobalDataStorage.Write(WebCaller)
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Write(System.String)
+  name: Write(String)
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Write_System_String_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Write(System.String)
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Write(System.String)
+  nameWithType: GlobalDataStorage.Write(String)
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Write(System.String,CodeReactor.CRGameJolt.Connector.WebCaller)
+  name: Write(String, WebCaller)
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Write_System_String_CodeReactor_CRGameJolt_Connector_WebCaller_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Write(System.String,CodeReactor.CRGameJolt.Connector.WebCaller)
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Write(System.String, CodeReactor.CRGameJolt.Connector.WebCaller)
+  nameWithType: GlobalDataStorage.Write(String, WebCaller)
+- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Write*
+  name: Write
+  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Write_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Write
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Write
+  nameWithType: GlobalDataStorage.Write
 - uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage
   name: IGJDataStorage
   href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html
   commentId: T:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage
   fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage
   nameWithType: IGJDataStorage
+- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Add(System.String,System.Int32)
+  name: Add(String, Int32)
+  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Add_System_String_System_Int32_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Add(System.String,System.Int32)
+  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Add(System.String, System.Int32)
+  nameWithType: IGJDataStorage.Add(String, Int32)
+- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Add*
+  name: Add
+  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Add_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Add
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Add
+  nameWithType: IGJDataStorage.Add
+- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Append(System.String,System.String)
+  name: Append(String, String)
+  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Append_System_String_System_String_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Append(System.String,System.String)
+  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Append(System.String, System.String)
+  nameWithType: IGJDataStorage.Append(String, String)
+- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Append*
+  name: Append
+  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Append_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Append
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Append
+  nameWithType: IGJDataStorage.Append
+- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Cache
+  name: Cache
+  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Cache
+  commentId: P:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Cache
+  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Cache
+  nameWithType: IGJDataStorage.Cache
+- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Cache*
+  name: Cache
+  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Cache_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Cache
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Cache
+  nameWithType: IGJDataStorage.Cache
+- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Divide(System.String,System.Int32)
+  name: Divide(String, Int32)
+  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Divide_System_String_System_Int32_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Divide(System.String,System.Int32)
+  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Divide(System.String, System.Int32)
+  nameWithType: IGJDataStorage.Divide(String, Int32)
+- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Divide*
+  name: Divide
+  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Divide_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Divide
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Divide
+  nameWithType: IGJDataStorage.Divide
+- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Get(System.String)
+  name: Get(String)
+  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Get_System_String_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Get(System.String)
+  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Get(System.String)
+  nameWithType: IGJDataStorage.Get(String)
+- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Get*
+  name: Get
+  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Get_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Get
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Get
+  nameWithType: IGJDataStorage.Get
+- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Multiply(System.String,System.Int32)
+  name: Multiply(String, Int32)
+  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Multiply_System_String_System_Int32_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Multiply(System.String,System.Int32)
+  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Multiply(System.String, System.Int32)
+  nameWithType: IGJDataStorage.Multiply(String, Int32)
+- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Multiply*
+  name: Multiply
+  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Multiply_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Multiply
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Multiply
+  nameWithType: IGJDataStorage.Multiply
+- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Prepend(System.String,System.String)
+  name: Prepend(String, String)
+  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Prepend_System_String_System_String_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Prepend(System.String,System.String)
+  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Prepend(System.String, System.String)
+  nameWithType: IGJDataStorage.Prepend(String, String)
+- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Prepend*
+  name: Prepend
+  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Prepend_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Prepend
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Prepend
+  nameWithType: IGJDataStorage.Prepend
+- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Read
+  name: Read()
+  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Read
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Read
+  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Read()
+  nameWithType: IGJDataStorage.Read()
+- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Read(CodeReactor.CRGameJolt.Connector.WebCaller)
+  name: Read(WebCaller)
+  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Read_CodeReactor_CRGameJolt_Connector_WebCaller_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Read(CodeReactor.CRGameJolt.Connector.WebCaller)
+  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Read(CodeReactor.CRGameJolt.Connector.WebCaller)
+  nameWithType: IGJDataStorage.Read(WebCaller)
+- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Read(System.String)
+  name: Read(String)
+  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Read_System_String_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Read(System.String)
+  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Read(System.String)
+  nameWithType: IGJDataStorage.Read(String)
+- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Read(System.String,CodeReactor.CRGameJolt.Connector.WebCaller)
+  name: Read(String, WebCaller)
+  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Read_System_String_CodeReactor_CRGameJolt_Connector_WebCaller_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Read(System.String,CodeReactor.CRGameJolt.Connector.WebCaller)
+  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Read(System.String, CodeReactor.CRGameJolt.Connector.WebCaller)
+  nameWithType: IGJDataStorage.Read(String, WebCaller)
+- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Read*
+  name: Read
+  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Read_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Read
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Read
+  nameWithType: IGJDataStorage.Read
+- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Remove(System.String)
+  name: Remove(String)
+  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Remove_System_String_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Remove(System.String)
+  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Remove(System.String)
+  nameWithType: IGJDataStorage.Remove(String)
+- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Remove(System.String,CodeReactor.CRGameJolt.Connector.WebCaller)
+  name: Remove(String, WebCaller)
+  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Remove_System_String_CodeReactor_CRGameJolt_Connector_WebCaller_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Remove(System.String,CodeReactor.CRGameJolt.Connector.WebCaller)
+  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Remove(System.String, CodeReactor.CRGameJolt.Connector.WebCaller)
+  nameWithType: IGJDataStorage.Remove(String, WebCaller)
+- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Remove*
+  name: Remove
+  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Remove_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Remove
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Remove
+  nameWithType: IGJDataStorage.Remove
+- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Set(System.String,CodeReactor.CRGameJolt.DataStorage.GJDataValue)
+  name: Set(String, GJDataValue)
+  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Set_System_String_CodeReactor_CRGameJolt_DataStorage_GJDataValue_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Set(System.String,CodeReactor.CRGameJolt.DataStorage.GJDataValue)
+  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Set(System.String, CodeReactor.CRGameJolt.DataStorage.GJDataValue)
+  nameWithType: IGJDataStorage.Set(String, GJDataValue)
+- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Set(System.String,System.Int32)
+  name: Set(String, Int32)
+  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Set_System_String_System_Int32_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Set(System.String,System.Int32)
+  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Set(System.String, System.Int32)
+  nameWithType: IGJDataStorage.Set(String, Int32)
+- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Set(System.String,System.String)
+  name: Set(String, String)
+  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Set_System_String_System_String_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Set(System.String,System.String)
+  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Set(System.String, System.String)
+  nameWithType: IGJDataStorage.Set(String, String)
+- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Set*
+  name: Set
+  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Set_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Set
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Set
+  nameWithType: IGJDataStorage.Set
+- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Subtract(System.String,System.Int32)
+  name: Subtract(String, Int32)
+  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Subtract_System_String_System_Int32_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Subtract(System.String,System.Int32)
+  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Subtract(System.String, System.Int32)
+  nameWithType: IGJDataStorage.Subtract(String, Int32)
+- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Subtract*
+  name: Subtract
+  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Subtract_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Subtract
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Subtract
+  nameWithType: IGJDataStorage.Subtract
+- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Write
+  name: Write()
+  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Write
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Write
+  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Write()
+  nameWithType: IGJDataStorage.Write()
+- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Write(CodeReactor.CRGameJolt.Connector.WebCaller)
+  name: Write(WebCaller)
+  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Write_CodeReactor_CRGameJolt_Connector_WebCaller_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Write(CodeReactor.CRGameJolt.Connector.WebCaller)
+  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Write(CodeReactor.CRGameJolt.Connector.WebCaller)
+  nameWithType: IGJDataStorage.Write(WebCaller)
+- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Write(System.String)
+  name: Write(String)
+  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Write_System_String_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Write(System.String)
+  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Write(System.String)
+  nameWithType: IGJDataStorage.Write(String)
+- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Write(System.String,CodeReactor.CRGameJolt.Connector.WebCaller)
+  name: Write(String, WebCaller)
+  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Write_System_String_CodeReactor_CRGameJolt_Connector_WebCaller_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Write(System.String,CodeReactor.CRGameJolt.Connector.WebCaller)
+  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Write(System.String, CodeReactor.CRGameJolt.Connector.WebCaller)
+  nameWithType: IGJDataStorage.Write(String, WebCaller)
+- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Write*
+  name: Write
+  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Write_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Write
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Write
+  nameWithType: IGJDataStorage.Write
+- uid: CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException
+  name: InvalidDataTypeException
+  href: api/CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException.html
+  commentId: T:CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException
+  fullName: CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException
+  nameWithType: InvalidDataTypeException
+- uid: CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException.#ctor
+  name: InvalidDataTypeException()
+  href: api/CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException.html#CodeReactor_CRGameJolt_DataStorage_InvalidDataTypeException__ctor
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException.#ctor
+  fullName: CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException.InvalidDataTypeException()
+  nameWithType: InvalidDataTypeException.InvalidDataTypeException()
+- uid: CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException.#ctor(System.String)
+  name: InvalidDataTypeException(String)
+  href: api/CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException.html#CodeReactor_CRGameJolt_DataStorage_InvalidDataTypeException__ctor_System_String_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException.#ctor(System.String)
+  fullName: CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException.InvalidDataTypeException(System.String)
+  nameWithType: InvalidDataTypeException.InvalidDataTypeException(String)
+- uid: CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException.#ctor(System.String,System.Exception)
+  name: InvalidDataTypeException(String, Exception)
+  href: api/CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException.html#CodeReactor_CRGameJolt_DataStorage_InvalidDataTypeException__ctor_System_String_System_Exception_
+  commentId: M:CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException.#ctor(System.String,System.Exception)
+  fullName: CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException.InvalidDataTypeException(System.String, System.Exception)
+  nameWithType: InvalidDataTypeException.InvalidDataTypeException(String, Exception)
+- uid: CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException.#ctor*
+  name: InvalidDataTypeException
+  href: api/CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException.html#CodeReactor_CRGameJolt_DataStorage_InvalidDataTypeException__ctor_
+  commentId: Overload:CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException.#ctor
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException.InvalidDataTypeException
+  nameWithType: InvalidDataTypeException.InvalidDataTypeException
+- uid: CodeReactor.CRGameJolt.GameJoltAPIException
+  name: GameJoltAPIException
+  href: api/CodeReactor.CRGameJolt.GameJoltAPIException.html
+  commentId: T:CodeReactor.CRGameJolt.GameJoltAPIException
+  fullName: CodeReactor.CRGameJolt.GameJoltAPIException
+  nameWithType: GameJoltAPIException
+- uid: CodeReactor.CRGameJolt.GameJoltAPIException.#ctor
+  name: GameJoltAPIException()
+  href: api/CodeReactor.CRGameJolt.GameJoltAPIException.html#CodeReactor_CRGameJolt_GameJoltAPIException__ctor
+  commentId: M:CodeReactor.CRGameJolt.GameJoltAPIException.#ctor
+  fullName: CodeReactor.CRGameJolt.GameJoltAPIException.GameJoltAPIException()
+  nameWithType: GameJoltAPIException.GameJoltAPIException()
+- uid: CodeReactor.CRGameJolt.GameJoltAPIException.#ctor(System.String)
+  name: GameJoltAPIException(String)
+  href: api/CodeReactor.CRGameJolt.GameJoltAPIException.html#CodeReactor_CRGameJolt_GameJoltAPIException__ctor_System_String_
+  commentId: M:CodeReactor.CRGameJolt.GameJoltAPIException.#ctor(System.String)
+  fullName: CodeReactor.CRGameJolt.GameJoltAPIException.GameJoltAPIException(System.String)
+  nameWithType: GameJoltAPIException.GameJoltAPIException(String)
+- uid: CodeReactor.CRGameJolt.GameJoltAPIException.#ctor(System.String,System.Exception)
+  name: GameJoltAPIException(String, Exception)
+  href: api/CodeReactor.CRGameJolt.GameJoltAPIException.html#CodeReactor_CRGameJolt_GameJoltAPIException__ctor_System_String_System_Exception_
+  commentId: M:CodeReactor.CRGameJolt.GameJoltAPIException.#ctor(System.String,System.Exception)
+  fullName: CodeReactor.CRGameJolt.GameJoltAPIException.GameJoltAPIException(System.String, System.Exception)
+  nameWithType: GameJoltAPIException.GameJoltAPIException(String, Exception)
+- uid: CodeReactor.CRGameJolt.GameJoltAPIException.#ctor*
+  name: GameJoltAPIException
+  href: api/CodeReactor.CRGameJolt.GameJoltAPIException.html#CodeReactor_CRGameJolt_GameJoltAPIException__ctor_
+  commentId: Overload:CodeReactor.CRGameJolt.GameJoltAPIException.#ctor
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.GameJoltAPIException.GameJoltAPIException
+  nameWithType: GameJoltAPIException.GameJoltAPIException
+- uid: CodeReactor.CRGameJolt.IGJObject
+  name: IGJObject
+  href: api/CodeReactor.CRGameJolt.IGJObject.html
+  commentId: T:CodeReactor.CRGameJolt.IGJObject
+  fullName: CodeReactor.CRGameJolt.IGJObject
+  nameWithType: IGJObject
+- uid: CodeReactor.CRGameJolt.IGJObject.Update
+  name: Update()
+  href: api/CodeReactor.CRGameJolt.IGJObject.html#CodeReactor_CRGameJolt_IGJObject_Update
+  commentId: M:CodeReactor.CRGameJolt.IGJObject.Update
+  fullName: CodeReactor.CRGameJolt.IGJObject.Update()
+  nameWithType: IGJObject.Update()
+- uid: CodeReactor.CRGameJolt.IGJObject.Update(CodeReactor.CRGameJolt.Connector.WebCaller)
+  name: Update(WebCaller)
+  href: api/CodeReactor.CRGameJolt.IGJObject.html#CodeReactor_CRGameJolt_IGJObject_Update_CodeReactor_CRGameJolt_Connector_WebCaller_
+  commentId: M:CodeReactor.CRGameJolt.IGJObject.Update(CodeReactor.CRGameJolt.Connector.WebCaller)
+  fullName: CodeReactor.CRGameJolt.IGJObject.Update(CodeReactor.CRGameJolt.Connector.WebCaller)
+  nameWithType: IGJObject.Update(WebCaller)
+- uid: CodeReactor.CRGameJolt.IGJObject.Update*
+  name: Update
+  href: api/CodeReactor.CRGameJolt.IGJObject.html#CodeReactor_CRGameJolt_IGJObject_Update_
+  commentId: Overload:CodeReactor.CRGameJolt.IGJObject.Update
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.IGJObject.Update
+  nameWithType: IGJObject.Update
+- uid: CodeReactor.CRGameJolt.IGJObject.WebCaller
+  name: WebCaller
+  href: api/CodeReactor.CRGameJolt.IGJObject.html#CodeReactor_CRGameJolt_IGJObject_WebCaller
+  commentId: P:CodeReactor.CRGameJolt.IGJObject.WebCaller
+  fullName: CodeReactor.CRGameJolt.IGJObject.WebCaller
+  nameWithType: IGJObject.WebCaller
+- uid: CodeReactor.CRGameJolt.IGJObject.WebCaller*
+  name: WebCaller
+  href: api/CodeReactor.CRGameJolt.IGJObject.html#CodeReactor_CRGameJolt_IGJObject_WebCaller_
+  commentId: Overload:CodeReactor.CRGameJolt.IGJObject.WebCaller
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.IGJObject.WebCaller
+  nameWithType: IGJObject.WebCaller
