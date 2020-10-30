@@ -1,12 +1,11 @@
-﻿using System.Linq;
-using System.Net;
+﻿using System.Net;
 using System.Security.Cryptography;
 using System.Text;
 
 namespace CodeReactor.CRGameJolt.Connector
 {
     /// <summary>
-    /// Construct urls to make GameJolt Game API calls
+    /// Construct a valid URL and sign he to make GameJolt Game API calls
     /// </summary>
     public class URLConstructor
     {
@@ -19,19 +18,21 @@ namespace CodeReactor.CRGameJolt.Connector
         /// </value>
         private string GameKey;
         /// <value>
-        /// String representation of Game API version
+        /// GameJolt Game API version used by the <see cref="URLConstructor"/>
         /// </value>
         public APIVersion GameAPIVersion { get; set; }
         /// <value>
-        /// The signature type provided for signer
+        /// The signature type provided for <see cref="Sign(string)"/>
         /// </value>
         public SignatureType SignatureType { get; set; }
         
         /// <summary>
-        /// This initialize URLConstructor without anything from default
+        /// Create a instance of <see cref="URLConstructor"/> with your definitions
         /// </summary>
+        /// <exception cref="InvalidAPIVersionException">Throwed if <paramref name="apiVersion"/> aren't supported or invalid</exception>
+        /// <exception cref="InvalidSignatureTypeException">Throwed if <paramref name="signatureType"/> is invalid</exception>
         /// <param name="gameId">The Game Id from url of your game</param>
-        /// <param name="gameKey">Game private key getted from Manage Achivements tab</param>
+        /// <param name="gameKey">Game private key founded on Manage Achivements tab</param>
         /// <param name="signatureType">The encoding of signature</param>
         /// <param name="apiVersion">Game API version, not all are supported</param>
         public URLConstructor(string gameId, string gameKey, SignatureType signatureType, APIVersion apiVersion)
@@ -59,33 +60,40 @@ namespace CodeReactor.CRGameJolt.Connector
         }
 
         /// <summary>
-        /// This initialize URLConstructor with Game API version in v1.2
+        /// Create a instance of <see cref="URLConstructor"/> with <see cref="APIVersion.V1_2"/> by default
         /// </summary>
+        /// <exception cref="InvalidAPIVersionException">Throwed if <paramref name="apiVersion"/> aren't supported or invalid</exception>
+        /// <exception cref="InvalidSignatureTypeException">Throwed if <paramref name="signatureType"/> is invalid</exception>
         /// <param name="gameId">The Game Id from url of your game</param>
-        /// <param name="gameKey">Game private key getted from Manage Achivements tab</param>
+        /// <param name="gameKey">Game private key founded on Manage Achivements tab</param>
         /// <param name="signatureType">The encoding of signature</param>
         public URLConstructor(string gameId, string gameKey, SignatureType signatureType) : this(gameId, gameKey, signatureType, APIVersion.V1_2) { }
 
         /// <summary>
-        /// This initialize URLConstructor with Signature Type in MD5
+        /// Create a instance of <see cref="URLConstructor"/> with <see cref="SignatureType.MD5"/> by default
         /// </summary>
+        /// <exception cref="InvalidAPIVersionException">Throwed if <paramref name="apiVersion"/> aren't supported or invalid</exception>
+        /// <exception cref="InvalidSignatureTypeException">Throwed if <paramref name="signatureType"/> is invalid</exception>
         /// <param name="gameId">The Game Id from url of your game</param>
-        /// <param name="gameKey">Game private key getted from Manage Achivements tab</param>
+        /// <param name="gameKey">Game private key founded on Manage Achivements tab</param>
         /// <param name="apiVersion">Game API version, not all are supported</param>
         public URLConstructor(string gameId, string gameKey, APIVersion apiVersion) : this(gameId, gameKey, SignatureType.MD5, apiVersion) { }
 
         /// <summary>
-        /// This initialize URLConstructor with Signature Type in MD5 and Game API version in v1.2
+        /// Create a instance of <see cref="URLConstructor"/> with <see cref="SignatureType.MD5"/> and <see cref="APIVersion.V1_2"/> by default
         /// </summary>
+        /// <exception cref="InvalidAPIVersionException">Throwed if <paramref name="apiVersion"/> aren't supported or invalid</exception>
+        /// <exception cref="InvalidSignatureTypeException">Throwed if <paramref name="signatureType"/> is invalid</exception>
         /// <param name="gameId">The Game Id from url of your game</param>
-        /// <param name="gameKey">Game private key getted from Manage Achivements tab</param>
+        /// <param name="gameKey">Game private key founded on Manage Achivements tab</param>
         public URLConstructor(string gameId, string gameKey) : this(gameId, gameKey, SignatureType.MD5, APIVersion.V1_2) { }
 
         /// <summary>
-        /// Convert from enum APIVersion to a string that are a valid in GameJolt Game API
+        /// Convert from <see cref="APIVersion"/> to a string that are valid in a URL of GameJolt Game API
         /// </summary>
-        /// <param name="apiVersion">APIVersion enum to convert</param>
-        /// <returns>A valid callable version in Game API</returns>
+        /// <exception cref="InvalidAPIVersionException">Throwed if <paramref name="apiVersion"/> aren't valid or null</exception>
+        /// <param name="apiVersion">Enum that gonna be converted</param>
+        /// <returns>String representation of the <paramref name="apiVersion"/></returns>
         public static string APIVersionToString(APIVersion apiVersion)
         {
             switch (apiVersion)
@@ -97,15 +105,16 @@ namespace CodeReactor.CRGameJolt.Connector
                 case APIVersion.V1_0:
                     return "v1_0";
                 default:
-                    throw new InvalidAPIVersionException("Unknown version");
+                    throw new InvalidAPIVersionException("Unknown version provided");
             }
         }
 
         /// <summary>
-        /// Convert from enum to a valid web protocol to place on front of the URL
+        /// Convert from <see cref="WebProtocol"/> to a valid web protocol in string format like "https://"
         /// </summary>
-        /// <param name="protocol">Set the protocol to build URL</param>
-        /// <returns>A web protocol formated like "https://"</returns>
+        /// <param name="protocol">Enum that gonna be converted</param>
+        /// <exception cref="InvalidWebProtocolException">Throwed if <paramref name="protocol"/> aren't valid or null</exception>
+        /// <returns>A web protocol formatted like "https://"</returns>
         public static string WebProtocolToString(WebProtocol protocol)
         {
             switch(protocol)
@@ -115,17 +124,20 @@ namespace CodeReactor.CRGameJolt.Connector
                 case WebProtocol.HTTP:
                     return "http://";
                 default:
-                    throw new InvalidWebProtocolException("Invalid web protocol");
+                    throw new InvalidWebProtocolException("Invalid web protocol provided");
             }
         }
 
         /// <summary>
-        /// Construct and sign a Game API URL ready to call
+        /// Construct and sign the GameJolt Game API URL in string format
         /// </summary>
-        /// <param name="endpoint">Game API endpoint</param>
+        /// <param name="endpoint">GameJolt Game API endpoint</param>
         /// <param name="query">A URL enconded query string array</param>
-        /// <param name="protocol">Set the protocol to build URL</param>
-        /// <returns>Constructed Game API url ready to call</returns>
+        /// <param name="protocol">Set the web protocol of URL</param>
+        /// <seealso cref="Sign(string)"/>
+        /// <seealso cref="WebProtocolToString(WebProtocol)"/>
+        /// <seealso cref="APIVersionToString(APIVersion)"/>
+        /// <returns>Constructed GameJolt Game API URL</returns>
         public string Call(string endpoint, string[] query, WebProtocol protocol)
         {
             string url = WebProtocolToString(protocol) + "api.gamejolt.com/api/game/" + APIVersionToString(GameAPIVersion) + "/" + endpoint + "/?game_id=" + WebUtility.UrlEncode(GameId) + "&format=xml";
@@ -137,32 +149,36 @@ namespace CodeReactor.CRGameJolt.Connector
         }
 
         /// <summary>
-        /// Construct and sign a Game API URL ready to call using HTTPS
+        /// Construct and sign the GameJolt Game API URL in string format with <see cref="WebProtocol.HTTPS"/> by default
         /// </summary>
-        /// <param name="endpoint">Game API endpoint</param>
+        /// <param name="endpoint">GameJolt Game API endpoint</param>
         /// <param name="query">A URL enconded query string array</param>
-        /// <returns>Constructed Game API url ready to call</returns>
+        /// <param name="protocol">Set the web protocol of URL</param>
+        /// <seealso cref="Sign(string)"/>
+        /// <seealso cref="APIVersionToString(APIVersion)"/>
+        /// <returns>Constructed GameJolt Game API URL</returns>
         public string Call(string endpoint, string[] query)
         {
             return Call(endpoint, query, WebProtocol.HTTPS);
         }
 
         /// <summary>
-        /// Sign a Game API call URL with game key and signature type from SignatureType
+        /// Create a signature based on algorithm specified on <see cref="SignatureType"/> property
         /// </summary>
-        /// <param name="url">Game API call url to sign</param>
-        /// <returns>Signed call url</returns>
+        /// <param name="url">URL or string to sign</param>
+        /// <returns>Signed string with <see cref="SignatureType"/> cipher algorithm</returns>
         public string Sign(string url)
         {
             return Sign(url, SignatureType);
         }
 
         /// <summary>
-        /// Sign a Game API call URL with game key
+        /// Create a signature based on algorithm specified on <paramref name="signatureType"/> parameter
         /// </summary>
-        /// <param name="url">Game API call url to sign</param>
-        /// <param name="signatureType">A signature type to specify sign</param>
-        /// <returns>Signed call url</returns>
+        /// <param name="url">URL or string to sign</param>
+        /// <param name="signatureType">The cipher algorithm to use</param>
+        /// <exception cref="InvalidSignatureTypeException">Throwed if <paramref name="signatureType"/> is invalid or null</exception>
+        /// <returns>Signed string with <paramref name="signatureType"/> cipher algorithm</returns>
         public static string Sign(string url, SignatureType signatureType)
         {
             switch (signatureType)
@@ -193,9 +209,9 @@ namespace CodeReactor.CRGameJolt.Connector
         }
 
         /// <summary>
-        /// Edit the Game key used by signer
+        /// Edit the Game Key used by <see cref="Call(string, string[])"/> and <see cref="Call(string, string[], WebProtocol)"/>
         /// </summary>
-        /// <param name="gameKey">Game private key getted from Manage Achivements tab</param>
+        /// <param name="gameKey">Game private key founded on Manage Achivements tab</param>
         public void SetGameKey(string gameKey)
         {
             GameKey = gameKey;

@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Connector.APIVersion.html",
-          "hash": "ppsBHB+gg5Kvk8OKNYdezA=="
+          "hash": "oFVXE1s759gHVWtkFd1uxA=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Connector.InvalidAPIVersionException.html",
-          "hash": "xKjOjGSztOUEKjS4fOU6gg=="
+          "hash": "EW8M2z+L3DyxzJdMio/sXQ=="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Connector.InvalidSignatureTypeException.html",
-          "hash": "dXyuUFMsQM2fF/VaU4YZWw=="
+          "hash": "XfZgIYvAQMLLeqjbhlINnQ=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Connector.InvalidWebProtocolException.html",
-          "hash": "kSIKl4T4ON06YRVHQlpZVA=="
+          "hash": "lt+HeUV8nnIQJdsn6oVaMw=="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Connector.SignatureType.html",
-          "hash": "WOxVxy/3RINIZL+j/wPckQ=="
+          "hash": "gy2K/T14m2m73oCPfhWS3w=="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Connector.URLConstructor.html",
-          "hash": "lOVRgLbnmYf8qS6Onc1www=="
+          "hash": "PK0JUPo+WE3O5pGe6pqYrw=="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Connector.WebCaller.html",
-          "hash": "mqTHDUfEHCKP0MavhDergg=="
+          "hash": "zSSpWKGgG6zMxFoNsMhXGA=="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Connector.WebProtocol.html",
-          "hash": "rw1Z63hF49PSq0+o97HX3Q=="
+          "hash": "JRE3iIILYrGTZ6DNOIvh0Q=="
         }
       },
       "is_incremental": false,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Connector.html",
-          "hash": "SPLbjbHwIlu+WRcyix20QA=="
+          "hash": "WrKBb2cpeS/QNdxz9+GnJA=="
         }
       },
       "is_incremental": false,
@@ -125,11 +125,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CodeReactor.CRGameJolt.DataStorage.GJDataType.yml",
+      "source_relative_path": "api/CodeReactor.CRGameJolt.DataStorage.DSValueType.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CodeReactor.CRGameJolt.DataStorage.GJDataType.html",
-          "hash": "srGP+C9RDhNqFFDuXyioXQ=="
+          "relative_path": "api/CodeReactor.CRGameJolt.DataStorage.DSValueType.html",
+          "hash": "AZjbL2V4PYAciKEwFPU1Xw=="
         }
       },
       "is_incremental": false,
@@ -137,11 +137,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.yml",
+      "source_relative_path": "api/CodeReactor.CRGameJolt.DataStorage.DataStorageValue.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CodeReactor.CRGameJolt.DataStorage.GJDataValue.html",
-          "hash": "K8CTpJpISxnkWKWD/eD8fA=="
+          "relative_path": "api/CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html",
+          "hash": "Y2JX3tBhu9xKo0ktgwjBew=="
         }
       },
       "is_incremental": false,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html",
-          "hash": "eLjEdUv1bCRA+DOpn8gVJA=="
+          "hash": "LMcrh1n0yOgRAIHybuCwFw=="
         }
       },
       "is_incremental": false,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html",
-          "hash": "0go9fE9vRN/UZPAVBvjZvA=="
+          "hash": "YF0EJ2z4l0ShnaitLScbxg=="
         }
       },
       "is_incremental": false,
@@ -177,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException.html",
-          "hash": "SY1xyMPPt2oRkPItj5sVpA=="
+          "hash": "r7Z0PDN9Ihs234y/1Dj6kg=="
         }
       },
       "is_incremental": false,
@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.DataStorage.html",
-          "hash": "hhQAB7UaGnk9l+URjFDx5A=="
+          "hash": "IuhiP3qB4QStO2vtZv/ycg=="
         }
       },
       "is_incremental": false,
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.GameJoltAPIException.html",
-          "hash": "dv6ilPwOLCSE+L1eUOdH0w=="
+          "hash": "brwx5WhFnLxkjSrzRsGoeg=="
         }
       },
       "is_incremental": false,
@@ -213,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.IGJObject.html",
-          "hash": "dBOhfOjNfvwLc4GOPwH3ug=="
+          "hash": "H2vjoQWyLmSolIT4trwhow=="
         }
       },
       "is_incremental": false,
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.html",
-          "hash": "7C5ms6HlcG9O2I6Z+gY/GA=="
+          "hash": "EIqBEymbOqxmB/39dyQgnA=="
         }
       },
       "is_incremental": false,
@@ -249,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "yHXrjDwZsy94dIDqrijOog=="
+          "hash": "rmxDNtER7v3ETGAEgnLbGA=="
         }
       },
       "is_incremental": false,
@@ -323,7 +323,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 18,
-          "skipped_file_count": 7
+          "skipped_file_count": 10
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

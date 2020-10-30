@@ -1,8 +1,9 @@
 ﻿namespace CodeReactor.CRGameJolt.Connector
 {
     /// <summary>
-    /// Enum that specify a GameJolt Game API version to url builder
+    /// Specify a GameJolt Game API version to inside of <see cref="URLConstructor"/>
     /// </summary>
+    /// <seealso cref="URLConstructor"/>
     public enum APIVersion
     {
         /// <summary>

@@ -73,7 +73,7 @@
   
   <h1 id="CodeReactor_CRGameJolt_Connector_URLConstructor" data-uid="CodeReactor.CRGameJolt.Connector.URLConstructor" class="text-break">Class URLConstructor
   </h1>
-  <div class="markdown level0 summary"><p>Construct urls to make GameJolt Game API calls</p>
+  <div class="markdown level0 summary"><p>Construct a valid URL and sign he to make GameJolt Game API calls</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -118,11 +118,11 @@
     <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_Connector_URLConstructor__ctor_System_String_System_String_.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.Connector.URLConstructor.%23ctor(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Connector/URLConstructor.cs/#L82">View Source</a>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Connector/URLConstructor.cs/#L89">View Source</a>
   </span>
   <a id="CodeReactor_CRGameJolt_Connector_URLConstructor__ctor_" data-uid="CodeReactor.CRGameJolt.Connector.URLConstructor.#ctor*"></a>
   <h4 id="CodeReactor_CRGameJolt_Connector_URLConstructor__ctor_System_String_System_String_" data-uid="CodeReactor.CRGameJolt.Connector.URLConstructor.#ctor(System.String,System.String)">URLConstructor(String, String)</h4>
-  <div class="markdown level1 summary"><p>This initialize URLConstructor with Signature Type in MD5 and Game API version in v1.2</p>
+  <div class="markdown level1 summary"><p>Create a instance of <a class="xref" href="CodeReactor.CRGameJolt.Connector.URLConstructor.html">URLConstructor</a> with <a class="xref" href="CodeReactor.CRGameJolt.Connector.SignatureType.html#CodeReactor_CRGameJolt_Connector_SignatureType_MD5">MD5</a> and <a class="xref" href="CodeReactor.CRGameJolt.Connector.APIVersion.html#CodeReactor_CRGameJolt_Connector_APIVersion_V1_2">V1_2</a> by default</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -148,7 +148,28 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">gameKey</span></td>
-        <td><p>Game private key getted from Manage Achivements tab</p>
+        <td><p>Game private key founded on Manage Achivements tab</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.Connector.InvalidAPIVersionException.html">InvalidAPIVersionException</a></td>
+        <td><p>Throwed if <code data-dev-comment-type="paramref" class="paramref">apiVersion</code> aren't supported or invalid</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.Connector.InvalidSignatureTypeException.html">InvalidSignatureTypeException</a></td>
+        <td><p>Throwed if <code data-dev-comment-type="paramref" class="paramref">signatureType</code> is invalid</p>
 </td>
       </tr>
     </tbody>
@@ -158,11 +179,11 @@
     <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_Connector_URLConstructor__ctor_System_String_System_String_CodeReactor_CRGameJolt_Connector_APIVersion_.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.Connector.URLConstructor.%23ctor(System.String%2CSystem.String%2CCodeReactor.CRGameJolt.Connector.APIVersion)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Connector/URLConstructor.cs/#L75">View Source</a>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Connector/URLConstructor.cs/#L80">View Source</a>
   </span>
   <a id="CodeReactor_CRGameJolt_Connector_URLConstructor__ctor_" data-uid="CodeReactor.CRGameJolt.Connector.URLConstructor.#ctor*"></a>
   <h4 id="CodeReactor_CRGameJolt_Connector_URLConstructor__ctor_System_String_System_String_CodeReactor_CRGameJolt_Connector_APIVersion_" data-uid="CodeReactor.CRGameJolt.Connector.URLConstructor.#ctor(System.String,System.String,CodeReactor.CRGameJolt.Connector.APIVersion)">URLConstructor(String, String, APIVersion)</h4>
-  <div class="markdown level1 summary"><p>This initialize URLConstructor with Signature Type in MD5</p>
+  <div class="markdown level1 summary"><p>Create a instance of <a class="xref" href="CodeReactor.CRGameJolt.Connector.URLConstructor.html">URLConstructor</a> with <a class="xref" href="CodeReactor.CRGameJolt.Connector.SignatureType.html#CodeReactor_CRGameJolt_Connector_SignatureType_MD5">MD5</a> by default</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -188,7 +209,7 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">gameKey</span></td>
-        <td><p>Game private key getted from Manage Achivements tab</p>
+        <td><p>Game private key founded on Manage Achivements tab</p>
 </td>
       </tr>
       <tr>
@@ -199,16 +220,37 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.Connector.InvalidAPIVersionException.html">InvalidAPIVersionException</a></td>
+        <td><p>Throwed if <code data-dev-comment-type="paramref" class="paramref">apiVersion</code> aren't supported or invalid</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.Connector.InvalidSignatureTypeException.html">InvalidSignatureTypeException</a></td>
+        <td><p>Throwed if <code data-dev-comment-type="paramref" class="paramref">signatureType</code> is invalid</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_Connector_URLConstructor__ctor_System_String_System_String_CodeReactor_CRGameJolt_Connector_SignatureType_.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.Connector.URLConstructor.%23ctor(System.String%2CSystem.String%2CCodeReactor.CRGameJolt.Connector.SignatureType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Connector/URLConstructor.cs/#L67">View Source</a>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Connector/URLConstructor.cs/#L70">View Source</a>
   </span>
   <a id="CodeReactor_CRGameJolt_Connector_URLConstructor__ctor_" data-uid="CodeReactor.CRGameJolt.Connector.URLConstructor.#ctor*"></a>
   <h4 id="CodeReactor_CRGameJolt_Connector_URLConstructor__ctor_System_String_System_String_CodeReactor_CRGameJolt_Connector_SignatureType_" data-uid="CodeReactor.CRGameJolt.Connector.URLConstructor.#ctor(System.String,System.String,CodeReactor.CRGameJolt.Connector.SignatureType)">URLConstructor(String, String, SignatureType)</h4>
-  <div class="markdown level1 summary"><p>This initialize URLConstructor with Game API version in v1.2</p>
+  <div class="markdown level1 summary"><p>Create a instance of <a class="xref" href="CodeReactor.CRGameJolt.Connector.URLConstructor.html">URLConstructor</a> with <a class="xref" href="CodeReactor.CRGameJolt.Connector.APIVersion.html#CodeReactor_CRGameJolt_Connector_APIVersion_V1_2">V1_2</a> by default</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -234,7 +276,7 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">gameKey</span></td>
-        <td><p>Game private key getted from Manage Achivements tab</p>
+        <td><p>Game private key founded on Manage Achivements tab</p>
 </td>
       </tr>
       <tr>
@@ -245,16 +287,37 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.Connector.InvalidAPIVersionException.html">InvalidAPIVersionException</a></td>
+        <td><p>Throwed if <code data-dev-comment-type="paramref" class="paramref">apiVersion</code> aren't supported or invalid</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.Connector.InvalidSignatureTypeException.html">InvalidSignatureTypeException</a></td>
+        <td><p>Throwed if <code data-dev-comment-type="paramref" class="paramref">signatureType</code> is invalid</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_Connector_URLConstructor__ctor_System_String_System_String_CodeReactor_CRGameJolt_Connector_SignatureType_CodeReactor_CRGameJolt_Connector_APIVersion_.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.Connector.URLConstructor.%23ctor(System.String%2CSystem.String%2CCodeReactor.CRGameJolt.Connector.SignatureType%2CCodeReactor.CRGameJolt.Connector.APIVersion)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Connector/URLConstructor.cs/#L37">View Source</a>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Connector/URLConstructor.cs/#L38">View Source</a>
   </span>
   <a id="CodeReactor_CRGameJolt_Connector_URLConstructor__ctor_" data-uid="CodeReactor.CRGameJolt.Connector.URLConstructor.#ctor*"></a>
   <h4 id="CodeReactor_CRGameJolt_Connector_URLConstructor__ctor_System_String_System_String_CodeReactor_CRGameJolt_Connector_SignatureType_CodeReactor_CRGameJolt_Connector_APIVersion_" data-uid="CodeReactor.CRGameJolt.Connector.URLConstructor.#ctor(System.String,System.String,CodeReactor.CRGameJolt.Connector.SignatureType,CodeReactor.CRGameJolt.Connector.APIVersion)">URLConstructor(String, String, SignatureType, APIVersion)</h4>
-  <div class="markdown level1 summary"><p>This initialize URLConstructor without anything from default</p>
+  <div class="markdown level1 summary"><p>Create a instance of <a class="xref" href="CodeReactor.CRGameJolt.Connector.URLConstructor.html">URLConstructor</a> with your definitions</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -280,7 +343,7 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">gameKey</span></td>
-        <td><p>Game private key getted from Manage Achivements tab</p>
+        <td><p>Game private key founded on Manage Achivements tab</p>
 </td>
       </tr>
       <tr>
@@ -297,6 +360,27 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.Connector.InvalidAPIVersionException.html">InvalidAPIVersionException</a></td>
+        <td><p>Throwed if <code data-dev-comment-type="paramref" class="paramref">apiVersion</code> aren't supported or invalid</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.Connector.InvalidSignatureTypeException.html">InvalidSignatureTypeException</a></td>
+        <td><p>Throwed if <code data-dev-comment-type="paramref" class="paramref">signatureType</code> is invalid</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
@@ -304,7 +388,7 @@
     <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_Connector_URLConstructor_GameAPIVersion.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.Connector.URLConstructor.GameAPIVersion%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Connector/URLConstructor.cs/#L24">View Source</a>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Connector/URLConstructor.cs/#L23">View Source</a>
   </span>
   <a id="CodeReactor_CRGameJolt_Connector_URLConstructor_GameAPIVersion_" data-uid="CodeReactor.CRGameJolt.Connector.URLConstructor.GameAPIVersion*"></a>
   <h4 id="CodeReactor_CRGameJolt_Connector_URLConstructor_GameAPIVersion" data-uid="CodeReactor.CRGameJolt.Connector.URLConstructor.GameAPIVersion">GameAPIVersion</h4>
@@ -325,7 +409,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="CodeReactor.CRGameJolt.Connector.APIVersion.html">APIVersion</a></td>
-        <td><p>String representation of Game API version</p>
+        <td><p>GameJolt Game API version used by the <a class="xref" href="CodeReactor.CRGameJolt.Connector.URLConstructor.html">URLConstructor</a></p>
 </td>
       </tr>
     </tbody>
@@ -335,7 +419,7 @@
     <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_Connector_URLConstructor_GameId.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.Connector.URLConstructor.GameId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Connector/URLConstructor.cs/#L16">View Source</a>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Connector/URLConstructor.cs/#L15">View Source</a>
   </span>
   <a id="CodeReactor_CRGameJolt_Connector_URLConstructor_GameId_" data-uid="CodeReactor.CRGameJolt.Connector.URLConstructor.GameId*"></a>
   <h4 id="CodeReactor_CRGameJolt_Connector_URLConstructor_GameId" data-uid="CodeReactor.CRGameJolt.Connector.URLConstructor.GameId">GameId</h4>
@@ -366,7 +450,7 @@
     <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_Connector_URLConstructor_SignatureType.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.Connector.URLConstructor.SignatureType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Connector/URLConstructor.cs/#L28">View Source</a>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Connector/URLConstructor.cs/#L27">View Source</a>
   </span>
   <a id="CodeReactor_CRGameJolt_Connector_URLConstructor_SignatureType_" data-uid="CodeReactor.CRGameJolt.Connector.URLConstructor.SignatureType*"></a>
   <h4 id="CodeReactor_CRGameJolt_Connector_URLConstructor_SignatureType" data-uid="CodeReactor.CRGameJolt.Connector.URLConstructor.SignatureType">SignatureType</h4>
@@ -387,7 +471,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="CodeReactor.CRGameJolt.Connector.SignatureType.html">SignatureType</a></td>
-        <td><p>The signature type provided for signer</p>
+        <td><p>The signature type provided for <a class="xref" href="CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor_Sign_System_String_">Sign(String)</a></p>
 </td>
       </tr>
     </tbody>
@@ -399,11 +483,11 @@
     <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_Connector_URLConstructor_APIVersionToString_CodeReactor_CRGameJolt_Connector_APIVersion_.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.Connector.URLConstructor.APIVersionToString(CodeReactor.CRGameJolt.Connector.APIVersion)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Connector/URLConstructor.cs/#L89">View Source</a>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Connector/URLConstructor.cs/#L97">View Source</a>
   </span>
   <a id="CodeReactor_CRGameJolt_Connector_URLConstructor_APIVersionToString_" data-uid="CodeReactor.CRGameJolt.Connector.URLConstructor.APIVersionToString*"></a>
   <h4 id="CodeReactor_CRGameJolt_Connector_URLConstructor_APIVersionToString_CodeReactor_CRGameJolt_Connector_APIVersion_" data-uid="CodeReactor.CRGameJolt.Connector.URLConstructor.APIVersionToString(CodeReactor.CRGameJolt.Connector.APIVersion)">APIVersionToString(APIVersion)</h4>
-  <div class="markdown level1 summary"><p>Convert from enum APIVersion to a string that are a valid in GameJolt Game API</p>
+  <div class="markdown level1 summary"><p>Convert from <a class="xref" href="CodeReactor.CRGameJolt.Connector.APIVersion.html">APIVersion</a> to a string that are valid in a URL of GameJolt Game API</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -423,7 +507,7 @@
       <tr>
         <td><a class="xref" href="CodeReactor.CRGameJolt.Connector.APIVersion.html">APIVersion</a></td>
         <td><span class="parametername">apiVersion</span></td>
-        <td><p>APIVersion enum to convert</p>
+        <td><p>Enum that gonna be converted</p>
 </td>
       </tr>
     </tbody>
@@ -439,7 +523,23 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>A valid callable version in Game API</p>
+        <td><p>String representation of the <code data-dev-comment-type="paramref" class="paramref">apiVersion</code></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.Connector.InvalidAPIVersionException.html">InvalidAPIVersionException</a></td>
+        <td><p>Throwed if <code data-dev-comment-type="paramref" class="paramref">apiVersion</code> aren't valid or null</p>
 </td>
       </tr>
     </tbody>
@@ -449,11 +549,11 @@
     <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_Connector_URLConstructor_Call_System_String_System_String___.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.Connector.URLConstructor.Call(System.String%2CSystem.String%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Connector/URLConstructor.cs/#L145">View Source</a>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Connector/URLConstructor.cs/#L160">View Source</a>
   </span>
   <a id="CodeReactor_CRGameJolt_Connector_URLConstructor_Call_" data-uid="CodeReactor.CRGameJolt.Connector.URLConstructor.Call*"></a>
   <h4 id="CodeReactor_CRGameJolt_Connector_URLConstructor_Call_System_String_System_String___" data-uid="CodeReactor.CRGameJolt.Connector.URLConstructor.Call(System.String,System.String[])">Call(String, String[])</h4>
-  <div class="markdown level1 summary"><p>Construct and sign a Game API URL ready to call using HTTPS</p>
+  <div class="markdown level1 summary"><p>Construct and sign the GameJolt Game API URL in string format with <a class="xref" href="CodeReactor.CRGameJolt.Connector.WebProtocol.html#CodeReactor_CRGameJolt_Connector_WebProtocol_HTTPS">HTTPS</a> by default</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -473,7 +573,7 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">endpoint</span></td>
-        <td><p>Game API endpoint</p>
+        <td><p>GameJolt Game API endpoint</p>
 </td>
       </tr>
       <tr>
@@ -495,21 +595,26 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>Constructed Game API url ready to call</p>
+        <td><p>Constructed GameJolt Game API URL</p>
 </td>
       </tr>
     </tbody>
   </table>
+  <h5 id="CodeReactor_CRGameJolt_Connector_URLConstructor_Call_System_String_System_String____seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor_Sign_System_String_">Sign(String)</a></div>
+      <div><a class="xref" href="CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor_APIVersionToString_CodeReactor_CRGameJolt_Connector_APIVersion_">APIVersionToString(APIVersion)</a></div>
+  </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_Connector_URLConstructor_Call_System_String_System_String___CodeReactor_CRGameJolt_Connector_WebProtocol_.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.Connector.URLConstructor.Call(System.String%2CSystem.String%5B%5D%2CCodeReactor.CRGameJolt.Connector.WebProtocol)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Connector/URLConstructor.cs/#L129">View Source</a>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Connector/URLConstructor.cs/#L141">View Source</a>
   </span>
   <a id="CodeReactor_CRGameJolt_Connector_URLConstructor_Call_" data-uid="CodeReactor.CRGameJolt.Connector.URLConstructor.Call*"></a>
   <h4 id="CodeReactor_CRGameJolt_Connector_URLConstructor_Call_System_String_System_String___CodeReactor_CRGameJolt_Connector_WebProtocol_" data-uid="CodeReactor.CRGameJolt.Connector.URLConstructor.Call(System.String,System.String[],CodeReactor.CRGameJolt.Connector.WebProtocol)">Call(String, String[], WebProtocol)</h4>
-  <div class="markdown level1 summary"><p>Construct and sign a Game API URL ready to call</p>
+  <div class="markdown level1 summary"><p>Construct and sign the GameJolt Game API URL in string format</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -529,7 +634,7 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">endpoint</span></td>
-        <td><p>Game API endpoint</p>
+        <td><p>GameJolt Game API endpoint</p>
 </td>
       </tr>
       <tr>
@@ -541,7 +646,7 @@
       <tr>
         <td><a class="xref" href="CodeReactor.CRGameJolt.Connector.WebProtocol.html">WebProtocol</a></td>
         <td><span class="parametername">protocol</span></td>
-        <td><p>Set the protocol to build URL</p>
+        <td><p>Set the web protocol of URL</p>
 </td>
       </tr>
     </tbody>
@@ -557,21 +662,27 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>Constructed Game API url ready to call</p>
+        <td><p>Constructed GameJolt Game API URL</p>
 </td>
       </tr>
     </tbody>
   </table>
+  <h5 id="CodeReactor_CRGameJolt_Connector_URLConstructor_Call_System_String_System_String___CodeReactor_CRGameJolt_Connector_WebProtocol__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor_Sign_System_String_">Sign(String)</a></div>
+      <div><a class="xref" href="CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor_WebProtocolToString_CodeReactor_CRGameJolt_Connector_WebProtocol_">WebProtocolToString(WebProtocol)</a></div>
+      <div><a class="xref" href="CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor_APIVersionToString_CodeReactor_CRGameJolt_Connector_APIVersion_">APIVersionToString(APIVersion)</a></div>
+  </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_Connector_URLConstructor_SetGameKey_System_String_.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.Connector.URLConstructor.SetGameKey(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Connector/URLConstructor.cs/#L199">View Source</a>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Connector/URLConstructor.cs/#L215">View Source</a>
   </span>
   <a id="CodeReactor_CRGameJolt_Connector_URLConstructor_SetGameKey_" data-uid="CodeReactor.CRGameJolt.Connector.URLConstructor.SetGameKey*"></a>
   <h4 id="CodeReactor_CRGameJolt_Connector_URLConstructor_SetGameKey_System_String_" data-uid="CodeReactor.CRGameJolt.Connector.URLConstructor.SetGameKey(System.String)">SetGameKey(String)</h4>
-  <div class="markdown level1 summary"><p>Edit the Game key used by signer</p>
+  <div class="markdown level1 summary"><p>Edit the Game Key used by <a class="xref" href="CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor_Call_System_String_System_String___">Call(String, String[])</a> and <a class="xref" href="CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor_Call_System_String_System_String___CodeReactor_CRGameJolt_Connector_WebProtocol_">Call(String, String[], WebProtocol)</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -591,7 +702,7 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">gameKey</span></td>
-        <td><p>Game private key getted from Manage Achivements tab</p>
+        <td><p>Game private key founded on Manage Achivements tab</p>
 </td>
       </tr>
     </tbody>
@@ -601,11 +712,11 @@
     <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_Connector_URLConstructor_Sign_System_String_.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.Connector.URLConstructor.Sign(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Connector/URLConstructor.cs/#L155">View Source</a>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Connector/URLConstructor.cs/#L170">View Source</a>
   </span>
   <a id="CodeReactor_CRGameJolt_Connector_URLConstructor_Sign_" data-uid="CodeReactor.CRGameJolt.Connector.URLConstructor.Sign*"></a>
   <h4 id="CodeReactor_CRGameJolt_Connector_URLConstructor_Sign_System_String_" data-uid="CodeReactor.CRGameJolt.Connector.URLConstructor.Sign(System.String)">Sign(String)</h4>
-  <div class="markdown level1 summary"><p>Sign a Game API call URL with game key and signature type from SignatureType</p>
+  <div class="markdown level1 summary"><p>Create a signature based on algorithm specified on <a class="xref" href="CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor_SignatureType">SignatureType</a> property</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -625,7 +736,7 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">url</span></td>
-        <td><p>Game API call url to sign</p>
+        <td><p>URL or string to sign</p>
 </td>
       </tr>
     </tbody>
@@ -641,7 +752,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>Signed call url</p>
+        <td><p>Signed string with <a class="xref" href="CodeReactor.CRGameJolt.Connector.URLConstructor.html#CodeReactor_CRGameJolt_Connector_URLConstructor_SignatureType">SignatureType</a> cipher algorithm</p>
 </td>
       </tr>
     </tbody>
@@ -651,11 +762,11 @@
     <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_Connector_URLConstructor_Sign_System_String_CodeReactor_CRGameJolt_Connector_SignatureType_.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.Connector.URLConstructor.Sign(System.String%2CCodeReactor.CRGameJolt.Connector.SignatureType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Connector/URLConstructor.cs/#L166">View Source</a>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Connector/URLConstructor.cs/#L182">View Source</a>
   </span>
   <a id="CodeReactor_CRGameJolt_Connector_URLConstructor_Sign_" data-uid="CodeReactor.CRGameJolt.Connector.URLConstructor.Sign*"></a>
   <h4 id="CodeReactor_CRGameJolt_Connector_URLConstructor_Sign_System_String_CodeReactor_CRGameJolt_Connector_SignatureType_" data-uid="CodeReactor.CRGameJolt.Connector.URLConstructor.Sign(System.String,CodeReactor.CRGameJolt.Connector.SignatureType)">Sign(String, SignatureType)</h4>
-  <div class="markdown level1 summary"><p>Sign a Game API call URL with game key</p>
+  <div class="markdown level1 summary"><p>Create a signature based on algorithm specified on <code data-dev-comment-type="paramref" class="paramref">signatureType</code> parameter</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -675,13 +786,13 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">url</span></td>
-        <td><p>Game API call url to sign</p>
+        <td><p>URL or string to sign</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="CodeReactor.CRGameJolt.Connector.SignatureType.html">SignatureType</a></td>
         <td><span class="parametername">signatureType</span></td>
-        <td><p>A signature type to specify sign</p>
+        <td><p>The cipher algorithm to use</p>
 </td>
       </tr>
     </tbody>
@@ -697,7 +808,23 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>Signed call url</p>
+        <td><p>Signed string with <code data-dev-comment-type="paramref" class="paramref">signatureType</code> cipher algorithm</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.Connector.InvalidSignatureTypeException.html">InvalidSignatureTypeException</a></td>
+        <td><p>Throwed if <code data-dev-comment-type="paramref" class="paramref">signatureType</code> is invalid or null</p>
 </td>
       </tr>
     </tbody>
@@ -707,11 +834,11 @@
     <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_Connector_URLConstructor_WebProtocolToString_CodeReactor_CRGameJolt_Connector_WebProtocol_.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.Connector.URLConstructor.WebProtocolToString(CodeReactor.CRGameJolt.Connector.WebProtocol)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Connector/URLConstructor.cs/#L109">View Source</a>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Connector/URLConstructor.cs/#L118">View Source</a>
   </span>
   <a id="CodeReactor_CRGameJolt_Connector_URLConstructor_WebProtocolToString_" data-uid="CodeReactor.CRGameJolt.Connector.URLConstructor.WebProtocolToString*"></a>
   <h4 id="CodeReactor_CRGameJolt_Connector_URLConstructor_WebProtocolToString_CodeReactor_CRGameJolt_Connector_WebProtocol_" data-uid="CodeReactor.CRGameJolt.Connector.URLConstructor.WebProtocolToString(CodeReactor.CRGameJolt.Connector.WebProtocol)">WebProtocolToString(WebProtocol)</h4>
-  <div class="markdown level1 summary"><p>Convert from enum to a valid web protocol to place on front of the URL</p>
+  <div class="markdown level1 summary"><p>Convert from <a class="xref" href="CodeReactor.CRGameJolt.Connector.WebProtocol.html">WebProtocol</a> to a valid web protocol in string format like &quot;https://&quot;</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -731,7 +858,7 @@
       <tr>
         <td><a class="xref" href="CodeReactor.CRGameJolt.Connector.WebProtocol.html">WebProtocol</a></td>
         <td><span class="parametername">protocol</span></td>
-        <td><p>Set the protocol to build URL</p>
+        <td><p>Enum that gonna be converted</p>
 </td>
       </tr>
     </tbody>
@@ -747,7 +874,23 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>A web protocol formated like &quot;https://&quot;</p>
+        <td><p>A web protocol formatted like &quot;https://&quot;</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.Connector.InvalidWebProtocolException.html">InvalidWebProtocolException</a></td>
+        <td><p>Throwed if <code data-dev-comment-type="paramref" class="paramref">protocol</code> aren't valid or null</p>
 </td>
       </tr>
     </tbody>
@@ -763,7 +906,7 @@
                     <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_Connector_URLConstructor.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.Connector.URLConstructor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Connector/URLConstructor.cs/#L11" class="contribution-link">View Source</a>
+                    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Connector/URLConstructor.cs/#L10" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
