@@ -10,7 +10,7 @@ namespace CodeReactor.CRGameJolt.DataStorage
     /// </summary>
     /// <seealso cref="IGJDataStorage"/>
     /// <seealso cref="DataStorageValue"/>
-    /// <seealso cref="WebCaller"/>
+    /// <seealso cref="Connector.WebCaller"/>
     public class GlobalDataStorage : IGJDataStorage
     {
         /// <inheritdoc/>
@@ -84,30 +84,18 @@ namespace CodeReactor.CRGameJolt.DataStorage
         /// <inheritdoc/>
         public void Read()
         {
-            Read(WebCaller);
-        }
-
-        /// <inheritdoc/>
-        public void Read(WebCaller webCaller)
-        {
             XElement response = WebCaller.GetAsXML("data-store/get-keys", new string[] { }).Element("response");
             if (response.Element("success").Value != "true") throw new GameJoltAPIException(response.Element("message").Value);
             foreach (XElement key in response.Element("keys").Elements("key"))
             {
-                Read(key.Value, webCaller);
+                Read(key.Value);
             }
         }
 
         /// <inheritdoc/>
         public void Read(string key)
         {
-            Read(key, WebCaller);
-        }
-
-        /// <inheritdoc/>
-        public void Read(string key, WebCaller webCaller)
-        {
-            XElement response = webCaller.GetAsXML("data-store", new string[] { "key=" + key }).Element("response");
+            XElement response = WebCaller.GetAsXML("data-store", new string[] { "key=" + key }).Element("response");
             if (response.Element("success").Value != "true") throw new GameJoltAPIException(response.Element("message").Value);
             int preintvalue;
             if (int.TryParse(response.Element("data").Value, out preintvalue))
@@ -123,14 +111,8 @@ namespace CodeReactor.CRGameJolt.DataStorage
         /// <inheritdoc/>
         public void Remove(string key)
         {
-            Remove(key, WebCaller);
-        }
-
-        /// <inheritdoc/>
-        public void Remove(string key, WebCaller webCaller)
-        {
             _ = Cache.TryRemove(key, out _);
-            XElement response = webCaller.GetAsXML("data-store/remove", new string[] { "key=" + WebUtility.UrlEncode(key) }).Element("response");
+            XElement response = WebCaller.GetAsXML("data-store/remove", new string[] { "key=" + WebUtility.UrlEncode(key) }).Element("response");
             if (response.Element("success").Value != "true") throw new GameJoltAPIException(response.Element("message").Value);
         }
 
@@ -162,41 +144,23 @@ namespace CodeReactor.CRGameJolt.DataStorage
         }
 
         /// <inheritdoc/>
-        public void Update(WebCaller webCaller)
-        {
-            Read(webCaller);
-            Write(webCaller);
-        }
-
-        /// <inheritdoc/>
         public void Update()
         {
-            Update(WebCaller);
+            Read();
+            Write();
         }
 
         /// <inheritdoc/>
         public void Write()
         {
-            Write(WebCaller);
-        }
-
-        /// <inheritdoc/>
-        public void Write(WebCaller webCaller)
-        {
             foreach (string key in Cache.Keys)
             {
-                Write(key, webCaller);
+                Write(key);
             }
         }
 
         /// <inheritdoc/>
         public void Write(string key)
-        {
-            Write(key, WebCaller);
-        }
-
-        /// <inheritdoc/>
-        public void Write(string key, WebCaller webCaller)
         {
             DataStorageValue tmp = Cache[key];
             string data;
@@ -207,7 +171,7 @@ namespace CodeReactor.CRGameJolt.DataStorage
             {
                 data = tmp;
             }
-            XElement response = webCaller.GetAsXML("data-store/set", new string[] { "key=" + WebUtility.UrlEncode(key), "data=" + WebUtility.UrlEncode(data) }).Element("response");
+            XElement response = WebCaller.GetAsXML("data-store/set", new string[] { "key=" + WebUtility.UrlEncode(key), "data=" + WebUtility.UrlEncode(data) }).Element("response");
             if (response.Element("success").Value != "true") throw new GameJoltAPIException(response.Element("message").Value);
         }
     }

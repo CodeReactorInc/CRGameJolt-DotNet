@@ -17,60 +17,30 @@ namespace CodeReactor.CRGameJolt.DataStorage
         ConcurrentDictionary<string, DataStorageValue> Cache { get; }
 
         /// <summary>
-        /// Read all Data Storage from GameJolt Game API using default <see cref="WebCaller"/>
+        /// Read all Data Storage from GameJolt Game API
         /// </summary>
         /// <exception cref="GameJoltAPIException">Throwed if GameJolt Game API return a non-success response</exception>
         void Read();
 
         /// <summary>
-        /// Write all <see cref="Cache"/> to GameJolt Game API using default <see cref="WebCaller"/>
+        /// Write all <see cref="Cache"/> to GameJolt Game API
         /// </summary>
         /// <exception cref="GameJoltAPIException">Throwed if GameJolt Game API return a non-success response</exception>
         void Write();
 
         /// <summary>
-        /// Read all Data Storage from GameJolt Game API using a custom <see cref="WebCaller"/>
-        /// </summary>
-        /// <param name="webCaller">A custom <see cref="WebCaller"/> to use</param>
-        /// <exception cref="GameJoltAPIException">Throwed if GameJolt Game API return a non-success response</exception>
-        void Read(WebCaller webCaller);
-
-        /// <summary>
-        /// Write all <see cref="Cache"/> to GameJolt Game API using a custom <see cref="WebCaller"/>
-        /// </summary>
-        /// <param name="webCaller">A custom <see cref="WebCaller"/> to use</param>
-        /// <exception cref="GameJoltAPIException">Throwed if GameJolt Game API return a non-success response</exception>
-        void Write(WebCaller webCaller);
-
-        /// <summary>
-        /// Only read a key from Data Storage from GameJolt Game API using default <see cref="WebCaller"/>
+        /// Only read a key from Data Storage from GameJolt Game API
         /// </summary>
         /// <param name="key">Key to read from Data Storage</param>
         /// <exception cref="GameJoltAPIException">Throwed if GameJolt Game API return a non-success response</exception>
         void Read(string key);
 
         /// <summary>
-        /// Only write a key from <see cref="Cache"/> to GameJolt Game API using default <see cref="WebCaller"/>
+        /// Only write a key from <see cref="Cache"/> to GameJolt Game API
         /// </summary>
         /// <param name="key">Key to write from <see cref="Cache"/></param>
         /// <exception cref="GameJoltAPIException">Throwed if GameJolt Game API return a non-success response</exception>
         void Write(string key);
-
-        /// <summary>
-        /// Only read a key from Data Storage from GameJolt Game API using a custom <see cref="WebCaller"/>
-        /// </summary>
-        /// <param name="key">Key to read from Data Storage</param>
-        /// <param name="webCaller">A custom <see cref="WebCaller"/> to use</param>
-        /// <exception cref="GameJoltAPIException">Throwed if GameJolt Game API return a non-success response</exception>
-        void Read(string key, WebCaller webCaller);
-
-        /// <summary>
-        /// Only write a key from <see cref="Cache"/> to GameJolt Game API using a custom <see cref="WebCaller"/>
-        /// </summary>
-        /// <param name="key">Key to write from <see cref="Cache"/></param>
-        /// <param name="webCaller">A custom <see cref="WebCaller"/> to use</param>
-        /// <exception cref="GameJoltAPIException">Throwed if GameJolt Game API return a non-success response</exception>
-        void Write(string key, WebCaller webCaller);
 
         /// <summary>
         /// Remove a value from <see cref="Cache"/> and Data Storage using a key
@@ -78,13 +48,6 @@ namespace CodeReactor.CRGameJolt.DataStorage
         /// <param name="key">Key of value to remove</param>
         /// <exception cref="GameJoltAPIException">Throwed if GameJolt Game API return a non-success response</exception>
         void Remove(string key);
-
-        /// <summary>
-        /// Remove a value from <see cref="Cache"/> and Data Storage using a key and a custom <see cref="WebCaller"/>
-        /// </summary>
-        /// <param name="key">Key of value to remove</param>
-        /// <exception cref="GameJoltAPIException">Throwed if GameJolt Game API return a non-success response</exception>
-        void Remove(string key, WebCaller webCaller);
 
         /// <summary>
         /// Add or update a value on <see cref="Cache"/>

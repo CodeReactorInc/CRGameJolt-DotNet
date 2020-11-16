@@ -15,13 +15,6 @@ namespace CodeReactor.CRGameJolt
         /// <summary>
         /// A method that can be used to reload or update a local or online data
         /// </summary>
-        /// <param name="webCaller">A <see cref="WebCaller"/> used to send the GameJolt Game API call</param>
-        /// <exception cref="GameJoltAPIException">Throwed if GameJolt Game API return a non-success response</exception>
-        void Update(WebCaller webCaller);
-
-        /// <summary>
-        /// A alternative method to <see cref="Update(WebCaller)"/> but using <see cref="WebCaller"/> property
-        /// </summary>
         /// <exception cref="GameJoltAPIException">Throwed if GameJolt Game API return a non-success response</exception>
         void Update();
     }
