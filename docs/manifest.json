@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html",
-          "hash": "5mxjrrkVZf+rIRzq6m++Yw=="
+          "hash": "MG1moKrsHTTnNo+Q8udBww=="
         }
       },
       "is_incremental": false,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html",
-          "hash": "+qDYTXmTHOndWeYUXvbZJQ=="
+          "hash": "gmsTZqugQ3YYbU7RdivW9A=="
         }
       },
       "is_incremental": false,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html",
-          "hash": "QdsuVJQOl28u4CRA6r2HGw=="
+          "hash": "Whq8evHFj2QkprGTQ04JWQ=="
         }
       },
       "is_incremental": false,
@@ -185,11 +185,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CodeReactor.CRGameJolt.DataStorage.UserDataStorage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeReactor.CRGameJolt.DataStorage.UserDataStorage.html",
+          "hash": "Vniq0mYyFhgSz/XBAWnbVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CodeReactor.CRGameJolt.DataStorage.yml",
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.DataStorage.html",
-          "hash": "IuhiP3qB4QStO2vtZv/ycg=="
+          "hash": "RxtJZJ66gIqoH9zpVuESqQ=="
         }
       },
       "is_incremental": false,
@@ -237,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Users.GameJoltMe.html",
-          "hash": "q4juCZgIhiv9jZA2Pb0RCA=="
+          "hash": "0qasAZhSlZPAiyfh6DgYrA=="
         }
       },
       "is_incremental": false,
@@ -417,7 +429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "hsuqlw8ckk5ydc+sLJf2PA=="
+          "hash": "zPb7ZjDS5CvstxmqAay8KA=="
         }
       },
       "is_incremental": false,
@@ -490,8 +502,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 32,
-          "skipped_file_count": 25
+          "total_file_count": 33,
+          "skipped_file_count": 27
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
