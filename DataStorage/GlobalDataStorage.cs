@@ -1,5 +1,6 @@
 ﻿using CodeReactor.CRGameJolt.Connector;
 using System.Collections.Concurrent;
+using System.Collections.Generic;
 using System.Net;
 using System.Xml.Linq;
 
@@ -10,6 +11,7 @@ namespace CodeReactor.CRGameJolt.DataStorage
     /// </summary>
     /// <seealso cref="IGJDataStorage"/>
     /// <seealso cref="DataStorageValue"/>
+    /// <seealso cref="UserDataStorage"/>
     /// <seealso cref="Connector.WebCaller"/>
     public class GlobalDataStorage : IGJDataStorage
     {
@@ -33,7 +35,8 @@ namespace CodeReactor.CRGameJolt.DataStorage
         /// <inheritdoc/>
         public DataStorageValue Add(string key, int value)
         {
-            DataStorageValue tmp = Cache[key];
+            DataStorageValue tmp = Get(key);
+            if (tmp == null) return null;
             tmp.Add(value);
             Cache[key] = tmp;
             return tmp;
@@ -42,7 +45,8 @@ namespace CodeReactor.CRGameJolt.DataStorage
         /// <inheritdoc/>
         public DataStorageValue Append(string key, string value)
         {
-            DataStorageValue tmp = Cache[key];
+            DataStorageValue tmp = Get(key);
+            if (tmp == null) return null;
             tmp.Append(value);
             Cache[key] = tmp;
             return tmp;
@@ -51,7 +55,8 @@ namespace CodeReactor.CRGameJolt.DataStorage
         /// <inheritdoc/>
         public DataStorageValue Divide(string key, int value)
         {
-            DataStorageValue tmp = Cache[key];
+            DataStorageValue tmp = Get(key);
+            if (tmp == null) return null;
             tmp.Divide(value);
             Cache[key] = tmp;
             return tmp;
@@ -60,13 +65,21 @@ namespace CodeReactor.CRGameJolt.DataStorage
         /// <inheritdoc/>
         public DataStorageValue Get(string key)
         {
-            return Cache[key];
+            try
+            {
+                return Cache[key];
+            }
+            catch (KeyNotFoundException)
+            {
+                return null;
+            }
         }
 
         /// <inheritdoc/>
         public DataStorageValue Multiply(string key, int value)
         {
-            DataStorageValue tmp = Cache[key];
+            DataStorageValue tmp = Get(key);
+            if (tmp == null) return null;
             tmp.Multiply(value);
             Cache[key] = tmp;
             return tmp;
@@ -75,7 +88,8 @@ namespace CodeReactor.CRGameJolt.DataStorage
         /// <inheritdoc/>
         public DataStorageValue Prepend(string key, string value)
         {
-            DataStorageValue tmp = Cache[key];
+            DataStorageValue tmp = Get(key);
+            if (tmp == null) return null;
             tmp.Prepend(value);
             Cache[key] = tmp;
             return tmp;
@@ -137,7 +151,8 @@ namespace CodeReactor.CRGameJolt.DataStorage
         /// <inheritdoc/>
         public DataStorageValue Subtract(string key, int value)
         {
-            DataStorageValue tmp = Cache[key];
+            DataStorageValue tmp = Get(key);
+            if (tmp == null) return null;
             tmp.Subtract(value);
             Cache[key] = tmp;
             return tmp;
@@ -162,7 +177,8 @@ namespace CodeReactor.CRGameJolt.DataStorage
         /// <inheritdoc/>
         public void Write(string key)
         {
-            DataStorageValue tmp = Cache[key];
+            DataStorageValue tmp = Get(key);
+            if (tmp == null) return;
             string data;
             if (tmp.Type == DSValueType.INTEGER)
             {
