@@ -1,0 +1,482 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class FriendList
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class FriendList
+   ">
+    <meta name="generator" content="docfx 2.56.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CodeReactor.CRGameJolt.Users.FriendList">
+  
+  
+  <h1 id="CodeReactor_CRGameJolt_Users_FriendList" data-uid="CodeReactor.CRGameJolt.Users.FriendList" class="text-break">Class FriendList
+  </h1>
+  <div class="markdown level0 summary"><p>A thread safe List created using the friend list from a user in GameJolt</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">System.Collections.Concurrent.ConcurrentDictionary</span>&lt;<span class="xref">System.Int32</span>, <a class="xref" href="CodeReactor.CRGameJolt.Users.GameJoltUser.html">GameJoltUser</a>&gt;</div>
+    <div class="level2"><span class="xref">FriendList</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.Int32</span>, <a class="xref" href="CodeReactor.CRGameJolt.Users.GameJoltUser.html">GameJoltUser</a>&gt;</div>
+    <div><span class="xref">System.Collections.Generic.ICollection</span>&lt;<span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.Int32</span>, <a class="xref" href="CodeReactor.CRGameJolt.Users.GameJoltUser.html">GameJoltUser</a>&gt;&gt;</div>
+    <div><span class="xref">System.Collections.Generic.IReadOnlyDictionary</span>&lt;<span class="xref">System.Int32</span>, <a class="xref" href="CodeReactor.CRGameJolt.Users.GameJoltUser.html">GameJoltUser</a>&gt;</div>
+    <div><span class="xref">System.Collections.Generic.IReadOnlyCollection</span>&lt;<span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.Int32</span>, <a class="xref" href="CodeReactor.CRGameJolt.Users.GameJoltUser.html">GameJoltUser</a>&gt;&gt;</div>
+    <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.Int32</span>, <a class="xref" href="CodeReactor.CRGameJolt.Users.GameJoltUser.html">GameJoltUser</a>&gt;&gt;</div>
+    <div><span class="xref">System.Collections.IDictionary</span></div>
+    <div><span class="xref">System.Collections.ICollection</span></div>
+    <div><span class="xref">System.Collections.IEnumerable</span></div>
+    <div><a class="xref" href="CodeReactor.CRGameJolt.IGJObject.html">IGJObject</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.System.Collections.IDictionary.get_Item(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.System.Collections.IDictionary.set_Item(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.AddOrUpdate(System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser, System.Func&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.AddOrUpdate(System.Int32, System.Func&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;, System.Func&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.Clear()</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.ContainsKey(System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.GetEnumerator()</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.GetOrAdd(System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.GetOrAdd(System.Int32, System.Func&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;&gt;.Add(System.Collections.Generic.KeyValuePair&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;&gt;.Contains(System.Collections.Generic.KeyValuePair&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;&gt;.CopyTo(System.Collections.Generic.KeyValuePair&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;[], System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;&gt;.Remove(System.Collections.Generic.KeyValuePair&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.System.Collections.Generic.IDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.Add(System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.System.Collections.Generic.IDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.Remove(System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.System.Collections.ICollection.CopyTo(System.Array, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.System.Collections.IDictionary.Add(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.System.Collections.IDictionary.Contains(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.System.Collections.IDictionary.GetEnumerator()</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.System.Collections.IDictionary.Remove(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.System.Collections.IEnumerable.GetEnumerator()</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.ToArray()</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.TryAdd(System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.TryGetValue(System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.TryRemove(System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.TryUpdate(System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser, CodeReactor.CRGameJolt.Users.GameJoltUser)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.Count</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.IsEmpty</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.Item[System.Int32]</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.Keys</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;&gt;.IsReadOnly</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.System.Collections.Generic.IReadOnlyDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.Keys</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.System.Collections.Generic.IReadOnlyDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.Values</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.System.Collections.ICollection.IsSynchronized</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.System.Collections.ICollection.SyncRoot</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.System.Collections.IDictionary.IsFixedSize</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.System.Collections.IDictionary.IsReadOnly</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.System.Collections.IDictionary.Item[System.Object]</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.System.Collections.IDictionary.Keys</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.System.Collections.IDictionary.Values</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Concurrent.ConcurrentDictionary&lt;System.Int32, CodeReactor.CRGameJolt.Users.GameJoltUser&gt;.Values</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CodeReactor.CRGameJolt.Users.html">CodeReactor.CRGameJolt.Users</a></h6>
+  <h6><strong>Assembly</strong>: CRGameJolt.dll</h6>
+  <h5 id="CodeReactor_CRGameJolt_Users_FriendList_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class FriendList : ConcurrentDictionary&lt;int, GameJoltUser&gt;, IDictionary&lt;int, GameJoltUser&gt;, ICollection&lt;KeyValuePair&lt;int, GameJoltUser&gt;&gt;, IReadOnlyDictionary&lt;int, GameJoltUser&gt;, IReadOnlyCollection&lt;KeyValuePair&lt;int, GameJoltUser&gt;&gt;, IEnumerable&lt;KeyValuePair&lt;int, GameJoltUser&gt;&gt;, IDictionary, ICollection, IEnumerable, IGJObject</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_Users_FriendList__ctor_CodeReactor_CRGameJolt_Users_GameJoltMe_CodeReactor_CRGameJolt_Connector_WebCaller_.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.Users.FriendList.%23ctor(CodeReactor.CRGameJolt.Users.GameJoltMe%2CCodeReactor.CRGameJolt.Connector.WebCaller)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Users/FriendList.cs/#L29">View Source</a>
+  </span>
+  <a id="CodeReactor_CRGameJolt_Users_FriendList__ctor_" data-uid="CodeReactor.CRGameJolt.Users.FriendList.#ctor*"></a>
+  <h4 id="CodeReactor_CRGameJolt_Users_FriendList__ctor_CodeReactor_CRGameJolt_Users_GameJoltMe_CodeReactor_CRGameJolt_Connector_WebCaller_" data-uid="CodeReactor.CRGameJolt.Users.FriendList.#ctor(CodeReactor.CRGameJolt.Users.GameJoltMe,CodeReactor.CRGameJolt.Connector.WebCaller)">FriendList(GameJoltMe, WebCaller)</h4>
+  <div class="markdown level1 summary"><p>Create a new <a class="xref" href="CodeReactor.CRGameJolt.Users.FriendList.html">FriendList</a> using a <a class="xref" href="CodeReactor.CRGameJolt.Users.GameJoltMe.html">GameJoltMe</a> to download a friend list</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FriendList(GameJoltMe user, WebCaller webCaller)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.Users.GameJoltMe.html">GameJoltMe</a></td>
+        <td><span class="parametername">user</span></td>
+        <td><p>User that contain the friend list</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.Connector.WebCaller.html">WebCaller</a></td>
+        <td><span class="parametername">webCaller</span></td>
+        <td><p>A instance of <a class="xref" href="CodeReactor.CRGameJolt.Users.FriendList.html#CodeReactor_CRGameJolt_Users_FriendList_WebCaller">WebCaller</a> to download the data</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.GameJoltAPIException.html">GameJoltAPIException</a></td>
+        <td><p>Throwed if GameJolt Game API return a non-success response</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_Users_FriendList_User.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.Users.FriendList.User%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Users/FriendList.cs/#L21">View Source</a>
+  </span>
+  <a id="CodeReactor_CRGameJolt_Users_FriendList_User_" data-uid="CodeReactor.CRGameJolt.Users.FriendList.User*"></a>
+  <h4 id="CodeReactor_CRGameJolt_Users_FriendList_User" data-uid="CodeReactor.CRGameJolt.Users.FriendList.User">User</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameJoltMe User { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.Users.GameJoltMe.html">GameJoltMe</a></td>
+        <td><p>User used to download friend list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_Users_FriendList_WebCaller.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.Users.FriendList.WebCaller%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Users/FriendList.cs/#L37">View Source</a>
+  </span>
+  <a id="CodeReactor_CRGameJolt_Users_FriendList_WebCaller_" data-uid="CodeReactor.CRGameJolt.Users.FriendList.WebCaller*"></a>
+  <h4 id="CodeReactor_CRGameJolt_Users_FriendList_WebCaller" data-uid="CodeReactor.CRGameJolt.Users.FriendList.WebCaller">WebCaller</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public WebCaller WebCaller { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.Connector.WebCaller.html">WebCaller</a></td>
+        <td><p>A shared and modificable <a class="xref" href="CodeReactor.CRGameJolt.Connector.WebCaller.html">WebCaller</a> instance</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_Users_FriendList_Update.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.Users.FriendList.Update%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Users/FriendList.cs/#L40">View Source</a>
+  </span>
+  <a id="CodeReactor_CRGameJolt_Users_FriendList_Update_" data-uid="CodeReactor.CRGameJolt.Users.FriendList.Update*"></a>
+  <h4 id="CodeReactor_CRGameJolt_Users_FriendList_Update" data-uid="CodeReactor.CRGameJolt.Users.FriendList.Update">Update()</h4>
+  <div class="markdown level1 summary"><p>A method that can be used to reload or update a local or online data</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Update()</code></pre>
+  </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.GameJoltAPIException.html">GameJoltAPIException</a></td>
+        <td><p>Throwed if GameJolt Game API return a non-success response</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.Collections.Generic.IDictionary&lt;TKey, TValue&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.Generic.ICollection&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.Generic.IReadOnlyDictionary&lt;TKey, TValue&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.Generic.IReadOnlyCollection&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.IDictionary</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.ICollection</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.IEnumerable</span>
+  </div>
+  <div>
+      <a class="xref" href="CodeReactor.CRGameJolt.IGJObject.html">IGJObject</a>
+  </div>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="CodeReactor.CRGameJolt.Users.GameJoltMe.html">GameJoltMe</a></div>
+      <div><a class="xref" href="CodeReactor.CRGameJolt.Users.GameJoltUser.html">GameJoltUser</a></div>
+      <div><a class="xref" href="CodeReactor.CRGameJolt.IGJObject.html">IGJObject</a></div>
+      <div><a class="xref" href="CodeReactor.CRGameJolt.Connector.WebCaller.html">WebCaller</a></div>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_Users_FriendList.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.Users.FriendList%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Users/FriendList.cs/#L16" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

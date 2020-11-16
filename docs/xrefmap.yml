@@ -755,24 +755,12 @@ references:
   commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Read
   fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Read()
   nameWithType: GlobalDataStorage.Read()
-- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Read(CodeReactor.CRGameJolt.Connector.WebCaller)
-  name: Read(WebCaller)
-  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Read_CodeReactor_CRGameJolt_Connector_WebCaller_
-  commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Read(CodeReactor.CRGameJolt.Connector.WebCaller)
-  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Read(CodeReactor.CRGameJolt.Connector.WebCaller)
-  nameWithType: GlobalDataStorage.Read(WebCaller)
 - uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Read(System.String)
   name: Read(String)
   href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Read_System_String_
   commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Read(System.String)
   fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Read(System.String)
   nameWithType: GlobalDataStorage.Read(String)
-- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Read(System.String,CodeReactor.CRGameJolt.Connector.WebCaller)
-  name: Read(String, WebCaller)
-  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Read_System_String_CodeReactor_CRGameJolt_Connector_WebCaller_
-  commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Read(System.String,CodeReactor.CRGameJolt.Connector.WebCaller)
-  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Read(System.String, CodeReactor.CRGameJolt.Connector.WebCaller)
-  nameWithType: GlobalDataStorage.Read(String, WebCaller)
 - uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Read*
   name: Read
   href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Read_
@@ -786,12 +774,6 @@ references:
   commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Remove(System.String)
   fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Remove(System.String)
   nameWithType: GlobalDataStorage.Remove(String)
-- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Remove(System.String,CodeReactor.CRGameJolt.Connector.WebCaller)
-  name: Remove(String, WebCaller)
-  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Remove_System_String_CodeReactor_CRGameJolt_Connector_WebCaller_
-  commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Remove(System.String,CodeReactor.CRGameJolt.Connector.WebCaller)
-  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Remove(System.String, CodeReactor.CRGameJolt.Connector.WebCaller)
-  nameWithType: GlobalDataStorage.Remove(String, WebCaller)
 - uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Remove*
   name: Remove
   href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Remove_
@@ -843,12 +825,6 @@ references:
   commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Update
   fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Update()
   nameWithType: GlobalDataStorage.Update()
-- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Update(CodeReactor.CRGameJolt.Connector.WebCaller)
-  name: Update(WebCaller)
-  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Update_CodeReactor_CRGameJolt_Connector_WebCaller_
-  commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Update(CodeReactor.CRGameJolt.Connector.WebCaller)
-  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Update(CodeReactor.CRGameJolt.Connector.WebCaller)
-  nameWithType: GlobalDataStorage.Update(WebCaller)
 - uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Update*
   name: Update
   href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Update_
@@ -875,24 +851,12 @@ references:
   commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Write
   fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Write()
   nameWithType: GlobalDataStorage.Write()
-- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Write(CodeReactor.CRGameJolt.Connector.WebCaller)
-  name: Write(WebCaller)
-  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Write_CodeReactor_CRGameJolt_Connector_WebCaller_
-  commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Write(CodeReactor.CRGameJolt.Connector.WebCaller)
-  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Write(CodeReactor.CRGameJolt.Connector.WebCaller)
-  nameWithType: GlobalDataStorage.Write(WebCaller)
 - uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Write(System.String)
   name: Write(String)
   href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Write_System_String_
   commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Write(System.String)
   fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Write(System.String)
   nameWithType: GlobalDataStorage.Write(String)
-- uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Write(System.String,CodeReactor.CRGameJolt.Connector.WebCaller)
-  name: Write(String, WebCaller)
-  href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Write_System_String_CodeReactor_CRGameJolt_Connector_WebCaller_
-  commentId: M:CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Write(System.String,CodeReactor.CRGameJolt.Connector.WebCaller)
-  fullName: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Write(System.String, CodeReactor.CRGameJolt.Connector.WebCaller)
-  nameWithType: GlobalDataStorage.Write(String, WebCaller)
 - uid: CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.Write*
   name: Write
   href: api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html#CodeReactor_CRGameJolt_DataStorage_GlobalDataStorage_Write_
@@ -1003,24 +967,12 @@ references:
   commentId: M:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Read
   fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Read()
   nameWithType: IGJDataStorage.Read()
-- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Read(CodeReactor.CRGameJolt.Connector.WebCaller)
-  name: Read(WebCaller)
-  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Read_CodeReactor_CRGameJolt_Connector_WebCaller_
-  commentId: M:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Read(CodeReactor.CRGameJolt.Connector.WebCaller)
-  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Read(CodeReactor.CRGameJolt.Connector.WebCaller)
-  nameWithType: IGJDataStorage.Read(WebCaller)
 - uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Read(System.String)
   name: Read(String)
   href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Read_System_String_
   commentId: M:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Read(System.String)
   fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Read(System.String)
   nameWithType: IGJDataStorage.Read(String)
-- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Read(System.String,CodeReactor.CRGameJolt.Connector.WebCaller)
-  name: Read(String, WebCaller)
-  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Read_System_String_CodeReactor_CRGameJolt_Connector_WebCaller_
-  commentId: M:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Read(System.String,CodeReactor.CRGameJolt.Connector.WebCaller)
-  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Read(System.String, CodeReactor.CRGameJolt.Connector.WebCaller)
-  nameWithType: IGJDataStorage.Read(String, WebCaller)
 - uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Read*
   name: Read
   href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Read_
@@ -1034,12 +986,6 @@ references:
   commentId: M:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Remove(System.String)
   fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Remove(System.String)
   nameWithType: IGJDataStorage.Remove(String)
-- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Remove(System.String,CodeReactor.CRGameJolt.Connector.WebCaller)
-  name: Remove(String, WebCaller)
-  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Remove_System_String_CodeReactor_CRGameJolt_Connector_WebCaller_
-  commentId: M:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Remove(System.String,CodeReactor.CRGameJolt.Connector.WebCaller)
-  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Remove(System.String, CodeReactor.CRGameJolt.Connector.WebCaller)
-  nameWithType: IGJDataStorage.Remove(String, WebCaller)
 - uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Remove*
   name: Remove
   href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Remove_
@@ -1091,24 +1037,12 @@ references:
   commentId: M:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Write
   fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Write()
   nameWithType: IGJDataStorage.Write()
-- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Write(CodeReactor.CRGameJolt.Connector.WebCaller)
-  name: Write(WebCaller)
-  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Write_CodeReactor_CRGameJolt_Connector_WebCaller_
-  commentId: M:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Write(CodeReactor.CRGameJolt.Connector.WebCaller)
-  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Write(CodeReactor.CRGameJolt.Connector.WebCaller)
-  nameWithType: IGJDataStorage.Write(WebCaller)
 - uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Write(System.String)
   name: Write(String)
   href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Write_System_String_
   commentId: M:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Write(System.String)
   fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Write(System.String)
   nameWithType: IGJDataStorage.Write(String)
-- uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Write(System.String,CodeReactor.CRGameJolt.Connector.WebCaller)
-  name: Write(String, WebCaller)
-  href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Write_System_String_CodeReactor_CRGameJolt_Connector_WebCaller_
-  commentId: M:CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Write(System.String,CodeReactor.CRGameJolt.Connector.WebCaller)
-  fullName: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Write(System.String, CodeReactor.CRGameJolt.Connector.WebCaller)
-  nameWithType: IGJDataStorage.Write(String, WebCaller)
 - uid: CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Write*
   name: Write
   href: api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Write_
@@ -1202,12 +1136,6 @@ references:
   commentId: M:CodeReactor.CRGameJolt.IGJObject.Update
   fullName: CodeReactor.CRGameJolt.IGJObject.Update()
   nameWithType: IGJObject.Update()
-- uid: CodeReactor.CRGameJolt.IGJObject.Update(CodeReactor.CRGameJolt.Connector.WebCaller)
-  name: Update(WebCaller)
-  href: api/CodeReactor.CRGameJolt.IGJObject.html#CodeReactor_CRGameJolt_IGJObject_Update_CodeReactor_CRGameJolt_Connector_WebCaller_
-  commentId: M:CodeReactor.CRGameJolt.IGJObject.Update(CodeReactor.CRGameJolt.Connector.WebCaller)
-  fullName: CodeReactor.CRGameJolt.IGJObject.Update(CodeReactor.CRGameJolt.Connector.WebCaller)
-  nameWithType: IGJObject.Update(WebCaller)
 - uid: CodeReactor.CRGameJolt.IGJObject.Update*
   name: Update
   href: api/CodeReactor.CRGameJolt.IGJObject.html#CodeReactor_CRGameJolt_IGJObject_Update_
@@ -1228,3 +1156,596 @@ references:
   isSpec: "True"
   fullName: CodeReactor.CRGameJolt.IGJObject.WebCaller
   nameWithType: IGJObject.WebCaller
+- uid: CodeReactor.CRGameJolt.Users
+  name: CodeReactor.CRGameJolt.Users
+  href: api/CodeReactor.CRGameJolt.Users.html
+  commentId: N:CodeReactor.CRGameJolt.Users
+  fullName: CodeReactor.CRGameJolt.Users
+  nameWithType: CodeReactor.CRGameJolt.Users
+- uid: CodeReactor.CRGameJolt.Users.FriendList
+  name: FriendList
+  href: api/CodeReactor.CRGameJolt.Users.FriendList.html
+  commentId: T:CodeReactor.CRGameJolt.Users.FriendList
+  fullName: CodeReactor.CRGameJolt.Users.FriendList
+  nameWithType: FriendList
+- uid: CodeReactor.CRGameJolt.Users.FriendList.#ctor(CodeReactor.CRGameJolt.Users.GameJoltMe,CodeReactor.CRGameJolt.Connector.WebCaller)
+  name: FriendList(GameJoltMe, WebCaller)
+  href: api/CodeReactor.CRGameJolt.Users.FriendList.html#CodeReactor_CRGameJolt_Users_FriendList__ctor_CodeReactor_CRGameJolt_Users_GameJoltMe_CodeReactor_CRGameJolt_Connector_WebCaller_
+  commentId: M:CodeReactor.CRGameJolt.Users.FriendList.#ctor(CodeReactor.CRGameJolt.Users.GameJoltMe,CodeReactor.CRGameJolt.Connector.WebCaller)
+  fullName: CodeReactor.CRGameJolt.Users.FriendList.FriendList(CodeReactor.CRGameJolt.Users.GameJoltMe, CodeReactor.CRGameJolt.Connector.WebCaller)
+  nameWithType: FriendList.FriendList(GameJoltMe, WebCaller)
+- uid: CodeReactor.CRGameJolt.Users.FriendList.#ctor*
+  name: FriendList
+  href: api/CodeReactor.CRGameJolt.Users.FriendList.html#CodeReactor_CRGameJolt_Users_FriendList__ctor_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.FriendList.#ctor
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.FriendList.FriendList
+  nameWithType: FriendList.FriendList
+- uid: CodeReactor.CRGameJolt.Users.FriendList.Update
+  name: Update()
+  href: api/CodeReactor.CRGameJolt.Users.FriendList.html#CodeReactor_CRGameJolt_Users_FriendList_Update
+  commentId: M:CodeReactor.CRGameJolt.Users.FriendList.Update
+  fullName: CodeReactor.CRGameJolt.Users.FriendList.Update()
+  nameWithType: FriendList.Update()
+- uid: CodeReactor.CRGameJolt.Users.FriendList.Update*
+  name: Update
+  href: api/CodeReactor.CRGameJolt.Users.FriendList.html#CodeReactor_CRGameJolt_Users_FriendList_Update_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.FriendList.Update
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.FriendList.Update
+  nameWithType: FriendList.Update
+- uid: CodeReactor.CRGameJolt.Users.FriendList.User
+  name: User
+  href: api/CodeReactor.CRGameJolt.Users.FriendList.html#CodeReactor_CRGameJolt_Users_FriendList_User
+  commentId: P:CodeReactor.CRGameJolt.Users.FriendList.User
+  fullName: CodeReactor.CRGameJolt.Users.FriendList.User
+  nameWithType: FriendList.User
+- uid: CodeReactor.CRGameJolt.Users.FriendList.User*
+  name: User
+  href: api/CodeReactor.CRGameJolt.Users.FriendList.html#CodeReactor_CRGameJolt_Users_FriendList_User_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.FriendList.User
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.FriendList.User
+  nameWithType: FriendList.User
+- uid: CodeReactor.CRGameJolt.Users.FriendList.WebCaller
+  name: WebCaller
+  href: api/CodeReactor.CRGameJolt.Users.FriendList.html#CodeReactor_CRGameJolt_Users_FriendList_WebCaller
+  commentId: P:CodeReactor.CRGameJolt.Users.FriendList.WebCaller
+  fullName: CodeReactor.CRGameJolt.Users.FriendList.WebCaller
+  nameWithType: FriendList.WebCaller
+- uid: CodeReactor.CRGameJolt.Users.FriendList.WebCaller*
+  name: WebCaller
+  href: api/CodeReactor.CRGameJolt.Users.FriendList.html#CodeReactor_CRGameJolt_Users_FriendList_WebCaller_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.FriendList.WebCaller
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.FriendList.WebCaller
+  nameWithType: FriendList.WebCaller
+- uid: CodeReactor.CRGameJolt.Users.GameJoltMe
+  name: GameJoltMe
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltMe.html
+  commentId: T:CodeReactor.CRGameJolt.Users.GameJoltMe
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltMe
+  nameWithType: GameJoltMe
+- uid: CodeReactor.CRGameJolt.Users.GameJoltMe.#ctor(System.String,System.String,CodeReactor.CRGameJolt.Connector.WebCaller)
+  name: GameJoltMe(String, String, WebCaller)
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltMe.html#CodeReactor_CRGameJolt_Users_GameJoltMe__ctor_System_String_System_String_CodeReactor_CRGameJolt_Connector_WebCaller_
+  commentId: M:CodeReactor.CRGameJolt.Users.GameJoltMe.#ctor(System.String,System.String,CodeReactor.CRGameJolt.Connector.WebCaller)
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltMe.GameJoltMe(System.String, System.String, CodeReactor.CRGameJolt.Connector.WebCaller)
+  nameWithType: GameJoltMe.GameJoltMe(String, String, WebCaller)
+- uid: CodeReactor.CRGameJolt.Users.GameJoltMe.#ctor*
+  name: GameJoltMe
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltMe.html#CodeReactor_CRGameJolt_Users_GameJoltMe__ctor_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.GameJoltMe.#ctor
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltMe.GameJoltMe
+  nameWithType: GameJoltMe.GameJoltMe
+- uid: CodeReactor.CRGameJolt.Users.GameJoltMe.Friends
+  name: Friends
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltMe.html#CodeReactor_CRGameJolt_Users_GameJoltMe_Friends
+  commentId: P:CodeReactor.CRGameJolt.Users.GameJoltMe.Friends
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltMe.Friends
+  nameWithType: GameJoltMe.Friends
+- uid: CodeReactor.CRGameJolt.Users.GameJoltMe.Friends*
+  name: Friends
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltMe.html#CodeReactor_CRGameJolt_Users_GameJoltMe_Friends_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.GameJoltMe.Friends
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltMe.Friends
+  nameWithType: GameJoltMe.Friends
+- uid: CodeReactor.CRGameJolt.Users.GameJoltMe.Session
+  name: Session
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltMe.html#CodeReactor_CRGameJolt_Users_GameJoltMe_Session
+  commentId: P:CodeReactor.CRGameJolt.Users.GameJoltMe.Session
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltMe.Session
+  nameWithType: GameJoltMe.Session
+- uid: CodeReactor.CRGameJolt.Users.GameJoltMe.Session*
+  name: Session
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltMe.html#CodeReactor_CRGameJolt_Users_GameJoltMe_Session_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.GameJoltMe.Session
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltMe.Session
+  nameWithType: GameJoltMe.Session
+- uid: CodeReactor.CRGameJolt.Users.GameJoltMe.Update
+  name: Update()
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltMe.html#CodeReactor_CRGameJolt_Users_GameJoltMe_Update
+  commentId: M:CodeReactor.CRGameJolt.Users.GameJoltMe.Update
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltMe.Update()
+  nameWithType: GameJoltMe.Update()
+- uid: CodeReactor.CRGameJolt.Users.GameJoltMe.Update*
+  name: Update
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltMe.html#CodeReactor_CRGameJolt_Users_GameJoltMe_Update_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.GameJoltMe.Update
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltMe.Update
+  nameWithType: GameJoltMe.Update
+- uid: CodeReactor.CRGameJolt.Users.GameJoltMe.UserToken
+  name: UserToken
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltMe.html#CodeReactor_CRGameJolt_Users_GameJoltMe_UserToken
+  commentId: P:CodeReactor.CRGameJolt.Users.GameJoltMe.UserToken
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltMe.UserToken
+  nameWithType: GameJoltMe.UserToken
+- uid: CodeReactor.CRGameJolt.Users.GameJoltMe.UserToken*
+  name: UserToken
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltMe.html#CodeReactor_CRGameJolt_Users_GameJoltMe_UserToken_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.GameJoltMe.UserToken
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltMe.UserToken
+  nameWithType: GameJoltMe.UserToken
+- uid: CodeReactor.CRGameJolt.Users.GameJoltUser
+  name: GameJoltUser
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltUser.html
+  commentId: T:CodeReactor.CRGameJolt.Users.GameJoltUser
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltUser
+  nameWithType: GameJoltUser
+- uid: CodeReactor.CRGameJolt.Users.GameJoltUser.#ctor(System.Int32,CodeReactor.CRGameJolt.Connector.WebCaller)
+  name: GameJoltUser(Int32, WebCaller)
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltUser.html#CodeReactor_CRGameJolt_Users_GameJoltUser__ctor_System_Int32_CodeReactor_CRGameJolt_Connector_WebCaller_
+  commentId: M:CodeReactor.CRGameJolt.Users.GameJoltUser.#ctor(System.Int32,CodeReactor.CRGameJolt.Connector.WebCaller)
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltUser.GameJoltUser(System.Int32, CodeReactor.CRGameJolt.Connector.WebCaller)
+  nameWithType: GameJoltUser.GameJoltUser(Int32, WebCaller)
+- uid: CodeReactor.CRGameJolt.Users.GameJoltUser.#ctor(System.String,CodeReactor.CRGameJolt.Connector.WebCaller)
+  name: GameJoltUser(String, WebCaller)
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltUser.html#CodeReactor_CRGameJolt_Users_GameJoltUser__ctor_System_String_CodeReactor_CRGameJolt_Connector_WebCaller_
+  commentId: M:CodeReactor.CRGameJolt.Users.GameJoltUser.#ctor(System.String,CodeReactor.CRGameJolt.Connector.WebCaller)
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltUser.GameJoltUser(System.String, CodeReactor.CRGameJolt.Connector.WebCaller)
+  nameWithType: GameJoltUser.GameJoltUser(String, WebCaller)
+- uid: CodeReactor.CRGameJolt.Users.GameJoltUser.#ctor*
+  name: GameJoltUser
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltUser.html#CodeReactor_CRGameJolt_Users_GameJoltUser__ctor_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.GameJoltUser.#ctor
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltUser.GameJoltUser
+  nameWithType: GameJoltUser.GameJoltUser
+- uid: CodeReactor.CRGameJolt.Users.GameJoltUser.AvatarURL
+  name: AvatarURL
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltUser.html#CodeReactor_CRGameJolt_Users_GameJoltUser_AvatarURL
+  commentId: P:CodeReactor.CRGameJolt.Users.GameJoltUser.AvatarURL
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltUser.AvatarURL
+  nameWithType: GameJoltUser.AvatarURL
+- uid: CodeReactor.CRGameJolt.Users.GameJoltUser.AvatarURL*
+  name: AvatarURL
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltUser.html#CodeReactor_CRGameJolt_Users_GameJoltUser_AvatarURL_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.GameJoltUser.AvatarURL
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltUser.AvatarURL
+  nameWithType: GameJoltUser.AvatarURL
+- uid: CodeReactor.CRGameJolt.Users.GameJoltUser.ConvertToUserStatus(System.String)
+  name: ConvertToUserStatus(String)
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltUser.html#CodeReactor_CRGameJolt_Users_GameJoltUser_ConvertToUserStatus_System_String_
+  commentId: M:CodeReactor.CRGameJolt.Users.GameJoltUser.ConvertToUserStatus(System.String)
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltUser.ConvertToUserStatus(System.String)
+  nameWithType: GameJoltUser.ConvertToUserStatus(String)
+- uid: CodeReactor.CRGameJolt.Users.GameJoltUser.ConvertToUserStatus*
+  name: ConvertToUserStatus
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltUser.html#CodeReactor_CRGameJolt_Users_GameJoltUser_ConvertToUserStatus_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.GameJoltUser.ConvertToUserStatus
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltUser.ConvertToUserStatus
+  nameWithType: GameJoltUser.ConvertToUserStatus
+- uid: CodeReactor.CRGameJolt.Users.GameJoltUser.ConvertToUserType(System.String)
+  name: ConvertToUserType(String)
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltUser.html#CodeReactor_CRGameJolt_Users_GameJoltUser_ConvertToUserType_System_String_
+  commentId: M:CodeReactor.CRGameJolt.Users.GameJoltUser.ConvertToUserType(System.String)
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltUser.ConvertToUserType(System.String)
+  nameWithType: GameJoltUser.ConvertToUserType(String)
+- uid: CodeReactor.CRGameJolt.Users.GameJoltUser.ConvertToUserType*
+  name: ConvertToUserType
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltUser.html#CodeReactor_CRGameJolt_Users_GameJoltUser_ConvertToUserType_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.GameJoltUser.ConvertToUserType
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltUser.ConvertToUserType
+  nameWithType: GameJoltUser.ConvertToUserType
+- uid: CodeReactor.CRGameJolt.Users.GameJoltUser.DeveloperDescription
+  name: DeveloperDescription
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltUser.html#CodeReactor_CRGameJolt_Users_GameJoltUser_DeveloperDescription
+  commentId: P:CodeReactor.CRGameJolt.Users.GameJoltUser.DeveloperDescription
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltUser.DeveloperDescription
+  nameWithType: GameJoltUser.DeveloperDescription
+- uid: CodeReactor.CRGameJolt.Users.GameJoltUser.DeveloperDescription*
+  name: DeveloperDescription
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltUser.html#CodeReactor_CRGameJolt_Users_GameJoltUser_DeveloperDescription_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.GameJoltUser.DeveloperDescription
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltUser.DeveloperDescription
+  nameWithType: GameJoltUser.DeveloperDescription
+- uid: CodeReactor.CRGameJolt.Users.GameJoltUser.DeveloperName
+  name: DeveloperName
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltUser.html#CodeReactor_CRGameJolt_Users_GameJoltUser_DeveloperName
+  commentId: P:CodeReactor.CRGameJolt.Users.GameJoltUser.DeveloperName
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltUser.DeveloperName
+  nameWithType: GameJoltUser.DeveloperName
+- uid: CodeReactor.CRGameJolt.Users.GameJoltUser.DeveloperName*
+  name: DeveloperName
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltUser.html#CodeReactor_CRGameJolt_Users_GameJoltUser_DeveloperName_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.GameJoltUser.DeveloperName
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltUser.DeveloperName
+  nameWithType: GameJoltUser.DeveloperName
+- uid: CodeReactor.CRGameJolt.Users.GameJoltUser.DeveloperWebsite
+  name: DeveloperWebsite
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltUser.html#CodeReactor_CRGameJolt_Users_GameJoltUser_DeveloperWebsite
+  commentId: P:CodeReactor.CRGameJolt.Users.GameJoltUser.DeveloperWebsite
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltUser.DeveloperWebsite
+  nameWithType: GameJoltUser.DeveloperWebsite
+- uid: CodeReactor.CRGameJolt.Users.GameJoltUser.DeveloperWebsite*
+  name: DeveloperWebsite
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltUser.html#CodeReactor_CRGameJolt_Users_GameJoltUser_DeveloperWebsite_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.GameJoltUser.DeveloperWebsite
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltUser.DeveloperWebsite
+  nameWithType: GameJoltUser.DeveloperWebsite
+- uid: CodeReactor.CRGameJolt.Users.GameJoltUser.Id
+  name: Id
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltUser.html#CodeReactor_CRGameJolt_Users_GameJoltUser_Id
+  commentId: P:CodeReactor.CRGameJolt.Users.GameJoltUser.Id
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltUser.Id
+  nameWithType: GameJoltUser.Id
+- uid: CodeReactor.CRGameJolt.Users.GameJoltUser.Id*
+  name: Id
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltUser.html#CodeReactor_CRGameJolt_Users_GameJoltUser_Id_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.GameJoltUser.Id
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltUser.Id
+  nameWithType: GameJoltUser.Id
+- uid: CodeReactor.CRGameJolt.Users.GameJoltUser.LastLoggedIn
+  name: LastLoggedIn
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltUser.html#CodeReactor_CRGameJolt_Users_GameJoltUser_LastLoggedIn
+  commentId: P:CodeReactor.CRGameJolt.Users.GameJoltUser.LastLoggedIn
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltUser.LastLoggedIn
+  nameWithType: GameJoltUser.LastLoggedIn
+- uid: CodeReactor.CRGameJolt.Users.GameJoltUser.LastLoggedIn*
+  name: LastLoggedIn
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltUser.html#CodeReactor_CRGameJolt_Users_GameJoltUser_LastLoggedIn_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.GameJoltUser.LastLoggedIn
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltUser.LastLoggedIn
+  nameWithType: GameJoltUser.LastLoggedIn
+- uid: CodeReactor.CRGameJolt.Users.GameJoltUser.SignedUp
+  name: SignedUp
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltUser.html#CodeReactor_CRGameJolt_Users_GameJoltUser_SignedUp
+  commentId: P:CodeReactor.CRGameJolt.Users.GameJoltUser.SignedUp
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltUser.SignedUp
+  nameWithType: GameJoltUser.SignedUp
+- uid: CodeReactor.CRGameJolt.Users.GameJoltUser.SignedUp*
+  name: SignedUp
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltUser.html#CodeReactor_CRGameJolt_Users_GameJoltUser_SignedUp_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.GameJoltUser.SignedUp
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltUser.SignedUp
+  nameWithType: GameJoltUser.SignedUp
+- uid: CodeReactor.CRGameJolt.Users.GameJoltUser.Status
+  name: Status
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltUser.html#CodeReactor_CRGameJolt_Users_GameJoltUser_Status
+  commentId: P:CodeReactor.CRGameJolt.Users.GameJoltUser.Status
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltUser.Status
+  nameWithType: GameJoltUser.Status
+- uid: CodeReactor.CRGameJolt.Users.GameJoltUser.Status*
+  name: Status
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltUser.html#CodeReactor_CRGameJolt_Users_GameJoltUser_Status_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.GameJoltUser.Status
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltUser.Status
+  nameWithType: GameJoltUser.Status
+- uid: CodeReactor.CRGameJolt.Users.GameJoltUser.Type
+  name: Type
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltUser.html#CodeReactor_CRGameJolt_Users_GameJoltUser_Type
+  commentId: P:CodeReactor.CRGameJolt.Users.GameJoltUser.Type
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltUser.Type
+  nameWithType: GameJoltUser.Type
+- uid: CodeReactor.CRGameJolt.Users.GameJoltUser.Type*
+  name: Type
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltUser.html#CodeReactor_CRGameJolt_Users_GameJoltUser_Type_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.GameJoltUser.Type
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltUser.Type
+  nameWithType: GameJoltUser.Type
+- uid: CodeReactor.CRGameJolt.Users.GameJoltUser.Update
+  name: Update()
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltUser.html#CodeReactor_CRGameJolt_Users_GameJoltUser_Update
+  commentId: M:CodeReactor.CRGameJolt.Users.GameJoltUser.Update
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltUser.Update()
+  nameWithType: GameJoltUser.Update()
+- uid: CodeReactor.CRGameJolt.Users.GameJoltUser.Update*
+  name: Update
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltUser.html#CodeReactor_CRGameJolt_Users_GameJoltUser_Update_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.GameJoltUser.Update
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltUser.Update
+  nameWithType: GameJoltUser.Update
+- uid: CodeReactor.CRGameJolt.Users.GameJoltUser.Username
+  name: Username
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltUser.html#CodeReactor_CRGameJolt_Users_GameJoltUser_Username
+  commentId: P:CodeReactor.CRGameJolt.Users.GameJoltUser.Username
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltUser.Username
+  nameWithType: GameJoltUser.Username
+- uid: CodeReactor.CRGameJolt.Users.GameJoltUser.Username*
+  name: Username
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltUser.html#CodeReactor_CRGameJolt_Users_GameJoltUser_Username_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.GameJoltUser.Username
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltUser.Username
+  nameWithType: GameJoltUser.Username
+- uid: CodeReactor.CRGameJolt.Users.GameJoltUser.WebCaller
+  name: WebCaller
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltUser.html#CodeReactor_CRGameJolt_Users_GameJoltUser_WebCaller
+  commentId: P:CodeReactor.CRGameJolt.Users.GameJoltUser.WebCaller
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltUser.WebCaller
+  nameWithType: GameJoltUser.WebCaller
+- uid: CodeReactor.CRGameJolt.Users.GameJoltUser.WebCaller*
+  name: WebCaller
+  href: api/CodeReactor.CRGameJolt.Users.GameJoltUser.html#CodeReactor_CRGameJolt_Users_GameJoltUser_WebCaller_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.GameJoltUser.WebCaller
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.GameJoltUser.WebCaller
+  nameWithType: GameJoltUser.WebCaller
+- uid: CodeReactor.CRGameJolt.Users.InvalidSessionStatusException
+  name: InvalidSessionStatusException
+  href: api/CodeReactor.CRGameJolt.Users.InvalidSessionStatusException.html
+  commentId: T:CodeReactor.CRGameJolt.Users.InvalidSessionStatusException
+  fullName: CodeReactor.CRGameJolt.Users.InvalidSessionStatusException
+  nameWithType: InvalidSessionStatusException
+- uid: CodeReactor.CRGameJolt.Users.InvalidSessionStatusException.#ctor
+  name: InvalidSessionStatusException()
+  href: api/CodeReactor.CRGameJolt.Users.InvalidSessionStatusException.html#CodeReactor_CRGameJolt_Users_InvalidSessionStatusException__ctor
+  commentId: M:CodeReactor.CRGameJolt.Users.InvalidSessionStatusException.#ctor
+  fullName: CodeReactor.CRGameJolt.Users.InvalidSessionStatusException.InvalidSessionStatusException()
+  nameWithType: InvalidSessionStatusException.InvalidSessionStatusException()
+- uid: CodeReactor.CRGameJolt.Users.InvalidSessionStatusException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: InvalidSessionStatusException(SerializationInfo, StreamingContext)
+  href: api/CodeReactor.CRGameJolt.Users.InvalidSessionStatusException.html#CodeReactor_CRGameJolt_Users_InvalidSessionStatusException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:CodeReactor.CRGameJolt.Users.InvalidSessionStatusException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: CodeReactor.CRGameJolt.Users.InvalidSessionStatusException.InvalidSessionStatusException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: InvalidSessionStatusException.InvalidSessionStatusException(SerializationInfo, StreamingContext)
+- uid: CodeReactor.CRGameJolt.Users.InvalidSessionStatusException.#ctor(System.String)
+  name: InvalidSessionStatusException(String)
+  href: api/CodeReactor.CRGameJolt.Users.InvalidSessionStatusException.html#CodeReactor_CRGameJolt_Users_InvalidSessionStatusException__ctor_System_String_
+  commentId: M:CodeReactor.CRGameJolt.Users.InvalidSessionStatusException.#ctor(System.String)
+  fullName: CodeReactor.CRGameJolt.Users.InvalidSessionStatusException.InvalidSessionStatusException(System.String)
+  nameWithType: InvalidSessionStatusException.InvalidSessionStatusException(String)
+- uid: CodeReactor.CRGameJolt.Users.InvalidSessionStatusException.#ctor(System.String,System.Exception)
+  name: InvalidSessionStatusException(String, Exception)
+  href: api/CodeReactor.CRGameJolt.Users.InvalidSessionStatusException.html#CodeReactor_CRGameJolt_Users_InvalidSessionStatusException__ctor_System_String_System_Exception_
+  commentId: M:CodeReactor.CRGameJolt.Users.InvalidSessionStatusException.#ctor(System.String,System.Exception)
+  fullName: CodeReactor.CRGameJolt.Users.InvalidSessionStatusException.InvalidSessionStatusException(System.String, System.Exception)
+  nameWithType: InvalidSessionStatusException.InvalidSessionStatusException(String, Exception)
+- uid: CodeReactor.CRGameJolt.Users.InvalidSessionStatusException.#ctor*
+  name: InvalidSessionStatusException
+  href: api/CodeReactor.CRGameJolt.Users.InvalidSessionStatusException.html#CodeReactor_CRGameJolt_Users_InvalidSessionStatusException__ctor_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.InvalidSessionStatusException.#ctor
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.InvalidSessionStatusException.InvalidSessionStatusException
+  nameWithType: InvalidSessionStatusException.InvalidSessionStatusException
+- uid: CodeReactor.CRGameJolt.Users.SessionManager
+  name: SessionManager
+  href: api/CodeReactor.CRGameJolt.Users.SessionManager.html
+  commentId: T:CodeReactor.CRGameJolt.Users.SessionManager
+  fullName: CodeReactor.CRGameJolt.Users.SessionManager
+  nameWithType: SessionManager
+- uid: CodeReactor.CRGameJolt.Users.SessionManager.#ctor(CodeReactor.CRGameJolt.Users.GameJoltMe,CodeReactor.CRGameJolt.Connector.WebCaller)
+  name: SessionManager(GameJoltMe, WebCaller)
+  href: api/CodeReactor.CRGameJolt.Users.SessionManager.html#CodeReactor_CRGameJolt_Users_SessionManager__ctor_CodeReactor_CRGameJolt_Users_GameJoltMe_CodeReactor_CRGameJolt_Connector_WebCaller_
+  commentId: M:CodeReactor.CRGameJolt.Users.SessionManager.#ctor(CodeReactor.CRGameJolt.Users.GameJoltMe,CodeReactor.CRGameJolt.Connector.WebCaller)
+  fullName: CodeReactor.CRGameJolt.Users.SessionManager.SessionManager(CodeReactor.CRGameJolt.Users.GameJoltMe, CodeReactor.CRGameJolt.Connector.WebCaller)
+  nameWithType: SessionManager.SessionManager(GameJoltMe, WebCaller)
+- uid: CodeReactor.CRGameJolt.Users.SessionManager.#ctor(CodeReactor.CRGameJolt.Users.GameJoltMe,CodeReactor.CRGameJolt.Users.SessionStatus,CodeReactor.CRGameJolt.Connector.WebCaller)
+  name: SessionManager(GameJoltMe, SessionStatus, WebCaller)
+  href: api/CodeReactor.CRGameJolt.Users.SessionManager.html#CodeReactor_CRGameJolt_Users_SessionManager__ctor_CodeReactor_CRGameJolt_Users_GameJoltMe_CodeReactor_CRGameJolt_Users_SessionStatus_CodeReactor_CRGameJolt_Connector_WebCaller_
+  commentId: M:CodeReactor.CRGameJolt.Users.SessionManager.#ctor(CodeReactor.CRGameJolt.Users.GameJoltMe,CodeReactor.CRGameJolt.Users.SessionStatus,CodeReactor.CRGameJolt.Connector.WebCaller)
+  fullName: CodeReactor.CRGameJolt.Users.SessionManager.SessionManager(CodeReactor.CRGameJolt.Users.GameJoltMe, CodeReactor.CRGameJolt.Users.SessionStatus, CodeReactor.CRGameJolt.Connector.WebCaller)
+  nameWithType: SessionManager.SessionManager(GameJoltMe, SessionStatus, WebCaller)
+- uid: CodeReactor.CRGameJolt.Users.SessionManager.#ctor*
+  name: SessionManager
+  href: api/CodeReactor.CRGameJolt.Users.SessionManager.html#CodeReactor_CRGameJolt_Users_SessionManager__ctor_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.SessionManager.#ctor
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.SessionManager.SessionManager
+  nameWithType: SessionManager.SessionManager
+- uid: CodeReactor.CRGameJolt.Users.SessionManager.Check
+  name: Check()
+  href: api/CodeReactor.CRGameJolt.Users.SessionManager.html#CodeReactor_CRGameJolt_Users_SessionManager_Check
+  commentId: M:CodeReactor.CRGameJolt.Users.SessionManager.Check
+  fullName: CodeReactor.CRGameJolt.Users.SessionManager.Check()
+  nameWithType: SessionManager.Check()
+- uid: CodeReactor.CRGameJolt.Users.SessionManager.Check*
+  name: Check
+  href: api/CodeReactor.CRGameJolt.Users.SessionManager.html#CodeReactor_CRGameJolt_Users_SessionManager_Check_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.SessionManager.Check
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.SessionManager.Check
+  nameWithType: SessionManager.Check
+- uid: CodeReactor.CRGameJolt.Users.SessionManager.Close
+  name: Close()
+  href: api/CodeReactor.CRGameJolt.Users.SessionManager.html#CodeReactor_CRGameJolt_Users_SessionManager_Close
+  commentId: M:CodeReactor.CRGameJolt.Users.SessionManager.Close
+  fullName: CodeReactor.CRGameJolt.Users.SessionManager.Close()
+  nameWithType: SessionManager.Close()
+- uid: CodeReactor.CRGameJolt.Users.SessionManager.Close*
+  name: Close
+  href: api/CodeReactor.CRGameJolt.Users.SessionManager.html#CodeReactor_CRGameJolt_Users_SessionManager_Close_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.SessionManager.Close
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.SessionManager.Close
+  nameWithType: SessionManager.Close
+- uid: CodeReactor.CRGameJolt.Users.SessionManager.Open
+  name: Open()
+  href: api/CodeReactor.CRGameJolt.Users.SessionManager.html#CodeReactor_CRGameJolt_Users_SessionManager_Open
+  commentId: M:CodeReactor.CRGameJolt.Users.SessionManager.Open
+  fullName: CodeReactor.CRGameJolt.Users.SessionManager.Open()
+  nameWithType: SessionManager.Open()
+- uid: CodeReactor.CRGameJolt.Users.SessionManager.Open*
+  name: Open
+  href: api/CodeReactor.CRGameJolt.Users.SessionManager.html#CodeReactor_CRGameJolt_Users_SessionManager_Open_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.SessionManager.Open
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.SessionManager.Open
+  nameWithType: SessionManager.Open
+- uid: CodeReactor.CRGameJolt.Users.SessionManager.Ping
+  name: Ping()
+  href: api/CodeReactor.CRGameJolt.Users.SessionManager.html#CodeReactor_CRGameJolt_Users_SessionManager_Ping
+  commentId: M:CodeReactor.CRGameJolt.Users.SessionManager.Ping
+  fullName: CodeReactor.CRGameJolt.Users.SessionManager.Ping()
+  nameWithType: SessionManager.Ping()
+- uid: CodeReactor.CRGameJolt.Users.SessionManager.Ping*
+  name: Ping
+  href: api/CodeReactor.CRGameJolt.Users.SessionManager.html#CodeReactor_CRGameJolt_Users_SessionManager_Ping_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.SessionManager.Ping
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.SessionManager.Ping
+  nameWithType: SessionManager.Ping
+- uid: CodeReactor.CRGameJolt.Users.SessionManager.Status
+  name: Status
+  href: api/CodeReactor.CRGameJolt.Users.SessionManager.html#CodeReactor_CRGameJolt_Users_SessionManager_Status
+  commentId: P:CodeReactor.CRGameJolt.Users.SessionManager.Status
+  fullName: CodeReactor.CRGameJolt.Users.SessionManager.Status
+  nameWithType: SessionManager.Status
+- uid: CodeReactor.CRGameJolt.Users.SessionManager.Status*
+  name: Status
+  href: api/CodeReactor.CRGameJolt.Users.SessionManager.html#CodeReactor_CRGameJolt_Users_SessionManager_Status_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.SessionManager.Status
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.SessionManager.Status
+  nameWithType: SessionManager.Status
+- uid: CodeReactor.CRGameJolt.Users.SessionManager.StatusToString(CodeReactor.CRGameJolt.Users.SessionStatus)
+  name: StatusToString(SessionStatus)
+  href: api/CodeReactor.CRGameJolt.Users.SessionManager.html#CodeReactor_CRGameJolt_Users_SessionManager_StatusToString_CodeReactor_CRGameJolt_Users_SessionStatus_
+  commentId: M:CodeReactor.CRGameJolt.Users.SessionManager.StatusToString(CodeReactor.CRGameJolt.Users.SessionStatus)
+  fullName: CodeReactor.CRGameJolt.Users.SessionManager.StatusToString(CodeReactor.CRGameJolt.Users.SessionStatus)
+  nameWithType: SessionManager.StatusToString(SessionStatus)
+- uid: CodeReactor.CRGameJolt.Users.SessionManager.StatusToString*
+  name: StatusToString
+  href: api/CodeReactor.CRGameJolt.Users.SessionManager.html#CodeReactor_CRGameJolt_Users_SessionManager_StatusToString_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.SessionManager.StatusToString
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.SessionManager.StatusToString
+  nameWithType: SessionManager.StatusToString
+- uid: CodeReactor.CRGameJolt.Users.SessionManager.Timeout
+  name: Timeout
+  href: api/CodeReactor.CRGameJolt.Users.SessionManager.html#CodeReactor_CRGameJolt_Users_SessionManager_Timeout
+  commentId: F:CodeReactor.CRGameJolt.Users.SessionManager.Timeout
+  fullName: CodeReactor.CRGameJolt.Users.SessionManager.Timeout
+  nameWithType: SessionManager.Timeout
+- uid: CodeReactor.CRGameJolt.Users.SessionManager.Update
+  name: Update()
+  href: api/CodeReactor.CRGameJolt.Users.SessionManager.html#CodeReactor_CRGameJolt_Users_SessionManager_Update
+  commentId: M:CodeReactor.CRGameJolt.Users.SessionManager.Update
+  fullName: CodeReactor.CRGameJolt.Users.SessionManager.Update()
+  nameWithType: SessionManager.Update()
+- uid: CodeReactor.CRGameJolt.Users.SessionManager.Update*
+  name: Update
+  href: api/CodeReactor.CRGameJolt.Users.SessionManager.html#CodeReactor_CRGameJolt_Users_SessionManager_Update_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.SessionManager.Update
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.SessionManager.Update
+  nameWithType: SessionManager.Update
+- uid: CodeReactor.CRGameJolt.Users.SessionManager.User
+  name: User
+  href: api/CodeReactor.CRGameJolt.Users.SessionManager.html#CodeReactor_CRGameJolt_Users_SessionManager_User
+  commentId: P:CodeReactor.CRGameJolt.Users.SessionManager.User
+  fullName: CodeReactor.CRGameJolt.Users.SessionManager.User
+  nameWithType: SessionManager.User
+- uid: CodeReactor.CRGameJolt.Users.SessionManager.User*
+  name: User
+  href: api/CodeReactor.CRGameJolt.Users.SessionManager.html#CodeReactor_CRGameJolt_Users_SessionManager_User_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.SessionManager.User
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.SessionManager.User
+  nameWithType: SessionManager.User
+- uid: CodeReactor.CRGameJolt.Users.SessionManager.WebCaller
+  name: WebCaller
+  href: api/CodeReactor.CRGameJolt.Users.SessionManager.html#CodeReactor_CRGameJolt_Users_SessionManager_WebCaller
+  commentId: P:CodeReactor.CRGameJolt.Users.SessionManager.WebCaller
+  fullName: CodeReactor.CRGameJolt.Users.SessionManager.WebCaller
+  nameWithType: SessionManager.WebCaller
+- uid: CodeReactor.CRGameJolt.Users.SessionManager.WebCaller*
+  name: WebCaller
+  href: api/CodeReactor.CRGameJolt.Users.SessionManager.html#CodeReactor_CRGameJolt_Users_SessionManager_WebCaller_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.SessionManager.WebCaller
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.SessionManager.WebCaller
+  nameWithType: SessionManager.WebCaller
+- uid: CodeReactor.CRGameJolt.Users.SessionStatus
+  name: SessionStatus
+  href: api/CodeReactor.CRGameJolt.Users.SessionStatus.html
+  commentId: T:CodeReactor.CRGameJolt.Users.SessionStatus
+  fullName: CodeReactor.CRGameJolt.Users.SessionStatus
+  nameWithType: SessionStatus
+- uid: CodeReactor.CRGameJolt.Users.SessionStatus.Active
+  name: Active
+  href: api/CodeReactor.CRGameJolt.Users.SessionStatus.html#CodeReactor_CRGameJolt_Users_SessionStatus_Active
+  commentId: F:CodeReactor.CRGameJolt.Users.SessionStatus.Active
+  fullName: CodeReactor.CRGameJolt.Users.SessionStatus.Active
+  nameWithType: SessionStatus.Active
+- uid: CodeReactor.CRGameJolt.Users.SessionStatus.Idle
+  name: Idle
+  href: api/CodeReactor.CRGameJolt.Users.SessionStatus.html#CodeReactor_CRGameJolt_Users_SessionStatus_Idle
+  commentId: F:CodeReactor.CRGameJolt.Users.SessionStatus.Idle
+  fullName: CodeReactor.CRGameJolt.Users.SessionStatus.Idle
+  nameWithType: SessionStatus.Idle
+- uid: CodeReactor.CRGameJolt.Users.UserStatus
+  name: UserStatus
+  href: api/CodeReactor.CRGameJolt.Users.UserStatus.html
+  commentId: T:CodeReactor.CRGameJolt.Users.UserStatus
+  fullName: CodeReactor.CRGameJolt.Users.UserStatus
+  nameWithType: UserStatus
+- uid: CodeReactor.CRGameJolt.Users.UserStatus.Active
+  name: Active
+  href: api/CodeReactor.CRGameJolt.Users.UserStatus.html#CodeReactor_CRGameJolt_Users_UserStatus_Active
+  commentId: F:CodeReactor.CRGameJolt.Users.UserStatus.Active
+  fullName: CodeReactor.CRGameJolt.Users.UserStatus.Active
+  nameWithType: UserStatus.Active
+- uid: CodeReactor.CRGameJolt.Users.UserStatus.Banned
+  name: Banned
+  href: api/CodeReactor.CRGameJolt.Users.UserStatus.html#CodeReactor_CRGameJolt_Users_UserStatus_Banned
+  commentId: F:CodeReactor.CRGameJolt.Users.UserStatus.Banned
+  fullName: CodeReactor.CRGameJolt.Users.UserStatus.Banned
+  nameWithType: UserStatus.Banned
+- uid: CodeReactor.CRGameJolt.Users.UserType
+  name: UserType
+  href: api/CodeReactor.CRGameJolt.Users.UserType.html
+  commentId: T:CodeReactor.CRGameJolt.Users.UserType
+  fullName: CodeReactor.CRGameJolt.Users.UserType
+  nameWithType: UserType
+- uid: CodeReactor.CRGameJolt.Users.UserType.Administrator
+  name: Administrator
+  href: api/CodeReactor.CRGameJolt.Users.UserType.html#CodeReactor_CRGameJolt_Users_UserType_Administrator
+  commentId: F:CodeReactor.CRGameJolt.Users.UserType.Administrator
+  fullName: CodeReactor.CRGameJolt.Users.UserType.Administrator
+  nameWithType: UserType.Administrator
+- uid: CodeReactor.CRGameJolt.Users.UserType.Developer
+  name: Developer
+  href: api/CodeReactor.CRGameJolt.Users.UserType.html#CodeReactor_CRGameJolt_Users_UserType_Developer
+  commentId: F:CodeReactor.CRGameJolt.Users.UserType.Developer
+  fullName: CodeReactor.CRGameJolt.Users.UserType.Developer
+  nameWithType: UserType.Developer
+- uid: CodeReactor.CRGameJolt.Users.UserType.Moderator
+  name: Moderator
+  href: api/CodeReactor.CRGameJolt.Users.UserType.html#CodeReactor_CRGameJolt_Users_UserType_Moderator
+  commentId: F:CodeReactor.CRGameJolt.Users.UserType.Moderator
+  fullName: CodeReactor.CRGameJolt.Users.UserType.Moderator
+  nameWithType: UserType.Moderator
+- uid: CodeReactor.CRGameJolt.Users.UserType.User
+  name: User
+  href: api/CodeReactor.CRGameJolt.Users.UserType.html#CodeReactor_CRGameJolt_Users_UserType_User
+  commentId: F:CodeReactor.CRGameJolt.Users.UserType.User
+  fullName: CodeReactor.CRGameJolt.Users.UserType.User
+  nameWithType: UserType.User
