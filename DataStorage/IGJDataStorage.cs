@@ -8,6 +8,7 @@ namespace CodeReactor.CRGameJolt.DataStorage
     /// </summary>
     /// <seealso cref="WebCaller"/>
     /// <seealso cref="GlobalDataStorage"/>
+    /// <seealso cref="UserDataStorage"/>
     /// <seealso cref="DataStorageValue"/>
     public interface IGJDataStorage : IGJObject
     {

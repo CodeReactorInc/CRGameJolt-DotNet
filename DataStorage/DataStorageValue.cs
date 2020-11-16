@@ -8,6 +8,7 @@ namespace CodeReactor.CRGameJolt.DataStorage
     /// </summary>
     /// <seealso cref="GlobalDataStorage"/>
     /// <seealso cref="IGJDataStorage"/>
+    /// <seealso cref="UserDataStorage"/>
     public class DataStorageValue
     {
 
