@@ -1,4 +1,5 @@
 ﻿using CodeReactor.CRGameJolt.Connector;
+using CodeReactor.CRGameJolt.DataStorage;
 using CodeReactor.CRGameJolt.Users.Trophies;
 using System.Net;
 using System.Xml.Linq;
@@ -12,6 +13,9 @@ namespace CodeReactor.CRGameJolt.Users
     /// <seealso cref="IGJObject"/>
     /// <seealso cref="FriendList"/>
     /// <seealso cref="WebCaller"/>
+    /// <seealso cref="TrophiesManager"/>
+    /// <seealso cref="UserDataStorage"/>
+    /// <seealso cref="SessionManager"/>
     public class GameJoltMe : GameJoltUser
     {
         /// <value>
@@ -94,6 +98,31 @@ namespace CodeReactor.CRGameJolt.Users
             }
         }
 
+        /// <value>
+        /// Private version of <see cref="DataStorage"/> but without a soft get
+        /// </value>
+        private UserDataStorage _dataStorage { get; set; }
+
+        /// <value>
+        /// Get or create a new <see cref="UserDataStorage"/> using the internal <see cref="GameJoltUser.WebCaller"/>
+        /// </value>
+        public UserDataStorage DataStorage
+        {
+            get
+            {
+                if (_dataStorage == null)
+                {
+                    _dataStorage = new UserDataStorage(this, WebCaller);
+                    return _dataStorage;
+                }
+                else return _dataStorage;
+            }
+            private set
+            {
+                _dataStorage = value;
+            }
+        }
+
         /// <summary>
         /// Login in a GameJolt account throught the GameJolt Game API using the <paramref name="username"/> and <paramref name="usertoken"/>
         /// </summary>
@@ -114,6 +143,8 @@ namespace CodeReactor.CRGameJolt.Users
             base.Update();
             if (_friends != null) _friends.Update();
             if (_session != null) _session.Update();
+            if (_trophies != null) _trophies.Update();
+            if (_dataStorage != null) _dataStorage.Update();
         }
     }
 }
