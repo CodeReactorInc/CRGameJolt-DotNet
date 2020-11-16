@@ -1,5 +1,6 @@
 ﻿using System.Net;
 using System.Xml.Linq;
+using System.IO;
 
 namespace CodeReactor.CRGameJolt.Connector
 {
@@ -14,10 +15,16 @@ namespace CodeReactor.CRGameJolt.Connector
         /// Protocol to be passed to <see cref="URLConstructor"/>
         /// </value>
         public WebProtocol Protocol { get; set; }
+
         /// <value>
         /// The <see cref="Connector.URLConstructor"/> prepared to create the URLs
         /// </value>
         public URLConstructor URLConstructor { get; set; }
+
+        /// <value>
+        /// If isn't null, <see cref="GetAsText(string, string[])"/> gonna write the URL and data downloaded
+        /// </value>
+        public StreamWriter Debug { get; set; }
 
         /// <summary>
         /// Create a <see cref="WebCaller"/> with a <see cref="Connector.URLConstructor"/> and a custom web protocol
@@ -46,7 +53,10 @@ namespace CodeReactor.CRGameJolt.Connector
         {
             string url = URLConstructor.Call(endpoint, query, Protocol);
             WebClient client = new WebClient();
-            return client.DownloadString(url);
+            if (Debug != null) Debug.WriteLine("[WebCaller]: Downloading data from URL (" + url + ")");
+            string data = client.DownloadString(url);
+            if (Debug != null) Debug.WriteLine("[WebCaller]: Data downloaded.\n" + data);
+            return data;
         }
 
         /// <summary>
