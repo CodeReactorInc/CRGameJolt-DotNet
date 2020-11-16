@@ -6,13 +6,13 @@
     /// <seealso cref="URLConstructor"/>
     public enum SignatureType
     {
-        /// <summary>
+        /// <value>
         /// Say to <see cref="URLConstructor.Sign(string, SignatureType)"/> use MD5 cipher algorithm
-        /// </summary>
+        /// </value>
         MD5,
-        /// <summary>
+        /// <value>
         /// Say to <see cref="URLConstructor.Sign(string, SignatureType)"/> use SHA1 cipher algorithm
-        /// </summary>
+        /// </value>
         SHA1
     }
 }
