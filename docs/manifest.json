@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Connector.WebCaller.html",
-          "hash": "zSSpWKGgG6zMxFoNsMhXGA=="
+          "hash": "oh+3jYDlpxBnTEnVscn2Wg=="
         }
       },
       "is_incremental": false,
@@ -237,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Users.GameJoltMe.html",
-          "hash": "uksKkzwZSFdsbJmYjXnXiw=="
+          "hash": "q4juCZgIhiv9jZA2Pb0RCA=="
         }
       },
       "is_incremental": false,
@@ -286,6 +286,66 @@
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Users.SessionStatus.html",
           "hash": "IoXkuXi/py6cMdKN09s6Eg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeReactor.CRGameJolt.Users.Trophies.InvalidTrophDifficultyException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeReactor.CRGameJolt.Users.Trophies.InvalidTrophDifficultyException.html",
+          "hash": "CB8vKijn1T+puGC3FIh6rA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeReactor.CRGameJolt.Users.Trophies.TrophiesManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeReactor.CRGameJolt.Users.Trophies.TrophiesManager.html",
+          "hash": "vZq9oWpe3F7FYYSFu1fnOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeReactor.CRGameJolt.Users.Trophies.Trophy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeReactor.CRGameJolt.Users.Trophies.Trophy.html",
+          "hash": "HeXQ31a8y0DNOFknsKUsEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeReactor.CRGameJolt.Users.Trophies.TrophyDifficulty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeReactor.CRGameJolt.Users.Trophies.TrophyDifficulty.html",
+          "hash": "FAI8uq8IILQjOdWwmrTIHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeReactor.CRGameJolt.Users.Trophies.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeReactor.CRGameJolt.Users.Trophies.html",
+          "hash": "O7S5n7Mj8CbCaT3HNfn2xA=="
         }
       },
       "is_incremental": false,
@@ -357,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "mGV8zy4YudyzKpI8s7fvSA=="
+          "hash": "hsuqlw8ckk5ydc+sLJf2PA=="
         }
       },
       "is_incremental": false,
@@ -430,8 +490,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 27,
-          "skipped_file_count": 13
+          "total_file_count": 32,
+          "skipped_file_count": 25
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
