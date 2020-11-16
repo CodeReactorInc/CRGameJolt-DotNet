@@ -1,4 +1,5 @@
 ﻿using CodeReactor.CRGameJolt.Connector;
+using CodeReactor.CRGameJolt.Users.Trophies;
 using System.Net;
 using System.Xml.Linq;
 
@@ -65,6 +66,31 @@ namespace CodeReactor.CRGameJolt.Users
             private set
             {
                 _session = value;
+            }
+        }
+
+        /// <value>
+        /// Private version of <see cref="Trophies"/> but without a soft get
+        /// </value>
+        private TrophiesManager _trophies { get; set; }
+
+        /// <value>
+        /// Get or create a new <see cref="TrophiesManager"/> using the internal <see cref="GameJoltUser.WebCaller"/>
+        /// </value>
+        public TrophiesManager Trophies
+        {
+            get
+            {
+                if (_trophies == null)
+                {
+                    _trophies = new TrophiesManager(this, WebCaller);
+                    return _trophies;
+                }
+                else return _trophies;
+            }
+            private set
+            {
+                _trophies = value;
             }
         }
 
