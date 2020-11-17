@@ -8,31 +8,31 @@ namespace CodeReactor.CRGameJolt.Users.Trophies
     /// </summary>
     /// <seealso cref="APIVersion"/>
     /// <seealso cref="URLConstructor"/>
-    public class InvalidTrophDifficultyException : Exception
+    public class InvalidTrophyDifficultyException : Exception
     {
         /// <summary>
-        /// Initialize a new <see cref="InvalidTrophDifficultyException"/>
+        /// Initialize a new <see cref="InvalidTrophyDifficultyException"/>
         /// </summary>
-        public InvalidTrophDifficultyException() : base() { }
+        public InvalidTrophyDifficultyException() : base() { }
 
         /// <summary>
         /// Initialize a new <see cref="InvalidTrophDifficultyException"/> with a error message
         /// </summary>
         /// <param name="message">A message that contain the error</param>
-        public InvalidTrophDifficultyException(string message) : base(message) { }
+        public InvalidTrophyDifficultyException(string message) : base(message) { }
 
         /// <summary>
-        /// Initialize a new <see cref="InvalidTrophDifficultyException"/> with serialized data
+        /// Initialize a new <see cref="InvalidTrophyDifficultyException"/> with serialized data
         /// </summary>
         /// <param name="info">The <c>SerializationInfo</c> that keed the serialized data about the exception</param>
         /// <param name="context">The <c>StreamingContext</c> that keep context info about destiny and source</param>
-        public InvalidTrophDifficultyException(SerializationInfo info, StreamingContext context) : base(info, context) { }
+        public InvalidTrophyDifficultyException(SerializationInfo info, StreamingContext context) : base(info, context) { }
 
         /// <summary>
-        /// Initialize a new <see cref="InvalidTrophDifficultyException"/> with a error message and a reference to a internal exception
+        /// Initialize a new <see cref="InvalidTrophyDifficultyException"/> with a error message and a reference to a internal exception
         /// </summary>
         /// <param name="message">A message that contain the error</param>
         /// <param name="inner">A reference to internal exception or a null reference</param>
-        public InvalidTrophDifficultyException(string message, Exception inner) : base(message, inner) { }
+        public InvalidTrophyDifficultyException(string message, Exception inner) : base(message, inner) { }
     }
 }
