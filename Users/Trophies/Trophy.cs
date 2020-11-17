@@ -1,5 +1,4 @@
 ﻿using CodeReactor.CRGameJolt.Connector;
-using System;
 using System.Net;
 using System.Xml.Linq;
 
@@ -11,6 +10,8 @@ namespace CodeReactor.CRGameJolt.Users.Trophies
     /// <seealso cref="TrophyDifficulty"/>
     /// <seealso cref="GameJoltMe"/>
     /// <seealso cref="Connector.WebCaller"/>
+    /// <seealso cref="InvalidTrophyDifficultyException"/>
+    /// <seealso cref="TrophyElementNotFoundException"/>
     /// <seealso cref="IGJObject"/>
     /// <seealso cref="TrophiesManager"/>
     public class Trophy : IGJObject
@@ -66,6 +67,36 @@ namespace CodeReactor.CRGameJolt.Users.Trophies
         }
 
         /// <summary>
+        /// Create a new trophy object parsing a existing <c>XElement</c>
+        /// </summary>
+        /// <param name="trophy">A existing <c>XElement</c> to be parsed</param>
+        /// <param name="user">User required for <see cref="Update"/> data fetch</param>
+        /// <param name="webCaller">A instance of <see cref="WebCaller"/> to download the data</param>
+        /// <exception cref="TrophyElementNotFoundException">Throwed if a necessary element to parse doesn't exists</exception>
+        /// <exception cref="InvalidTrophyDifficultyException">Throwed if a invalid <paramref name="trophy"/>.difficulty is provided</exception>
+        public Trophy(XElement trophy, GameJoltMe user, WebCaller webCaller)
+        {
+            User = user;
+            WebCaller = webCaller;
+
+            if (trophy.Element("id") == null) throw new TrophyElementNotFoundException("trophy.id doesn't exists");
+            if (trophy.Element("title") == null) throw new TrophyElementNotFoundException("trophy.title doesn't exists");
+            if (trophy.Element("description") == null) throw new TrophyElementNotFoundException("trophy.description doesn't exists");
+            if (trophy.Element("image_url") == null) throw new TrophyElementNotFoundException("trophy.image_url doesn't exists");
+            if (trophy.Element("difficulty") == null) throw new TrophyElementNotFoundException("trophy.difficulty doesn't exists");
+            if (trophy.Element("achived") == null) throw new TrophyElementNotFoundException("trophy.achived doesn't exists");
+
+            if (!int.TryParse(trophy.Element("id").Value, out _)) throw new TrophyElementNotFoundException("trophy.id ins't a int");
+
+            Id = int.Parse(trophy.Element("id").Value);
+            Title = trophy.Element("title").Value;
+            Description = trophy.Element("description").Value;
+            ImageURL = trophy.Element("image_url").Value;
+            Difficulty = StringToTrophyDifficulty(trophy.Element("difficulty").Value);
+            Achived = trophy.Element("achived").Value != "false";
+        }
+
+        /// <summary>
         /// Give the trophy to <see cref="User"/>
         /// </summary>
         /// <exception cref="GameJoltAPIException">Throwed if GameJolt Game API return a non-success response</exception>
@@ -92,7 +123,7 @@ namespace CodeReactor.CRGameJolt.Users.Trophies
         /// </summary>
         /// <param name="trophyDifficulty">String used in convertion</param>
         /// <returns>A valid <see cref="TrophyDifficulty"/></returns>
-        /// <exception cref="InvalidTrophDifficultyException">Throwed if a invalid <paramref name="trophyDifficulty"/> is provided</exception>
+        /// <exception cref="InvalidTrophyDifficultyException">Throwed if a invalid <paramref name="trophyDifficulty"/> is provided</exception>
         public static TrophyDifficulty StringToTrophyDifficulty(string trophyDifficulty)
         {
             switch(trophyDifficulty)
@@ -106,7 +137,7 @@ namespace CodeReactor.CRGameJolt.Users.Trophies
                 case "Platinum":
                     return TrophyDifficulty.Platinum;
                 default:
-                    throw new InvalidTrophDifficultyException("Invalid trophy difficult provided");
+                    throw new InvalidTrophyDifficultyException("Invalid trophy difficult provided");
             }
         }
 

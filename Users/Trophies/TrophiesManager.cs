@@ -42,7 +42,7 @@ namespace CodeReactor.CRGameJolt.Users.Trophies
             Clear();
             foreach (XElement trophy in response.Element("trophies").Elements("trophy"))
             {
-                Trophy trophyObj = new Trophy(int.Parse(trophy.Element("id").Value), User, WebCaller);
+                Trophy trophyObj = new Trophy(trophy, User, WebCaller);
                 base[trophyObj.Id] = trophyObj;
             }
         }
