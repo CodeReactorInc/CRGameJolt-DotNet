@@ -95,18 +95,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Cache.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Cache%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Count.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Count%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/DataStorage/IGJDataStorage.cs/#L18">View Source</a>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/DataStorage/IGJDataStorage.cs/#L37">View Source</a>
   </span>
-  <a id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Cache_" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Cache*"></a>
-  <h4 id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Cache" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Cache">Cache</h4>
+  <a id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Count_" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Count*"></a>
+  <h4 id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Count" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Count">Count</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">ConcurrentDictionary&lt;string, DataStorageValue&gt; Cache { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">int Count { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -118,8 +118,136 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Concurrent.ConcurrentDictionary</span>&lt;<span class="xref">System.String</span>, <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html">DataStorageValue</a>&gt;</td>
-        <td><p>A local cache of Data Storage copied from GameJolt Game API</p>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The count of values inside of Game Jolt Data Storage</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.GameJoltAPIException.html">GameJoltAPIException</a></td>
+        <td><p>Throwed if GameJolt Game API return a non-success response</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Item_System_String_.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Item(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/DataStorage/IGJDataStorage.cs/#L18">View Source</a>
+  </span>
+  <a id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Item_" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Item*"></a>
+  <h4 id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Item_System_String_" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Item(System.String)">Item[String]</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DataStorageValue this[string key] { get; set; }</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Key used in Data Storage</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html">DataStorageValue</a></td>
+        <td><p>Data retrived from Data Storage</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.GameJoltAPIException.html">GameJoltAPIException</a></td>
+        <td><p>Throwed if GameJolt Game API return a non-success response</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Keys.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Keys%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/DataStorage/IGJDataStorage.cs/#L24">View Source</a>
+  </span>
+  <a id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Keys_" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Keys*"></a>
+  <h4 id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Keys" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Keys">Keys</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string[] Keys { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><p>All keys available and valid in Data Storage</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.GameJoltAPIException.html">GameJoltAPIException</a></td>
+        <td><p>Throwed if GameJolt Game API return a non-success response</p>
 </td>
       </tr>
     </tbody>
@@ -131,16 +259,16 @@
     <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Add_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Add(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/DataStorage/IGJDataStorage.cs/#L87">View Source</a>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/DataStorage/IGJDataStorage.cs/#L47">View Source</a>
   </span>
   <a id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Add_" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Add*"></a>
   <h4 id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Add_System_String_System_Int32_" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Add(System.String,System.Int32)">Add(String, Int32)</h4>
-  <div class="markdown level1 summary"><p>Run <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html#CodeReactor_CRGameJolt_DataStorage_DataStorageValue_Add_System_Int32_">Add(Int32)</a> on a key, save and return the result</p>
+  <div class="markdown level1 summary"><p>Send a update request with add operation and make a sum in value</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">DataStorageValue Add(string key, int value)</code></pre>
+    <pre><code class="lang-csharp hljs">DataStorageValue Add(string key, int newvalue)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -155,13 +283,13 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">key</span></td>
-        <td><p>The key of value</p>
+        <td><p>The key to be updated</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>Value in <code>int</code> to execute add</p>
+        <td><span class="parametername">newvalue</span></td>
+        <td><p>New value provided for Data Storage with the operation</p>
 </td>
       </tr>
     </tbody>
@@ -177,7 +305,28 @@
     <tbody>
       <tr>
         <td><a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html">DataStorageValue</a></td>
-        <td><p>Value updated or <code>null</code> if key doesn't exists</p>
+        <td><p>The value updated</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.GameJoltAPIException.html">GameJoltAPIException</a></td>
+        <td><p>Throwed if GameJolt Game API return a non-success response</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException.html">InvalidDataTypeException</a></td>
+        <td><p>Throwed if <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html#CodeReactor_CRGameJolt_DataStorage_DataStorageValue_Type">Type</a> is a <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DSValueType.html#CodeReactor_CRGameJolt_DataStorage_DSValueType_INTEGER">INTEGER</a></p>
 </td>
       </tr>
     </tbody>
@@ -187,16 +336,16 @@
     <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Append_System_String_System_String_.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Append(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/DataStorage/IGJDataStorage.cs/#L119">View Source</a>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/DataStorage/IGJDataStorage.cs/#L87">View Source</a>
   </span>
   <a id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Append_" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Append*"></a>
   <h4 id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Append_System_String_System_String_" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Append(System.String,System.String)">Append(String, String)</h4>
-  <div class="markdown level1 summary"><p>Run <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html#CodeReactor_CRGameJolt_DataStorage_DataStorageValue_Append_System_String_">Append(String)</a> on a key, save and return the result</p>
+  <div class="markdown level1 summary"><p>Send a update request with append operation and make a append in value</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">DataStorageValue Append(string key, string value)</code></pre>
+    <pre><code class="lang-csharp hljs">DataStorageValue Append(string key, string newvalue)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -211,13 +360,13 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">key</span></td>
-        <td><p>The key of value</p>
+        <td><p>The key to be updated</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>Value in <code>string</code> to append</p>
+        <td><span class="parametername">newvalue</span></td>
+        <td><p>New value provided for Data Storage with the operation</p>
 </td>
       </tr>
     </tbody>
@@ -233,7 +382,28 @@
     <tbody>
       <tr>
         <td><a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html">DataStorageValue</a></td>
-        <td><p>Value updated or <code>null</code> if key doesn't exists</p>
+        <td><p>The value updated</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.GameJoltAPIException.html">GameJoltAPIException</a></td>
+        <td><p>Throwed if GameJolt Game API return a non-success response</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException.html">InvalidDataTypeException</a></td>
+        <td><p>Throwed if <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html#CodeReactor_CRGameJolt_DataStorage_DataStorageValue_Type">Type</a> is a <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DSValueType.html#CodeReactor_CRGameJolt_DataStorage_DSValueType_STRING">STRING</a></p>
 </td>
       </tr>
     </tbody>
@@ -243,16 +413,16 @@
     <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Divide_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Divide(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/DataStorage/IGJDataStorage.cs/#L111">View Source</a>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/DataStorage/IGJDataStorage.cs/#L77">View Source</a>
   </span>
   <a id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Divide_" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Divide*"></a>
   <h4 id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Divide_System_String_System_Int32_" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Divide(System.String,System.Int32)">Divide(String, Int32)</h4>
-  <div class="markdown level1 summary"><p>Run <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html#CodeReactor_CRGameJolt_DataStorage_DataStorageValue_Divide_System_Int32_">Divide(Int32)</a> on a key, save and return the result</p>
+  <div class="markdown level1 summary"><p>Send a update request with divide operation and make a divide in value</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">DataStorageValue Divide(string key, int value)</code></pre>
+    <pre><code class="lang-csharp hljs">DataStorageValue Divide(string key, int newvalue)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -267,13 +437,13 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">key</span></td>
-        <td><p>The key of value</p>
+        <td><p>The key to be updated</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>Value in <code>int</code> to execute divide</p>
+        <td><span class="parametername">newvalue</span></td>
+        <td><p>New value provided for Data Storage with the operation</p>
 </td>
       </tr>
     </tbody>
@@ -289,57 +459,28 @@
     <tbody>
       <tr>
         <td><a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html">DataStorageValue</a></td>
-        <td><p>Value updated or <code>null</code> if key doesn't exists</p>
+        <td><p>The value updated</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Get_System_String_.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Get(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/DataStorage/IGJDataStorage.cs/#L79">View Source</a>
-  </span>
-  <a id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Get_" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Get*"></a>
-  <h4 id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Get_System_String_" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Get(System.String)">Get(String)</h4>
-  <div class="markdown level1 summary"><p>Get a value from cache that you can use implicit conversion</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">DataStorageValue Get(string key)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
+        <th>Condition</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">key</span></td>
-        <td><p>The key of value</p>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.GameJoltAPIException.html">GameJoltAPIException</a></td>
+        <td><p>Throwed if GameJolt Game API return a non-success response</p>
 </td>
       </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html">DataStorageValue</a></td>
-        <td><p>Value from cache or a type null GJDataValue if key doesn't exists</p>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException.html">InvalidDataTypeException</a></td>
+        <td><p>Throwed if <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html#CodeReactor_CRGameJolt_DataStorage_DataStorageValue_Type">Type</a> is a <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DSValueType.html#CodeReactor_CRGameJolt_DataStorage_DSValueType_INTEGER">INTEGER</a></p>
 </td>
       </tr>
     </tbody>
@@ -349,16 +490,16 @@
     <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Multiply_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Multiply(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/DataStorage/IGJDataStorage.cs/#L103">View Source</a>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/DataStorage/IGJDataStorage.cs/#L67">View Source</a>
   </span>
   <a id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Multiply_" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Multiply*"></a>
   <h4 id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Multiply_System_String_System_Int32_" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Multiply(System.String,System.Int32)">Multiply(String, Int32)</h4>
-  <div class="markdown level1 summary"><p>Run <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html#CodeReactor_CRGameJolt_DataStorage_DataStorageValue_Multiply_System_Int32_">Multiply(Int32)</a> on a key, save and return the result</p>
+  <div class="markdown level1 summary"><p>Send a update request with multiply operation and make a multiply in value</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">DataStorageValue Multiply(string key, int value)</code></pre>
+    <pre><code class="lang-csharp hljs">DataStorageValue Multiply(string key, int newvalue)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -373,13 +514,13 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">key</span></td>
-        <td><p>The key of value</p>
+        <td><p>The key to be updated</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>Value in <code>int</code> to execute multiply</p>
+        <td><span class="parametername">newvalue</span></td>
+        <td><p>New value provided for Data Storage with the operation</p>
 </td>
       </tr>
     </tbody>
@@ -395,7 +536,28 @@
     <tbody>
       <tr>
         <td><a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html">DataStorageValue</a></td>
-        <td><p>Value updated or <code>null</code> if key doesn't exists</p>
+        <td><p>The value updated</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.GameJoltAPIException.html">GameJoltAPIException</a></td>
+        <td><p>Throwed if GameJolt Game API return a non-success response</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException.html">InvalidDataTypeException</a></td>
+        <td><p>Throwed if <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html#CodeReactor_CRGameJolt_DataStorage_DataStorageValue_Type">Type</a> is a <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DSValueType.html#CodeReactor_CRGameJolt_DataStorage_DSValueType_INTEGER">INTEGER</a></p>
 </td>
       </tr>
     </tbody>
@@ -405,16 +567,16 @@
     <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Prepend_System_String_System_String_.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Prepend(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/DataStorage/IGJDataStorage.cs/#L127">View Source</a>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/DataStorage/IGJDataStorage.cs/#L97">View Source</a>
   </span>
   <a id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Prepend_" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Prepend*"></a>
   <h4 id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Prepend_System_String_System_String_" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Prepend(System.String,System.String)">Prepend(String, String)</h4>
-  <div class="markdown level1 summary"><p>Run <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html#CodeReactor_CRGameJolt_DataStorage_DataStorageValue_Prepend_System_String_">Prepend(String)</a> on a key, save and return the result</p>
+  <div class="markdown level1 summary"><p>Send a update request with prepend operation and make a prepend in value</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">DataStorageValue Prepend(string key, string value)</code></pre>
+    <pre><code class="lang-csharp hljs">DataStorageValue Prepend(string key, string newvalue)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -429,13 +591,13 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">key</span></td>
-        <td><p>The key of value</p>
+        <td><p>The key to be updated</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>Value in <code>string</code> to preappend</p>
+        <td><span class="parametername">newvalue</span></td>
+        <td><p>New value provided for Data Storage with the operation</p>
 </td>
       </tr>
     </tbody>
@@ -451,73 +613,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html">DataStorageValue</a></td>
-        <td><p>Value updated or <code>null</code> if key doesn't exists</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Read.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Read%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/DataStorage/IGJDataStorage.cs/#L24">View Source</a>
-  </span>
-  <a id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Read_" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Read*"></a>
-  <h4 id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Read" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Read">Read()</h4>
-  <div class="markdown level1 summary"><p>Read all Data Storage from GameJolt Game API</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Read()</code></pre>
-  </div>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CodeReactor.CRGameJolt.GameJoltAPIException.html">GameJoltAPIException</a></td>
-        <td><p>Throwed if GameJolt Game API return a non-success response</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Read_System_String_.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Read(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/DataStorage/IGJDataStorage.cs/#L37">View Source</a>
-  </span>
-  <a id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Read_" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Read*"></a>
-  <h4 id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Read_System_String_" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Read(System.String)">Read(String)</h4>
-  <div class="markdown level1 summary"><p>Only read a key from Data Storage from GameJolt Game API</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Read(string key)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">key</span></td>
-        <td><p>Key to read from Data Storage</p>
+        <td><p>The value updated</p>
 </td>
       </tr>
     </tbody>
@@ -534,6 +630,11 @@
       <tr>
         <td><a class="xref" href="CodeReactor.CRGameJolt.GameJoltAPIException.html">GameJoltAPIException</a></td>
         <td><p>Throwed if GameJolt Game API return a non-success response</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException.html">InvalidDataTypeException</a></td>
+        <td><p>Throwed if <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html#CodeReactor_CRGameJolt_DataStorage_DataStorageValue_Type">Type</a> is a <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DSValueType.html#CodeReactor_CRGameJolt_DataStorage_DSValueType_STRING">STRING</a></p>
 </td>
       </tr>
     </tbody>
@@ -543,11 +644,11 @@
     <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Remove_System_String_.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Remove(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/DataStorage/IGJDataStorage.cs/#L51">View Source</a>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/DataStorage/IGJDataStorage.cs/#L31">View Source</a>
   </span>
   <a id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Remove_" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Remove*"></a>
   <h4 id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Remove_System_String_" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Remove(System.String)">Remove(String)</h4>
-  <div class="markdown level1 summary"><p>Remove a value from <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Cache">Cache</a> and Data Storage using a key</p>
+  <div class="markdown level1 summary"><p>Remove a value from Data Storage using a key</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -567,7 +668,7 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">key</span></td>
-        <td><p>Key of value to remove</p>
+        <td><p>The key used to remove</p>
 </td>
       </tr>
     </tbody>
@@ -590,139 +691,19 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Set_System_String_CodeReactor_CRGameJolt_DataStorage_DataStorageValue_.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Set(System.String%2CCodeReactor.CRGameJolt.DataStorage.DataStorageValue)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/DataStorage/IGJDataStorage.cs/#L58">View Source</a>
-  </span>
-  <a id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Set_" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Set*"></a>
-  <h4 id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Set_System_String_CodeReactor_CRGameJolt_DataStorage_DataStorageValue_" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Set(System.String,CodeReactor.CRGameJolt.DataStorage.DataStorageValue)">Set(String, DataStorageValue)</h4>
-  <div class="markdown level1 summary"><p>Add or update a value on <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Cache">Cache</a></p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Set(string key, DataStorageValue value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">key</span></td>
-        <td><p>The key of value</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html">DataStorageValue</a></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>Value to add or update</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Set_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Set(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/DataStorage/IGJDataStorage.cs/#L65">View Source</a>
-  </span>
-  <a id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Set_" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Set*"></a>
-  <h4 id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Set_System_String_System_Int32_" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Set(System.String,System.Int32)">Set(String, Int32)</h4>
-  <div class="markdown level1 summary"><p>Add or update a value converting <code>int</code> to <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html">DataStorageValue</a></p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Set(string key, int value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">key</span></td>
-        <td><p>The key of value</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>Value to convert for a <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html">DataStorageValue</a></p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Set_System_String_System_String_.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Set(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/DataStorage/IGJDataStorage.cs/#L72">View Source</a>
-  </span>
-  <a id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Set_" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Set*"></a>
-  <h4 id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Set_System_String_System_String_" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Set(System.String,System.String)">Set(String, String)</h4>
-  <div class="markdown level1 summary"><p>Add or update a value converting <code>string</code> to <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html">DataStorageValue</a></p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Set(string key, string value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">key</span></td>
-        <td><p>The key of value</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>Value to convert for a <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html">DataStorageValue</a></p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Subtract_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Subtract(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/DataStorage/IGJDataStorage.cs/#L95">View Source</a>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/DataStorage/IGJDataStorage.cs/#L57">View Source</a>
   </span>
   <a id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Subtract_" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Subtract*"></a>
   <h4 id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Subtract_System_String_System_Int32_" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Subtract(System.String,System.Int32)">Subtract(String, Int32)</h4>
-  <div class="markdown level1 summary"><p>Run <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html#CodeReactor_CRGameJolt_DataStorage_DataStorageValue_Subtract_System_Int32_">Subtract(Int32)</a> on a key, save and return the result</p>
+  <div class="markdown level1 summary"><p>Send a update request with subtract operation and make a subtract in value</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">DataStorageValue Subtract(string key, int value)</code></pre>
+    <pre><code class="lang-csharp hljs">DataStorageValue Subtract(string key, int newvalue)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -737,13 +718,13 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">key</span></td>
-        <td><p>The key of value</p>
+        <td><p>The key to be updated</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>Value in <code>int</code> to execute subtract</p>
+        <td><span class="parametername">newvalue</span></td>
+        <td><p>New value provided for Data Storage with the operation</p>
 </td>
       </tr>
     </tbody>
@@ -759,73 +740,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html">DataStorageValue</a></td>
-        <td><p>Value updated or <code>null</code> if key doesn't exists</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Write.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Write%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/DataStorage/IGJDataStorage.cs/#L30">View Source</a>
-  </span>
-  <a id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Write_" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Write*"></a>
-  <h4 id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Write" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Write">Write()</h4>
-  <div class="markdown level1 summary"><p>Write all <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Cache">Cache</a> to GameJolt Game API</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Write()</code></pre>
-  </div>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CodeReactor.CRGameJolt.GameJoltAPIException.html">GameJoltAPIException</a></td>
-        <td><p>Throwed if GameJolt Game API return a non-success response</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Write_System_String_.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Write(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/DataStorage/IGJDataStorage.cs/#L44">View Source</a>
-  </span>
-  <a id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Write_" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Write*"></a>
-  <h4 id="CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Write_System_String_" data-uid="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.Write(System.String)">Write(String)</h4>
-  <div class="markdown level1 summary"><p>Only write a key from <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Cache">Cache</a> to GameJolt Game API</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Write(string key)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">key</span></td>
-        <td><p>Key to write from <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html#CodeReactor_CRGameJolt_DataStorage_IGJDataStorage_Cache">Cache</a></p>
+        <td><p>The value updated</p>
 </td>
       </tr>
     </tbody>
@@ -842,6 +757,11 @@
       <tr>
         <td><a class="xref" href="CodeReactor.CRGameJolt.GameJoltAPIException.html">GameJoltAPIException</a></td>
         <td><p>Throwed if GameJolt Game API return a non-success response</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException.html">InvalidDataTypeException</a></td>
+        <td><p>Throwed if <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html#CodeReactor_CRGameJolt_DataStorage_DataStorageValue_Type">Type</a> is a <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DSValueType.html#CodeReactor_CRGameJolt_DataStorage_DSValueType_INTEGER">INTEGER</a></p>
 </td>
       </tr>
     </tbody>
