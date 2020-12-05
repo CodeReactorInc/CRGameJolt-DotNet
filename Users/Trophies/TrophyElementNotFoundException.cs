@@ -6,8 +6,9 @@ namespace CodeReactor.CRGameJolt.Users.Trophies
     /// <summary>
     /// If a XML element necessary for <see cref="Trophy"/> initialization isn't found, this is throwed
     /// </summary>
-    /// <seealso cref="APIVersion"/>
-    /// <seealso cref="URLConstructor"/>
+    /// <seealso cref="Trophy"/>
+    /// <seealso cref="TrophiesManager"/>
+    /// <seealso cref="TrophyDifficulty"/>
     public class TrophyElementNotFoundException : Exception
     {
         /// <summary>

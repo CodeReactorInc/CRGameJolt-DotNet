@@ -22,8 +22,8 @@ namespace CodeReactor.CRGameJolt.Users.Trophies
         /// <summary>
         /// Fetch all data about all trophies in the game in GameJolt
         /// </summary>
-        /// <param name="user"></param>
-        /// <param name="webCaller"></param>
+        /// <param name="user">User that gonna be your thropies managed</param>
+        /// <param name="webCaller">A instance of <see cref="WebCaller"/> to download the data</param>
         public TrophiesManager(GameJoltMe user, WebCaller webCaller)
         {
             User = user;

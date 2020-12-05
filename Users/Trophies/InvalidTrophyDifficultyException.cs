@@ -6,8 +6,9 @@ namespace CodeReactor.CRGameJolt.Users.Trophies
     /// <summary>
     /// Exception that represent a invalid or a not supported <see cref="TrophyDifficulty"/>
     /// </summary>
-    /// <seealso cref="APIVersion"/>
-    /// <seealso cref="URLConstructor"/>
+    /// <seealso cref="Trophy"/>
+    /// <seealso cref="TrophiesManager"/>
+    /// <seealso cref="TrophyDifficulty"/>
     public class InvalidTrophyDifficultyException : Exception
     {
         /// <summary>
@@ -16,7 +17,7 @@ namespace CodeReactor.CRGameJolt.Users.Trophies
         public InvalidTrophyDifficultyException() : base() { }
 
         /// <summary>
-        /// Initialize a new <see cref="InvalidTrophDifficultyException"/> with a error message
+        /// Initialize a new <see cref="InvalidTrophyDifficultyException"/> with a error message
         /// </summary>
         /// <param name="message">A message that contain the error</param>
         public InvalidTrophyDifficultyException(string message) : base(message) { }
