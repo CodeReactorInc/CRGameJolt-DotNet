@@ -7,11 +7,11 @@
     public enum DSValueType
     {
         /// <value>
-        /// Say to <see cref="DataStorageValue"/> use <see cref="DataStorageValue.StringBuffer"/>
+        /// Say to <see cref="DataStorageValue"/> use <see cref="DataStorageValue.Buffer"/>
         /// </value>
         STRING,
         /// <value>
-        /// Say to <see cref="DataStorageValue"/> use <see cref="DataStorageValue.IntegerBuffer"/>
+        /// Say to <see cref="DataStorageValue"/> use <see cref="DataStorageValue.Buffer"/>
         /// </value>
         INTEGER
     }

@@ -1,182 +1,190 @@
-﻿using System;
+﻿using CodeReactor.CRGameJolt.Connector;
+using System;
 using System.Text;
 
 namespace CodeReactor.CRGameJolt.DataStorage
 {
     /// <summary>
-    /// A value with a dynamic type that can be a <c>int</c> or a <c>string</c>
+    /// A controlled value that has a dynamic type that can be <c>string</c> or <c>int</c>
     /// </summary>
     /// <seealso cref="GlobalDataStorage"/>
     /// <seealso cref="IGJDataStorage"/>
     /// <seealso cref="UserDataStorage"/>
     public class DataStorageValue
     {
+        /// <value>
+        /// The key associated with this <see cref="DataStorageValue"/> and <see cref="DataStorage"/>
+        /// </value>
+        public string Key { get; private set; }
 
         /// <value>
-        /// Are the type of Data Storage value used by converter
+        /// The Data Storaged associated with this <see cref="DataStorageValue"/>
+        /// </value>
+        public IGJDataStorage DataStorage { get; private set; }
+
+        /// <value>
+        /// The buffer that can be a <c>string</c> or a <c>int</c>
+        /// </value>
+        public object Buffer { get; private set; }
+
+        /// <value>
+        /// Speficy the type of buffer to cast
         /// </value>
         public DSValueType Type { get; private set; }
 
-        /// <value>
-        /// A buffer in <c>string</c> format or null if <see cref="Type"/> isn't <see cref="DSValueType.STRING"/>
-        /// </value>
-        public string StringBuffer { get; private set; }
-
-        /// <value>
-        /// A buffer in <c>int</c> format or null if <see cref="Type"/> isn't <see cref="DSValueType.INTEGER"/>
-        /// </value>
-        public int? IntegerBuffer { get; private set; }
+        /// <summary>
+        /// Test if <paramref name="cache"/> is a <c>int</c> or <c>string</c> and generate a <see cref="DataStorageValue"/>
+        /// </summary>
+        /// <param name="cache">Raw data used to create a <see cref="DataStorageValue"/></param>
+        /// <param name="key">Key to be assin to <see cref="DataStorageValue"/></param>
+        /// <param name="dataStorage">Data Storage to be assign to <see cref="DataStorageValue"/></param>
+        /// <returns><paramref name="cache"/> parsed in a <see cref="DataStorageValue"/></returns>
+        public static DataStorageValue Parse(string cache, string key, IGJDataStorage dataStorage)
+        {
+            int icache;
+            if (int.TryParse(cache, out icache))
+            {
+                return new DataStorageValue(icache, key, dataStorage);
+            }
+            else return new DataStorageValue(cache, key, dataStorage);
+        }
 
         /// <summary>
-        /// Create a <see cref="DataStorageValue"/> with <see cref="DSValueType.STRING"/> and assign <paramref name="value"/> as data
+        /// Create a buffer with <see cref="DSValueType.STRING"/> type
         /// </summary>
-        /// <param name="data">The value to assign in <see cref="StringBuffer"/></param>
-        /// <exception cref="ArgumentOutOfRangeException">Throwed if value are bigger than 16MB</exception>
-        public DataStorageValue(string value)
+        /// <param name="cache">Value to be assign to <see cref="Buffer"/></param>
+        /// <exception cref="ArgumentOutOfRangeException">If the <paramref name="cache"/> has more than 16MB, this is throwed</exception>
+        public DataStorageValue(string cache) : this(cache, null, null) { }
+
+        /// <summary>
+        /// Create a buffer with <see cref="DSValueType.INTEGER"/> type
+        /// </summary>
+        /// <param name="cache">Value to be assign to <see cref="Buffer"/></param>
+        /// <exception cref="ArgumentOutOfRangeException">If the <paramref name="cache"/> has more than 16MB, this is throwed</exception>
+        public DataStorageValue(int cache) : this(cache, null, null) { }
+
+        /// <summary>
+        /// Create a buffer with <see cref="DSValueType.STRING"/> type
+        /// </summary>
+        /// <param name="cache">Value to be assign to <see cref="Buffer"/></param>
+        /// <param name="key">Key in the Data Storage that has this value</param>
+        /// <param name="dataStorage">Data Storage used to make simple operations</param>
+        /// <exception cref="ArgumentOutOfRangeException">If the <paramref name="cache"/> has more than 16MB, this is throwed</exception>
+        public DataStorageValue(string cache, string key, IGJDataStorage dataStorage)
         {
-            if (Encoding.UTF8.GetBytes(value).Length > 16000000) throw new ArgumentOutOfRangeException("Value are bigger than 16MB");
+            if (Encoding.UTF8.GetBytes(cache).Length >= 16000000) throw new ArgumentOutOfRangeException("Cache data is bigger than 16MB");
+            Key = key;
+            DataStorage = dataStorage;
+            Buffer = cache;
             Type = DSValueType.STRING;
-            StringBuffer = value;
-            IntegerBuffer = null;
         }
 
         /// <summary>
-        /// Create a <see cref="DataStorageValue"/> with <see cref="DSValueType.INTEGER"/> and assign <paramref name="value"/> as data
+        /// Create a buffer with <see cref="DSValueType.INTEGER"/> type
         /// </summary>
-        /// <param name="data">The value to assign in <see cref="IntegerBuffer"/></param>
-        /// <exception cref="ArgumentOutOfRangeException">Throwed if value are bigger than 16MB</exception>
-        public DataStorageValue(int value)
+        /// <param name="cache">Value to be assign to <see cref="Buffer"/></param>
+        /// <param name="key">Key in the Data Storage that has this value</param>
+        /// <param name="dataStorage">Data Storage used to make simple operations</param>
+        /// <exception cref="ArgumentOutOfRangeException">If the <paramref name="cache"/> has more than 16MB, this is throwed</exception>
+        public DataStorageValue(int cache, string key, IGJDataStorage dataStorage)
         {
-            if (Encoding.UTF8.GetBytes(value.ToString()).Length > 16000000) throw new ArgumentOutOfRangeException("Value are bigger than 16MB");
+            if (Encoding.UTF8.GetBytes(cache.ToString()).Length >= 16000000) throw new ArgumentOutOfRangeException("Cache data is bigger than 16MB");
+            Buffer = cache;
+            Key = key;
+            DataStorage = dataStorage;
             Type = DSValueType.INTEGER;
-            IntegerBuffer = value;
-            StringBuffer = null;
         }
 
         /// <summary>
-        /// Set a new value, change the <see cref="Type"/> to <see cref="DSValueType.STRING"/> and clear <see cref="IntegerBuffer"/>
+        /// Collect value from <see cref="Buffer"/> in <c>string</c> type
         /// </summary>
-        /// <param name="value">The new value to assign</param>
-        /// <exception cref="ArgumentOutOfRangeException">Throwed if value are bigger than 16MB</exception>
-        public void Set(string value)
-        {
-            if (Encoding.UTF8.GetBytes(value).Length > 16000000) throw new ArgumentOutOfRangeException("Value are bigger than 16MB");
-            Type = DSValueType.STRING;
-            StringBuffer = value;
-            IntegerBuffer = null;
-        }
-
-        /// <summary>
-        /// Set a new value, change the <see cref="Type"/> to <see cref="DSValueType.INTEGER"/> and clear <see cref="StringBuffer"/>
-        /// </summary>
-        /// <param name="value">The new value to assign</param>
-        /// <exception cref="ArgumentOutOfRangeException">Throwed if value are bigger than 16MB</exception>
-        public void Set(int value)
-        {
-            if (Encoding.UTF8.GetBytes(value.ToString()).Length > 16000000) throw new ArgumentOutOfRangeException("Value are bigger than 16MB");
-            Type = DSValueType.INTEGER;
-            IntegerBuffer = value;
-            StringBuffer = null;
-        }
-
-        /// <summary>
-        /// Execute add mathematical operation, if <see cref="Type"/> is a <see cref="DSValueType.INTEGER"/>
-        /// </summary>
-        /// <param name="value">Value to add with <see cref="IntegerBuffer"/></param>
-        /// <exception cref="InvalidDataTypeException">Throwed if <see cref="Type"/> isn't a <see cref="DSValueType.INTEGER"/></exception>
-        /// <exception cref="ArgumentOutOfRangeException">Throwed if value are bigger than 16MB</exception>
-        public void Add(int value)
-        {
-            if (Type != DSValueType.INTEGER) throw new InvalidDataTypeException("Can't execute add because the type isn't a integer");
-            if (Encoding.UTF8.GetBytes((IntegerBuffer + value).ToString()).Length > 16000000) throw new ArgumentOutOfRangeException("Value are bigger than 16MB");
-            IntegerBuffer += value;
-        }
-
-        /// <summary>
-        /// Execute subtract mathematical operation, if <see cref="Type"/> is a <see cref="DSValueType.INTEGER"/>
-        /// </summary>
-        /// <param name="value">Value to subtract with <see cref="IntegerBuffer"/></param>
-        /// <exception cref="InvalidDataTypeException">Throwed if <see cref="Type"/> isn't a <see cref="DSValueType.INTEGER"/></exception>
-        /// <exception cref="ArgumentOutOfRangeException">Throwed if value are bigger than 16MB</exception>
-        public void Subtract(int value)
-        {
-            if (Type != DSValueType.INTEGER) throw new InvalidDataTypeException("Can't execute subtract because the type isn't a integer");
-            if (Encoding.UTF8.GetBytes((IntegerBuffer - value).ToString()).Length > 16000000) throw new ArgumentOutOfRangeException("Value are bigger than 16MB");
-            IntegerBuffer -= value;
-        }
-
-        /// <summary>
-        /// Execute multiply mathematical operation, if <see cref="Type"/> is a <see cref="DSValueType.INTEGER"/>
-        /// </summary>
-        /// <param name="value">Value to multiply with <see cref="IntegerBuffer"/></param>
-        /// <exception cref="InvalidDataTypeException">Throwed if <see cref="Type"/> isn't a <see cref="DSValueType.INTEGER"/></exception>
-        /// <exception cref="ArgumentOutOfRangeException">Throwed if value are bigger than 16MB</exception>
-        public void Multiply(int value)
-        {
-            if (Type != DSValueType.INTEGER) throw new InvalidDataTypeException("Can't execute multiply because the type isn't a integer");
-            if (Encoding.UTF8.GetBytes((IntegerBuffer * value).ToString()).Length > 16000000) throw new ArgumentOutOfRangeException("Value are bigger than 16MB");
-            IntegerBuffer *= value;
-        }
-
-        /// <summary>
-        /// Execute divide mathematical operation, if <see cref="Type"/> is a <see cref="DSValueType.INTEGER"/>
-        /// </summary>
-        /// <param name="value">Value to divide with <see cref="IntegerBuffer"/></param>
-        /// <exception cref="InvalidDataTypeException">Throwed if <see cref="Type"/> isn't a <see cref="DSValueType.INTEGER"/></exception>
-        /// <exception cref="ArgumentOutOfRangeException">Throwed if value are bigger than 16MB</exception>
-        public void Divide(int value)
-        {
-            if (Type != DSValueType.INTEGER) throw new InvalidDataTypeException("Can't execute divide because the type isn't a integer");
-            if (Encoding.UTF8.GetBytes((IntegerBuffer / value).ToString()).Length > 16000000) throw new ArgumentOutOfRangeException("Value are bigger than 16MB");
-            IntegerBuffer /= value;
-        }
-
-        /// <summary>
-        /// Append a <c>string</c> in <see cref="StringBuffer"/>, if <see cref="Type"/> is a <see cref="DSValueType.STRING"/>
-        /// </summary>
-        /// <exception cref="InvalidDataTypeException">Throwed if <see cref="Type"/> isn't a <see cref="DSValueType.STRING"/></exception>
-        /// <exception cref="ArgumentOutOfRangeException">Throwed if value are bigger than 16MB</exception>
-        /// <param name="value">String to be appended</param>
-        public void Append(string value)
-        {
-            if (Type != DSValueType.STRING) throw new InvalidDataTypeException("Can't append string in StringBuffer, type isn't string");
-            if (Encoding.UTF8.GetBytes(StringBuffer + value).Length > 16000000) throw new ArgumentOutOfRangeException("Value are bigger than 16MB");
-            StringBuffer += value;
-        }
-
-        /// <summary>
-        /// Prepend a <c>string</c> in <see cref="StringBuffer"/>, if <see cref="Type"/> is a <see cref="DSValueType.STRING"/>
-        /// </summary>
-        /// <exception cref="InvalidDataTypeException">Throwed if <see cref="Type"/> isn't a <see cref="DSValueType.STRING"/></exception>
-        /// <exception cref="ArgumentOutOfRangeException">Throwed if value are bigger than 16MB</exception>
-        /// <param name="value">String to be prepended</param>
-        public void Prepend(string value)
-        {
-            if (Type != DSValueType.STRING) throw new InvalidDataTypeException("Can't prepend string in StringBuffer, type isn't string");
-            if (Encoding.UTF8.GetBytes(value + StringBuffer).Length > 16000000) throw new ArgumentOutOfRangeException("Value are bigger than 16MB");
-            StringBuffer = value + StringBuffer;
-        }
-
-        /// <summary>
-        /// Implicit get of value from <see cref="StringBuffer"/>
-        /// </summary>
-        /// <exception cref="InvalidDataTypeException">Throwed if <see cref="Type"/> isn't a <see cref="DSValueType.STRING"/></exception>
-        /// <param name="value">Value to convert from</param>
+        /// <param name="value"><see cref="DataStorageValue"/> to be converted</param>
+        /// <exception cref="InvalidDataTypeException">Throwed if <see cref="Buffer"/> isn't have <see cref="Type"/> <see cref="DSValueType.STRING"/></exception>
         public static implicit operator string(DataStorageValue value)
         {
-            if (value.Type != DSValueType.STRING) throw new InvalidDataTypeException("Can't convert DataStorageValue to string");
-            return value.StringBuffer;
+            if (value.Type != DSValueType.STRING) throw new InvalidDataTypeException("DataStorageValue isn't has type string");
+            return (string)value.Buffer;
         }
 
         /// <summary>
-        /// Implicit get of value from <see cref="IntegerBuffer"/>
+        /// Collect value from <see cref="Buffer"/> in <c>int</c> type
         /// </summary>
-        /// <exception cref="InvalidDataTypeException">Throwed if <see cref="Type"/> isn't a <see cref="DSValueType.INTEGER"/></exception>
-        /// <param name="value">Value to convert from</param>
+        /// <param name="value"><see cref="DataStorageValue"/> to be converted</param>
+        /// <exception cref="InvalidDataTypeException">Throwed if <see cref="Buffer"/> isn't have <see cref="Type"/> <see cref="DSValueType.INTEGER"/></exception>
         public static implicit operator int(DataStorageValue value)
         {
-            if (value.Type != DSValueType.STRING) throw new InvalidDataTypeException("Can't convert DataStorageValue to int");
-            return (int)value.IntegerBuffer;
+            if (value.Type != DSValueType.INTEGER) throw new InvalidDataTypeException("DataStorageValue isn't has type integer");
+            return (int)value.Buffer;
+        }
+
+        /// <summary>
+        /// Implicity execute <see cref="IGJDataStorage.Add(string, int)"/> and return result
+        /// </summary>
+        /// <param name="value"><see cref="Key"/> paramenter used in <see cref="IGJDataStorage.Add(string, int)"/></param>
+        /// <param name="newvalue">Second paramenter of <see cref="IGJDataStorage.Add(string, int)"/></param>
+        /// <returns>Result retrived from GameJolt Game API</returns>
+        /// <exception cref="NoDataStorageException">Throwed if <see cref="DataStorageValue"/> doesn't has a <see cref="IGJDataStorage"/> linked</exception>
+        /// <seealso cref="IGJDataStorage.Add(string, int)"/>
+        public static DataStorageValue operator +(DataStorageValue value, int newvalue)
+        {
+            if (value.DataStorage == null) throw new NoDataStorageException("DataStorageValue doesn't has a IGJDataStorage linked");
+            return value.DataStorage.Add(value.Key, newvalue);
+        }
+
+        /// <summary>
+        /// Implicity execute <see cref="IGJDataStorage.Append(string, string)"/> and return result
+        /// </summary>
+        /// <param name="value"><see cref="Key"/> paramenter used in <see cref="IGJDataStorage.Append(string, string)"/></param>
+        /// <param name="newvalue">Second paramenter of <see cref="IGJDataStorage.Append(string, string)"/></param>
+        /// <returns>Result retrived from GameJolt Game API</returns>
+        /// <exception cref="NoDataStorageException">Throwed if <see cref="DataStorageValue"/> doesn't has a <see cref="IGJDataStorage"/> linked</exception>
+        /// <seealso cref="IGJDataStorage.Append(string, string)"/>
+        public static DataStorageValue operator +(DataStorageValue value, string newvalue)
+        {
+            if (value.DataStorage == null) throw new NoDataStorageException("DataStorageValue doesn't has a IGJDataStorage linked");
+            return value.DataStorage.Append(value.Key, newvalue);
+        }
+
+        /// <summary>
+        /// Implicity execute <see cref="IGJDataStorage.Subtract(string, int)"/> and return result
+        /// </summary>
+        /// <param name="value"><see cref="Key"/> paramenter used in <see cref="IGJDataStorage.Subtract(string, int)"/></param>
+        /// <param name="newvalue">Second paramenter of <see cref="IGJDataStorage.Subtract(string, int)"/></param>
+        /// <returns>Result retrived from GameJolt Game API</returns>
+        /// <exception cref="NoDataStorageException">Throwed if <see cref="DataStorageValue"/> doesn't has a <see cref="IGJDataStorage"/> linked</exception>
+        /// <seealso cref="IGJDataStorage.Subtract(string, int)"/>
+        public static DataStorageValue operator -(DataStorageValue value, int newvalue)
+        {
+            if (value.DataStorage == null) throw new NoDataStorageException("DataStorageValue doesn't has a IGJDataStorage linked");
+            return value.DataStorage.Subtract(value.Key, newvalue);
+        }
+
+        /// <summary>
+        /// Implicity execute <see cref="IGJDataStorage.Multiply(string, int)"/> and return result
+        /// </summary>
+        /// <param name="value"><see cref="Key"/> paramenter used in <see cref="IGJDataStorage.Multiply(string, int)"/></param>
+        /// <param name="newvalue">Second paramenter of <see cref="IGJDataStorage.Multiply(string, int)"/></param>
+        /// <returns>Result retrived from GameJolt Game API</returns>
+        /// <exception cref="NoDataStorageException">Throwed if <see cref="DataStorageValue"/> doesn't has a <see cref="IGJDataStorage"/> linked</exception>
+        /// <seealso cref="IGJDataStorage.Multiply(string, int)"/>
+        public static DataStorageValue operator *(DataStorageValue value, int newvalue)
+        {
+            if (value.DataStorage == null) throw new NoDataStorageException("DataStorageValue doesn't has a IGJDataStorage linked");
+            return value.DataStorage.Multiply(value.Key, newvalue);
+        }
+
+        /// <summary>
+        /// Implicity execute <see cref="IGJDataStorage.Divide(string, int)"/> and return result
+        /// </summary>
+        /// <param name="value"><see cref="Key"/> paramenter used in <see cref="IGJDataStorage.Divide(string, int)"/></param>
+        /// <param name="newvalue">Second paramenter of <see cref="IGJDataStorage.Divide(string, int)"/></param>
+        /// <returns>Result retrived from GameJolt Game API</returns>
+        /// <exception cref="NoDataStorageException">Throwed if <see cref="DataStorageValue"/> doesn't has a <see cref="IGJDataStorage"/> linked</exception>
+        /// <seealso cref="IGJDataStorage.Divide(string, int)"/>
+        public static DataStorageValue operator /(DataStorageValue value, int newvalue)
+        {
+            if (value.DataStorage == null) throw new NoDataStorageException("DataStorageValue doesn't has a IGJDataStorage linked");
+            return value.DataStorage.Divide(value.Key, newvalue);
         }
     }
 }

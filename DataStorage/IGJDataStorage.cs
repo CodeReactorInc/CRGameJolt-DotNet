@@ -12,118 +12,88 @@ namespace CodeReactor.CRGameJolt.DataStorage
     /// <seealso cref="DataStorageValue"/>
     public interface IGJDataStorage : IGJObject
     {
+        /// <param name="key">Key used in Data Storage</param>
+        /// <returns>Data retrived from Data Storage</returns>
+        /// <exception cref="GameJoltAPIException">Throwed if GameJolt Game API return a non-success response</exception>
+        DataStorageValue this[string key] { get; set; }
+
         /// <value>
-        /// A local cache of Data Storage copied from GameJolt Game API
+        /// All keys available and valid in Data Storage
         /// </value>
-        ConcurrentDictionary<string, DataStorageValue> Cache { get; }
-
-        /// <summary>
-        /// Read all Data Storage from GameJolt Game API
-        /// </summary>
         /// <exception cref="GameJoltAPIException">Throwed if GameJolt Game API return a non-success response</exception>
-        void Read();
+        string[] Keys { get; }
 
         /// <summary>
-        /// Write all <see cref="Cache"/> to GameJolt Game API
+        /// Remove a value from Data Storage using a key
         /// </summary>
-        /// <exception cref="GameJoltAPIException">Throwed if GameJolt Game API return a non-success response</exception>
-        void Write();
-
-        /// <summary>
-        /// Only read a key from Data Storage from GameJolt Game API
-        /// </summary>
-        /// <param name="key">Key to read from Data Storage</param>
-        /// <exception cref="GameJoltAPIException">Throwed if GameJolt Game API return a non-success response</exception>
-        void Read(string key);
-
-        /// <summary>
-        /// Only write a key from <see cref="Cache"/> to GameJolt Game API
-        /// </summary>
-        /// <param name="key">Key to write from <see cref="Cache"/></param>
-        /// <exception cref="GameJoltAPIException">Throwed if GameJolt Game API return a non-success response</exception>
-        void Write(string key);
-
-        /// <summary>
-        /// Remove a value from <see cref="Cache"/> and Data Storage using a key
-        /// </summary>
-        /// <param name="key">Key of value to remove</param>
+        /// <param name="key">The key used to remove</param>
         /// <exception cref="GameJoltAPIException">Throwed if GameJolt Game API return a non-success response</exception>
         void Remove(string key);
 
-        /// <summary>
-        /// Add or update a value on <see cref="Cache"/>
-        /// </summary>
-        /// <param name="key">The key of value</param>
-        /// <param name="value">Value to add or update</param>
-        void Set(string key, DataStorageValue value);
+        /// <value>
+        /// The count of values inside of Game Jolt Data Storage
+        /// </value>
+        /// <exception cref="GameJoltAPIException">Throwed if GameJolt Game API return a non-success response</exception>
+        int Count { get; }
 
         /// <summary>
-        /// Add or update a value converting <c>int</c> to <see cref="DataStorageValue"/>
+        /// Send a update request with add operation and make a sum in value
         /// </summary>
-        /// <param name="key">The key of value</param>
-        /// <param name="value">Value to convert for a <see cref="DataStorageValue"/></param>
-        void Set(string key, int value);
+        /// <param name="key">The key to be updated</param>
+        /// <param name="newvalue">New value provided for Data Storage with the operation</param>
+        /// <returns>The value updated</returns>
+        /// <exception cref="GameJoltAPIException">Throwed if GameJolt Game API return a non-success response</exception>
+        /// <exception cref="InvalidDataTypeException">Throwed if <see cref="DataStorageValue.Type"/> is a <see cref="DSValueType.INTEGER"/></exception>
+        DataStorageValue Add(string key, int newvalue);
 
         /// <summary>
-        /// Add or update a value converting <c>string</c> to <see cref="DataStorageValue"/>
+        /// Send a update request with subtract operation and make a subtract in value
         /// </summary>
-        /// <param name="key">The key of value</param>
-        /// <param name="value">Value to convert for a <see cref="DataStorageValue"/></param>
-        void Set(string key, string value);
+        /// <param name="key">The key to be updated</param>
+        /// <param name="newvalue">New value provided for Data Storage with the operation</param>
+        /// <returns>The value updated</returns>
+        /// <exception cref="GameJoltAPIException">Throwed if GameJolt Game API return a non-success response</exception>
+        /// <exception cref="InvalidDataTypeException">Throwed if <see cref="DataStorageValue.Type"/> is a <see cref="DSValueType.INTEGER"/></exception>
+        DataStorageValue Subtract(string key, int newvalue);
 
         /// <summary>
-        /// Get a value from cache that you can use implicit conversion
+        /// Send a update request with multiply operation and make a multiply in value
         /// </summary>
-        /// <param name="key">The key of value</param>
-        /// <returns>Value from cache or a type null GJDataValue if key doesn't exists</returns>
-        DataStorageValue Get(string key);
+        /// <param name="key">The key to be updated</param>
+        /// <param name="newvalue">New value provided for Data Storage with the operation</param>
+        /// <returns>The value updated</returns>
+        /// <exception cref="GameJoltAPIException">Throwed if GameJolt Game API return a non-success response</exception>
+        /// <exception cref="InvalidDataTypeException">Throwed if <see cref="DataStorageValue.Type"/> is a <see cref="DSValueType.INTEGER"/></exception>
+        DataStorageValue Multiply(string key, int newvalue);
 
         /// <summary>
-        /// Run <see cref="DataStorageValue.Add(int)"/> on a key, save and return the result
+        /// Send a update request with divide operation and make a divide in value
         /// </summary>
-        /// <param name="key">The key of value</param>
-        /// <param name="value">Value in <c>int</c> to execute add</param>
-        /// <returns>Value updated or <c>null</c> if key doesn't exists</returns>
-        DataStorageValue Add(string key, int value);
+        /// <param name="key">The key to be updated</param>
+        /// <param name="newvalue">New value provided for Data Storage with the operation</param>
+        /// <returns>The value updated</returns>
+        /// <exception cref="GameJoltAPIException">Throwed if GameJolt Game API return a non-success response</exception>
+        /// <exception cref="InvalidDataTypeException">Throwed if <see cref="DataStorageValue.Type"/> is a <see cref="DSValueType.INTEGER"/></exception>
+        DataStorageValue Divide(string key, int newvalue);
 
         /// <summary>
-        /// Run <see cref="DataStorageValue.Subtract(int)"/> on a key, save and return the result
+        /// Send a update request with append operation and make a append in value
         /// </summary>
-        /// <param name="key">The key of value</param>
-        /// <param name="value">Value in <c>int</c> to execute subtract</param>
-        /// <returns>Value updated or <c>null</c> if key doesn't exists</returns>
-        DataStorageValue Subtract(string key, int value);
+        /// <param name="key">The key to be updated</param>
+        /// <param name="newvalue">New value provided for Data Storage with the operation</param>
+        /// <returns>The value updated</returns>
+        /// <exception cref="GameJoltAPIException">Throwed if GameJolt Game API return a non-success response</exception>
+        /// <exception cref="InvalidDataTypeException">Throwed if <see cref="DataStorageValue.Type"/> is a <see cref="DSValueType.STRING"/></exception>
+        DataStorageValue Append(string key, string newvalue);
 
         /// <summary>
-        /// Run <see cref="DataStorageValue.Multiply(int)"/> on a key, save and return the result
+        /// Send a update request with prepend operation and make a prepend in value
         /// </summary>
-        /// <param name="key">The key of value</param>
-        /// <param name="value">Value in <c>int</c> to execute multiply</param>
-        /// <returns>Value updated or <c>null</c> if key doesn't exists</returns>
-        DataStorageValue Multiply(string key, int value);
-
-        /// <summary>
-        /// Run <see cref="DataStorageValue.Divide(int)"/> on a key, save and return the result
-        /// </summary>
-        /// <param name="key">The key of value</param>
-        /// <param name="value">Value in <c>int</c> to execute divide</param>
-        /// <returns>Value updated or <c>null</c> if key doesn't exists</returns>
-        DataStorageValue Divide(string key, int value);
-
-        /// <summary>
-        /// Run <see cref="DataStorageValue.Append(string)"/> on a key, save and return the result
-        /// </summary>
-        /// <param name="key">The key of value</param>
-        /// <param name="value">Value in <c>string</c> to append</param>
-        /// <returns>Value updated or <c>null</c> if key doesn't exists</returns>
-        DataStorageValue Append(string key, string value);
-
-        /// <summary>
-        /// Run <see cref="DataStorageValue.Prepend(string)"/> on a key, save and return the result
-        /// </summary>
-        /// <param name="key">The key of value</param>
-        /// <param name="value">Value in <c>string</c> to preappend</param>
-        /// <returns>Value updated or <c>null</c> if key doesn't exists</returns>
-        DataStorageValue Prepend(string key, string value);
+        /// <param name="key">The key to be updated</param>
+        /// <param name="newvalue">New value provided for Data Storage with the operation</param>
+        /// <returns>The value updated</returns>
+        /// <exception cref="GameJoltAPIException">Throwed if GameJolt Game API return a non-success response</exception>
+        /// <exception cref="InvalidDataTypeException">Throwed if <see cref="DataStorageValue.Type"/> is a <see cref="DSValueType.STRING"/></exception>
+        DataStorageValue Prepend(string key, string newvalue);
     }
 }
