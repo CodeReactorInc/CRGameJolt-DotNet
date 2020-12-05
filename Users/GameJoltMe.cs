@@ -144,7 +144,6 @@ namespace CodeReactor.CRGameJolt.Users
             if (_friends != null) _friends.Update();
             if (_session != null) _session.Update();
             if (_trophies != null) _trophies.Update();
-            if (_dataStorage != null) _dataStorage.Update();
         }
     }
 }
