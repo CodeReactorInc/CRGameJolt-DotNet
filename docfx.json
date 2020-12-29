@@ -4,9 +4,9 @@
       "src": [
         {
           "files": [
-            "**.csproj"
+            "CRGameJolt.csproj"
           ],
-          "src": "C:\\Users\\veloc\\Documents\\CSharp Build\\CRGameJolt"
+          "src": "."
         }
       ],
       "dest": "api",
