@@ -56,7 +56,7 @@ namespace CodeReactor.CRGameJolt.Users
         /// <value>
         /// Get or create a new <see cref="SessionManager"/> using the internal <see cref="GameJoltUser.WebCaller"/>
         /// </value>
-        public SessionManager Session 
+        public SessionManager Session
         {
             get
             {

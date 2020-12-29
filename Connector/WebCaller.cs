@@ -1,6 +1,6 @@
-﻿using System.Net;
+﻿using System.IO;
+using System.Net;
 using System.Xml.Linq;
-using System.IO;
 
 namespace CodeReactor.CRGameJolt.Connector
 {

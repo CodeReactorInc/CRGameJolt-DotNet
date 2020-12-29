@@ -23,7 +23,8 @@ namespace CodeReactor.CRGameJolt.DataStorage
         }
 
         /// <inheritdoc/>
-        public DataStorageValue this[string key] {
+        public DataStorageValue this[string key]
+        {
             get
             {
                 XElement response = WebCaller.GetAsXML("data-store", new string[] { "key=" + WebUtility.UrlEncode(key) }).Element("response");
@@ -36,7 +37,8 @@ namespace CodeReactor.CRGameJolt.DataStorage
                 if (value.Type == DSValueType.INTEGER)
                 {
                     rawdata = ((int)value).ToString();
-                } else
+                }
+                else
                 {
                     rawdata = value;
                 }
@@ -144,7 +146,7 @@ namespace CodeReactor.CRGameJolt.DataStorage
         /// <inheritdoc/>
         public void Update()
         {
-            
+
         }
     }
 }

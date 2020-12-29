@@ -1,7 +1,7 @@
 ﻿using CodeReactor.CRGameJolt.Connector;
 using System.Collections.Concurrent;
-using System.Xml.Linq;
 using System.Net;
+using System.Xml.Linq;
 
 namespace CodeReactor.CRGameJolt.Users.Trophies
 {

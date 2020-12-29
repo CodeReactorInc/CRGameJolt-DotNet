@@ -25,7 +25,7 @@ namespace CodeReactor.CRGameJolt.Connector
         /// The signature type provided for <see cref="Sign(string)"/>
         /// </value>
         public SignatureType SignatureType { get; set; }
-        
+
         /// <summary>
         /// Create a instance of <see cref="URLConstructor"/> with your definitions
         /// </summary>
@@ -36,7 +36,7 @@ namespace CodeReactor.CRGameJolt.Connector
         /// <param name="signatureType">The encoding of signature</param>
         /// <param name="apiVersion">Game API version, not all are supported</param>
         public URLConstructor(string gameId, string gameKey, SignatureType signatureType, APIVersion apiVersion)
-        { 
+        {
             switch (apiVersion)
             {
                 case APIVersion.V1_2:
@@ -56,7 +56,7 @@ namespace CodeReactor.CRGameJolt.Connector
                     throw new InvalidAPIVersionException("Version v1.0 aren't supported");
                 default:
                     throw new InvalidAPIVersionException("Unknown version");
-            }    
+            }
         }
 
         /// <summary>
@@ -117,7 +117,7 @@ namespace CodeReactor.CRGameJolt.Connector
         /// <returns>A web protocol formatted like "https://"</returns>
         public static string WebProtocolToString(WebProtocol protocol)
         {
-            switch(protocol)
+            switch (protocol)
             {
                 case WebProtocol.HTTPS:
                     return "https://";

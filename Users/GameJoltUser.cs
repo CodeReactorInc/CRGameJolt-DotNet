@@ -74,7 +74,7 @@ namespace CodeReactor.CRGameJolt.Users
         public GameJoltUser(string username, WebCaller webCaller)
         {
             WebCaller = webCaller;
-            XElement response = WebCaller.GetAsXML("users", new string[] { "username="+WebUtility.UrlEncode(username) }).Element("response");
+            XElement response = WebCaller.GetAsXML("users", new string[] { "username=" + WebUtility.UrlEncode(username) }).Element("response");
             if (response.Element("success").Value != "true") throw new GameJoltAPIException(response.Element("message").Value);
             Id = int.Parse(response.Element("id").Value);
             Type = ConvertToUserType(response.Element("type").Value);
@@ -119,7 +119,7 @@ namespace CodeReactor.CRGameJolt.Users
         /// <returns>The representation of string in <see cref="UserType"/> format</returns>
         public static UserType ConvertToUserType(string usertype)
         {
-            switch(usertype)
+            switch (usertype)
             {
                 case "User":
                     return UserType.User;

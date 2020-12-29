@@ -1,5 +1,4 @@
 ﻿using CodeReactor.CRGameJolt.Connector;
-using System;
 using System.Net;
 using System.Xml.Linq;
 
@@ -92,7 +91,7 @@ namespace CodeReactor.CRGameJolt.Users
         /// <seealso cref="SessionStatus"/>
         public void Ping()
         {
-            XElement response = WebCaller.GetAsXML("sessions/ping", new string[] { "username=" + WebUtility.UrlEncode(User.Username), "user_token=" + WebUtility.UrlEncode(User.UserToken), "status="+StatusToString(Status) }).Element("response");
+            XElement response = WebCaller.GetAsXML("sessions/ping", new string[] { "username=" + WebUtility.UrlEncode(User.Username), "user_token=" + WebUtility.UrlEncode(User.UserToken), "status=" + StatusToString(Status) }).Element("response");
             if (response.Element("success").Value != "true") throw new GameJoltAPIException(response.Element("message").Value);
         }
 
@@ -122,7 +121,8 @@ namespace CodeReactor.CRGameJolt.Users
             if (Check())
             {
                 Ping();
-            } else
+            }
+            else
             {
                 Open();
             }

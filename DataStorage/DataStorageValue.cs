@@ -1,5 +1,4 @@
-﻿using CodeReactor.CRGameJolt.Connector;
-using System;
+﻿using System;
 using System.Text;
 
 namespace CodeReactor.CRGameJolt.DataStorage

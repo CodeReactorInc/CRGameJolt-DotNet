@@ -126,7 +126,7 @@ namespace CodeReactor.CRGameJolt.Users.Trophies
         /// <exception cref="InvalidTrophyDifficultyException">Throwed if a invalid <paramref name="trophyDifficulty"/> is provided</exception>
         public static TrophyDifficulty StringToTrophyDifficulty(string trophyDifficulty)
         {
-            switch(trophyDifficulty)
+            switch (trophyDifficulty)
             {
                 case "Bronze":
                     return TrophyDifficulty.Bronze;
