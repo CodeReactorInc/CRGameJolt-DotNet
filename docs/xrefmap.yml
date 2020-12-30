@@ -1233,6 +1233,141 @@ references:
   isSpec: "True"
   fullName: CodeReactor.CRGameJolt.DataStorage.UserDataStorage.WebCaller
   nameWithType: UserDataStorage.WebCaller
+- uid: CodeReactor.CRGameJolt.GameJolt
+  name: GameJolt
+  href: api/CodeReactor.CRGameJolt.GameJolt.html
+  commentId: T:CodeReactor.CRGameJolt.GameJolt
+  fullName: CodeReactor.CRGameJolt.GameJolt
+  nameWithType: GameJolt
+- uid: CodeReactor.CRGameJolt.GameJolt.#ctor(System.String,System.String)
+  name: GameJolt(String, String)
+  href: api/CodeReactor.CRGameJolt.GameJolt.html#CodeReactor_CRGameJolt_GameJolt__ctor_System_String_System_String_
+  commentId: M:CodeReactor.CRGameJolt.GameJolt.#ctor(System.String,System.String)
+  fullName: CodeReactor.CRGameJolt.GameJolt.GameJolt(System.String, System.String)
+  nameWithType: GameJolt.GameJolt(String, String)
+- uid: CodeReactor.CRGameJolt.GameJolt.#ctor*
+  name: GameJolt
+  href: api/CodeReactor.CRGameJolt.GameJolt.html#CodeReactor_CRGameJolt_GameJolt__ctor_
+  commentId: Overload:CodeReactor.CRGameJolt.GameJolt.#ctor
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.GameJolt.GameJolt
+  nameWithType: GameJolt.GameJolt
+- uid: CodeReactor.CRGameJolt.GameJolt.FetchUser(System.Int32)
+  name: FetchUser(Int32)
+  href: api/CodeReactor.CRGameJolt.GameJolt.html#CodeReactor_CRGameJolt_GameJolt_FetchUser_System_Int32_
+  commentId: M:CodeReactor.CRGameJolt.GameJolt.FetchUser(System.Int32)
+  fullName: CodeReactor.CRGameJolt.GameJolt.FetchUser(System.Int32)
+  nameWithType: GameJolt.FetchUser(Int32)
+- uid: CodeReactor.CRGameJolt.GameJolt.FetchUser(System.String)
+  name: FetchUser(String)
+  href: api/CodeReactor.CRGameJolt.GameJolt.html#CodeReactor_CRGameJolt_GameJolt_FetchUser_System_String_
+  commentId: M:CodeReactor.CRGameJolt.GameJolt.FetchUser(System.String)
+  fullName: CodeReactor.CRGameJolt.GameJolt.FetchUser(System.String)
+  nameWithType: GameJolt.FetchUser(String)
+- uid: CodeReactor.CRGameJolt.GameJolt.FetchUser*
+  name: FetchUser
+  href: api/CodeReactor.CRGameJolt.GameJolt.html#CodeReactor_CRGameJolt_GameJolt_FetchUser_
+  commentId: Overload:CodeReactor.CRGameJolt.GameJolt.FetchUser
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.GameJolt.FetchUser
+  nameWithType: GameJolt.FetchUser
+- uid: CodeReactor.CRGameJolt.GameJolt.GlobalDataStorage
+  name: GlobalDataStorage
+  href: api/CodeReactor.CRGameJolt.GameJolt.html#CodeReactor_CRGameJolt_GameJolt_GlobalDataStorage
+  commentId: P:CodeReactor.CRGameJolt.GameJolt.GlobalDataStorage
+  fullName: CodeReactor.CRGameJolt.GameJolt.GlobalDataStorage
+  nameWithType: GameJolt.GlobalDataStorage
+- uid: CodeReactor.CRGameJolt.GameJolt.GlobalDataStorage*
+  name: GlobalDataStorage
+  href: api/CodeReactor.CRGameJolt.GameJolt.html#CodeReactor_CRGameJolt_GameJolt_GlobalDataStorage_
+  commentId: Overload:CodeReactor.CRGameJolt.GameJolt.GlobalDataStorage
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.GameJolt.GlobalDataStorage
+  nameWithType: GameJolt.GlobalDataStorage
+- uid: CodeReactor.CRGameJolt.GameJolt.Login(System.String,System.String)
+  name: Login(String, String)
+  href: api/CodeReactor.CRGameJolt.GameJolt.html#CodeReactor_CRGameJolt_GameJolt_Login_System_String_System_String_
+  commentId: M:CodeReactor.CRGameJolt.GameJolt.Login(System.String,System.String)
+  fullName: CodeReactor.CRGameJolt.GameJolt.Login(System.String, System.String)
+  nameWithType: GameJolt.Login(String, String)
+- uid: CodeReactor.CRGameJolt.GameJolt.Login*
+  name: Login
+  href: api/CodeReactor.CRGameJolt.GameJolt.html#CodeReactor_CRGameJolt_GameJolt_Login_
+  commentId: Overload:CodeReactor.CRGameJolt.GameJolt.Login
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.GameJolt.Login
+  nameWithType: GameJolt.Login
+- uid: CodeReactor.CRGameJolt.GameJolt.LoginFromFile(System.IO.Stream)
+  name: LoginFromFile(Stream)
+  href: api/CodeReactor.CRGameJolt.GameJolt.html#CodeReactor_CRGameJolt_GameJolt_LoginFromFile_System_IO_Stream_
+  commentId: M:CodeReactor.CRGameJolt.GameJolt.LoginFromFile(System.IO.Stream)
+  fullName: CodeReactor.CRGameJolt.GameJolt.LoginFromFile(System.IO.Stream)
+  nameWithType: GameJolt.LoginFromFile(Stream)
+- uid: CodeReactor.CRGameJolt.GameJolt.LoginFromFile(System.String)
+  name: LoginFromFile(String)
+  href: api/CodeReactor.CRGameJolt.GameJolt.html#CodeReactor_CRGameJolt_GameJolt_LoginFromFile_System_String_
+  commentId: M:CodeReactor.CRGameJolt.GameJolt.LoginFromFile(System.String)
+  fullName: CodeReactor.CRGameJolt.GameJolt.LoginFromFile(System.String)
+  nameWithType: GameJolt.LoginFromFile(String)
+- uid: CodeReactor.CRGameJolt.GameJolt.LoginFromFile*
+  name: LoginFromFile
+  href: api/CodeReactor.CRGameJolt.GameJolt.html#CodeReactor_CRGameJolt_GameJolt_LoginFromFile_
+  commentId: Overload:CodeReactor.CRGameJolt.GameJolt.LoginFromFile
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.GameJolt.LoginFromFile
+  nameWithType: GameJolt.LoginFromFile
+- uid: CodeReactor.CRGameJolt.GameJolt.Tables
+  name: Tables
+  href: api/CodeReactor.CRGameJolt.GameJolt.html#CodeReactor_CRGameJolt_GameJolt_Tables
+  commentId: P:CodeReactor.CRGameJolt.GameJolt.Tables
+  fullName: CodeReactor.CRGameJolt.GameJolt.Tables
+  nameWithType: GameJolt.Tables
+- uid: CodeReactor.CRGameJolt.GameJolt.Tables*
+  name: Tables
+  href: api/CodeReactor.CRGameJolt.GameJolt.html#CodeReactor_CRGameJolt_GameJolt_Tables_
+  commentId: Overload:CodeReactor.CRGameJolt.GameJolt.Tables
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.GameJolt.Tables
+  nameWithType: GameJolt.Tables
+- uid: CodeReactor.CRGameJolt.GameJolt.UserDataStorage
+  name: UserDataStorage
+  href: api/CodeReactor.CRGameJolt.GameJolt.html#CodeReactor_CRGameJolt_GameJolt_UserDataStorage
+  commentId: P:CodeReactor.CRGameJolt.GameJolt.UserDataStorage
+  fullName: CodeReactor.CRGameJolt.GameJolt.UserDataStorage
+  nameWithType: GameJolt.UserDataStorage
+- uid: CodeReactor.CRGameJolt.GameJolt.UserDataStorage*
+  name: UserDataStorage
+  href: api/CodeReactor.CRGameJolt.GameJolt.html#CodeReactor_CRGameJolt_GameJolt_UserDataStorage_
+  commentId: Overload:CodeReactor.CRGameJolt.GameJolt.UserDataStorage
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.GameJolt.UserDataStorage
+  nameWithType: GameJolt.UserDataStorage
+- uid: CodeReactor.CRGameJolt.GameJolt.UserLogged
+  name: UserLogged
+  href: api/CodeReactor.CRGameJolt.GameJolt.html#CodeReactor_CRGameJolt_GameJolt_UserLogged
+  commentId: P:CodeReactor.CRGameJolt.GameJolt.UserLogged
+  fullName: CodeReactor.CRGameJolt.GameJolt.UserLogged
+  nameWithType: GameJolt.UserLogged
+- uid: CodeReactor.CRGameJolt.GameJolt.UserLogged*
+  name: UserLogged
+  href: api/CodeReactor.CRGameJolt.GameJolt.html#CodeReactor_CRGameJolt_GameJolt_UserLogged_
+  commentId: Overload:CodeReactor.CRGameJolt.GameJolt.UserLogged
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.GameJolt.UserLogged
+  nameWithType: GameJolt.UserLogged
+- uid: CodeReactor.CRGameJolt.GameJolt.WebCaller
+  name: WebCaller
+  href: api/CodeReactor.CRGameJolt.GameJolt.html#CodeReactor_CRGameJolt_GameJolt_WebCaller
+  commentId: P:CodeReactor.CRGameJolt.GameJolt.WebCaller
+  fullName: CodeReactor.CRGameJolt.GameJolt.WebCaller
+  nameWithType: GameJolt.WebCaller
+- uid: CodeReactor.CRGameJolt.GameJolt.WebCaller*
+  name: WebCaller
+  href: api/CodeReactor.CRGameJolt.GameJolt.html#CodeReactor_CRGameJolt_GameJolt_WebCaller_
+  commentId: Overload:CodeReactor.CRGameJolt.GameJolt.WebCaller
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.GameJolt.WebCaller
+  nameWithType: GameJolt.WebCaller
 - uid: CodeReactor.CRGameJolt.GameJoltAPIException
   name: GameJoltAPIException
   href: api/CodeReactor.CRGameJolt.GameJoltAPIException.html
@@ -2693,6 +2828,43 @@ references:
   isSpec: "True"
   fullName: CodeReactor.CRGameJolt.Users.Trophies.TrophyElementNotFoundException.TrophyElementNotFoundException
   nameWithType: TrophyElementNotFoundException.TrophyElementNotFoundException
+- uid: CodeReactor.CRGameJolt.Users.UserNotLoggedException
+  name: UserNotLoggedException
+  href: api/CodeReactor.CRGameJolt.Users.UserNotLoggedException.html
+  commentId: T:CodeReactor.CRGameJolt.Users.UserNotLoggedException
+  fullName: CodeReactor.CRGameJolt.Users.UserNotLoggedException
+  nameWithType: UserNotLoggedException
+- uid: CodeReactor.CRGameJolt.Users.UserNotLoggedException.#ctor
+  name: UserNotLoggedException()
+  href: api/CodeReactor.CRGameJolt.Users.UserNotLoggedException.html#CodeReactor_CRGameJolt_Users_UserNotLoggedException__ctor
+  commentId: M:CodeReactor.CRGameJolt.Users.UserNotLoggedException.#ctor
+  fullName: CodeReactor.CRGameJolt.Users.UserNotLoggedException.UserNotLoggedException()
+  nameWithType: UserNotLoggedException.UserNotLoggedException()
+- uid: CodeReactor.CRGameJolt.Users.UserNotLoggedException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: UserNotLoggedException(SerializationInfo, StreamingContext)
+  href: api/CodeReactor.CRGameJolt.Users.UserNotLoggedException.html#CodeReactor_CRGameJolt_Users_UserNotLoggedException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:CodeReactor.CRGameJolt.Users.UserNotLoggedException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: CodeReactor.CRGameJolt.Users.UserNotLoggedException.UserNotLoggedException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: UserNotLoggedException.UserNotLoggedException(SerializationInfo, StreamingContext)
+- uid: CodeReactor.CRGameJolt.Users.UserNotLoggedException.#ctor(System.String)
+  name: UserNotLoggedException(String)
+  href: api/CodeReactor.CRGameJolt.Users.UserNotLoggedException.html#CodeReactor_CRGameJolt_Users_UserNotLoggedException__ctor_System_String_
+  commentId: M:CodeReactor.CRGameJolt.Users.UserNotLoggedException.#ctor(System.String)
+  fullName: CodeReactor.CRGameJolt.Users.UserNotLoggedException.UserNotLoggedException(System.String)
+  nameWithType: UserNotLoggedException.UserNotLoggedException(String)
+- uid: CodeReactor.CRGameJolt.Users.UserNotLoggedException.#ctor(System.String,System.Exception)
+  name: UserNotLoggedException(String, Exception)
+  href: api/CodeReactor.CRGameJolt.Users.UserNotLoggedException.html#CodeReactor_CRGameJolt_Users_UserNotLoggedException__ctor_System_String_System_Exception_
+  commentId: M:CodeReactor.CRGameJolt.Users.UserNotLoggedException.#ctor(System.String,System.Exception)
+  fullName: CodeReactor.CRGameJolt.Users.UserNotLoggedException.UserNotLoggedException(System.String, System.Exception)
+  nameWithType: UserNotLoggedException.UserNotLoggedException(String, Exception)
+- uid: CodeReactor.CRGameJolt.Users.UserNotLoggedException.#ctor*
+  name: UserNotLoggedException
+  href: api/CodeReactor.CRGameJolt.Users.UserNotLoggedException.html#CodeReactor_CRGameJolt_Users_UserNotLoggedException__ctor_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.UserNotLoggedException.#ctor
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Users.UserNotLoggedException.UserNotLoggedException
+  nameWithType: UserNotLoggedException.UserNotLoggedException
 - uid: CodeReactor.CRGameJolt.Users.UserStatus
   name: UserStatus
   href: api/CodeReactor.CRGameJolt.Users.UserStatus.html

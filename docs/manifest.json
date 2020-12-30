@@ -221,6 +221,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CodeReactor.CRGameJolt.GameJolt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeReactor.CRGameJolt.GameJolt.html",
+          "hash": "UWlhpg0cDWUviWiMzYSNeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CodeReactor.CRGameJolt.GameJoltAPIException.yml",
       "output": {
         ".html": {
@@ -449,6 +461,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CodeReactor.CRGameJolt.Users.UserNotLoggedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeReactor.CRGameJolt.Users.UserNotLoggedException.html",
+          "hash": "BpmiiUlBRq32deopwTWRWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CodeReactor.CRGameJolt.Users.UserStatus.yml",
       "output": {
         ".html": {
@@ -477,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Users.html",
-          "hash": "VzXJS55T7P5w2An4Uw0huw=="
+          "hash": "xnXJD3VJv9oP2O/zqVYmLA=="
         }
       },
       "is_incremental": false,
@@ -489,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.html",
-          "hash": "eEFxPuxXH4QW3uyU4UCgaQ=="
+          "hash": "eYp0Hly+xcwEKzbX588kfw=="
         }
       },
       "is_incremental": false,
@@ -513,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "fJ+dljXYeTwQOhUv18cSng=="
+          "hash": "SMiHQj+WF0HfB4unWRlKVg=="
         }
       },
       "is_incremental": false,
@@ -586,8 +610,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 40,
-          "skipped_file_count": 35
+          "total_file_count": 42,
+          "skipped_file_count": 28
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
