@@ -36,7 +36,6 @@ namespace CodeReactor.CRGameJolt
         /// <value>
         /// The Global Data Storage of the game
         /// </value>
-        /// <seealso cref="DataStorage.GlobalDataStorage"/>
         public GlobalDataStorage GlobalDataStorage
         {
             get
@@ -63,7 +62,6 @@ namespace CodeReactor.CRGameJolt
         /// The user data storage associated with <see cref="UserLogged"/>
         /// </value>
         /// <exception cref="UserNotLoggedException">Throwed if no user are logged in Game API</exception>
-        /// <seealso cref="DataStorage.UserDataStorage"/>
         public UserDataStorage UserDataStorage
         {
             get
