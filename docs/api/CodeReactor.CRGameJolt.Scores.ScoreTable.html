@@ -73,12 +73,17 @@
   
   <h1 id="CodeReactor_CRGameJolt_Scores_ScoreTable" data-uid="CodeReactor.CRGameJolt.Scores.ScoreTable" class="text-break">Class ScoreTable
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>A GameJolt Game API score table controller</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">ScoreTable</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="CodeReactor.CRGameJolt.IGJObject.html">IGJObject</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -108,8 +113,66 @@
   <h6><strong>Assembly</strong>: CRGameJolt.dll</h6>
   <h5 id="CodeReactor_CRGameJolt_Scores_ScoreTable_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ScoreTable</code></pre>
+    <pre><code class="lang-csharp hljs">public class ScoreTable : IGJObject</code></pre>
   </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_Scores_ScoreTable__ctor_System_Int32_CodeReactor_CRGameJolt_Connector_WebCaller_.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.Scores.ScoreTable.%23ctor(System.Int32%2CCodeReactor.CRGameJolt.Connector.WebCaller)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Scores/ScoreTable.cs/#L30">View Source</a>
+  </span>
+  <a id="CodeReactor_CRGameJolt_Scores_ScoreTable__ctor_" data-uid="CodeReactor.CRGameJolt.Scores.ScoreTable.#ctor*"></a>
+  <h4 id="CodeReactor_CRGameJolt_Scores_ScoreTable__ctor_System_Int32_CodeReactor_CRGameJolt_Connector_WebCaller_" data-uid="CodeReactor.CRGameJolt.Scores.ScoreTable.#ctor(System.Int32,CodeReactor.CRGameJolt.Connector.WebCaller)">ScoreTable(Int32, WebCaller)</h4>
+  <div class="markdown level1 summary"><p>Initialize a table using a table id and a <a class="xref" href="CodeReactor.CRGameJolt.Connector.WebCaller.html">WebCaller</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScoreTable(int tableid, WebCaller webCaller)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">tableid</span></td>
+        <td><p>Table id getted from GameJolt Game API</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.Connector.WebCaller.html">WebCaller</a></td>
+        <td><span class="parametername">webCaller</span></td>
+        <td><p>A instance of <a class="xref" href="CodeReactor.CRGameJolt.Scores.ScoreTable.html#CodeReactor_CRGameJolt_Scores_ScoreTable_WebCaller">WebCaller</a> to download the data</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.GameJoltAPIException.html">GameJoltAPIException</a></td>
+        <td><p>Throwed if GameJolt Game API return a non-success response</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
@@ -117,7 +180,7 @@
     <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_Scores_ScoreTable_Id.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.Scores.ScoreTable.Id%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Scores/ScoreTable.cs/#L5">View Source</a>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Scores/ScoreTable.cs/#L22">View Source</a>
   </span>
   <a id="CodeReactor_CRGameJolt_Scores_ScoreTable_Id_" data-uid="CodeReactor.CRGameJolt.Scores.ScoreTable.Id*"></a>
   <h4 id="CodeReactor_CRGameJolt_Scores_ScoreTable_Id" data-uid="CodeReactor.CRGameJolt.Scores.ScoreTable.Id">Id</h4>
@@ -138,10 +201,623 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td></td>
+        <td><p>The table id used in API calls</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_Scores_ScoreTable_WebCaller.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.Scores.ScoreTable.WebCaller%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Scores/ScoreTable.cs/#L180">View Source</a>
+  </span>
+  <a id="CodeReactor_CRGameJolt_Scores_ScoreTable_WebCaller_" data-uid="CodeReactor.CRGameJolt.Scores.ScoreTable.WebCaller*"></a>
+  <h4 id="CodeReactor_CRGameJolt_Scores_ScoreTable_WebCaller" data-uid="CodeReactor.CRGameJolt.Scores.ScoreTable.WebCaller">WebCaller</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public WebCaller WebCaller { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.Connector.WebCaller.html">WebCaller</a></td>
+        <td><p>A shared and modificable <a class="xref" href="CodeReactor.CRGameJolt.Connector.WebCaller.html">WebCaller</a> instance</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_Scores_ScoreTable_Add_System_String_System_Int32_System_String_CodeReactor_CRGameJolt_Users_GameJoltMe_.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.Scores.ScoreTable.Add(System.String%2CSystem.Int32%2CSystem.String%2CCodeReactor.CRGameJolt.Users.GameJoltMe)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Scores/ScoreTable.cs/#L130">View Source</a>
+  </span>
+  <a id="CodeReactor_CRGameJolt_Scores_ScoreTable_Add_" data-uid="CodeReactor.CRGameJolt.Scores.ScoreTable.Add*"></a>
+  <h4 id="CodeReactor_CRGameJolt_Scores_ScoreTable_Add_System_String_System_Int32_System_String_CodeReactor_CRGameJolt_Users_GameJoltMe_" data-uid="CodeReactor.CRGameJolt.Scores.ScoreTable.Add(System.String,System.Int32,System.String,CodeReactor.CRGameJolt.Users.GameJoltMe)">Add(String, Int32, String, GameJoltMe)</h4>
+  <div class="markdown level1 summary"><p>Add a score in the table</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add(string score, int sort, string extradata, GameJoltMe user)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">score</span></td>
+        <td><p>Score in string format</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">sort</span></td>
+        <td><p>Score in integer format to create a sort order</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">extradata</span></td>
+        <td><p>Extra data to store, can be null</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.Users.GameJoltMe.html">GameJoltMe</a></td>
+        <td><span class="parametername">user</span></td>
+        <td><p>User that gonna receive score</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.GameJoltAPIException.html">GameJoltAPIException</a></td>
+        <td><p>Throwed if GameJolt Game API return a non-success response</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_Scores_ScoreTable_Add_System_String_System_Int32_System_String_System_String_.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.Scores.ScoreTable.Add(System.String%2CSystem.Int32%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Scores/ScoreTable.cs/#L152">View Source</a>
+  </span>
+  <a id="CodeReactor_CRGameJolt_Scores_ScoreTable_Add_" data-uid="CodeReactor.CRGameJolt.Scores.ScoreTable.Add*"></a>
+  <h4 id="CodeReactor_CRGameJolt_Scores_ScoreTable_Add_System_String_System_Int32_System_String_System_String_" data-uid="CodeReactor.CRGameJolt.Scores.ScoreTable.Add(System.String,System.Int32,System.String,System.String)">Add(String, Int32, String, String)</h4>
+  <div class="markdown level1 summary"><p>Add a score in the table</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add(string score, int sort, string extradata, string guest)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">score</span></td>
+        <td><p>Score in string format</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">sort</span></td>
+        <td><p>Score in integer format to create a sort order</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">extradata</span></td>
+        <td><p>Extra data to store, can be null</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">guest</span></td>
+        <td><p>Guest name that gonna receive score</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.GameJoltAPIException.html">GameJoltAPIException</a></td>
+        <td><p>Throwed if GameJolt Game API return a non-success response</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_Scores_ScoreTable_BetterThan_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.Scores.ScoreTable.BetterThan(System.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Scores/ScoreTable.cs/#L88">View Source</a>
+  </span>
+  <a id="CodeReactor_CRGameJolt_Scores_ScoreTable_BetterThan_" data-uid="CodeReactor.CRGameJolt.Scores.ScoreTable.BetterThan*"></a>
+  <h4 id="CodeReactor_CRGameJolt_Scores_ScoreTable_BetterThan_System_Int32_System_Int32_" data-uid="CodeReactor.CRGameJolt.Scores.ScoreTable.BetterThan(System.Int32,System.Int32)">BetterThan(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Fetch a bulk global score data based that are better than <code data-dev-comment-type="paramref" class="paramref">sort</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScoreValue[] BetterThan(int sort, int limit)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">sort</span></td>
+        <td><p>Sort used as reference</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">limit</span></td>
+        <td><p>Size of score list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.Scores.ScoreValue.html">ScoreValue</a>[]</td>
+        <td><p>Scores based on sort direction</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>Throwed if <code data-dev-comment-type="paramref" class="paramref">limit</code> is less than 0 or bigest than 100</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.GameJoltAPIException.html">GameJoltAPIException</a></td>
+        <td><p>Throwed if GameJolt Game API return a non-success response</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_Scores_ScoreTable_Fetch_CodeReactor_CRGameJolt_Users_GameJoltMe_.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.Scores.ScoreTable.Fetch(CodeReactor.CRGameJolt.Users.GameJoltMe)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Scores/ScoreTable.cs/#L44">View Source</a>
+  </span>
+  <a id="CodeReactor_CRGameJolt_Scores_ScoreTable_Fetch_" data-uid="CodeReactor.CRGameJolt.Scores.ScoreTable.Fetch*"></a>
+  <h4 id="CodeReactor_CRGameJolt_Scores_ScoreTable_Fetch_CodeReactor_CRGameJolt_Users_GameJoltMe_" data-uid="CodeReactor.CRGameJolt.Scores.ScoreTable.Fetch(CodeReactor.CRGameJolt.Users.GameJoltMe)">Fetch(GameJoltMe)</h4>
+  <div class="markdown level1 summary"><p>Fetch score data about <code data-dev-comment-type="paramref" class="paramref">user</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScoreValue Fetch(GameJoltMe user)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.Users.GameJoltMe.html">GameJoltMe</a></td>
+        <td><span class="parametername">user</span></td>
+        <td><p>User used as reference to search score</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.Scores.ScoreValue.html">ScoreValue</a></td>
+        <td><p>Score data in <a class="xref" href="CodeReactor.CRGameJolt.Scores.ScoreValue.html">ScoreValue</a> format</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="CodeReactor_CRGameJolt_Scores_ScoreTable_Fetch_CodeReactor_CRGameJolt_Users_GameJoltMe__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="CodeReactor.CRGameJolt.Scores.ScoreValue.html#CodeReactor_CRGameJolt_Scores_ScoreValue__ctor_CodeReactor_CRGameJolt_Scores_ScoreTable_CodeReactor_CRGameJolt_Users_GameJoltMe_CodeReactor_CRGameJolt_Connector_WebCaller_">ScoreValue(ScoreTable, GameJoltMe, WebCaller)</a></div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_Scores_ScoreTable_Fetch_System_Int32_.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.Scores.ScoreTable.Fetch(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Scores/ScoreTable.cs/#L67">View Source</a>
+  </span>
+  <a id="CodeReactor_CRGameJolt_Scores_ScoreTable_Fetch_" data-uid="CodeReactor.CRGameJolt.Scores.ScoreTable.Fetch*"></a>
+  <h4 id="CodeReactor_CRGameJolt_Scores_ScoreTable_Fetch_System_Int32_" data-uid="CodeReactor.CRGameJolt.Scores.ScoreTable.Fetch(System.Int32)">Fetch(Int32)</h4>
+  <div class="markdown level1 summary"><p>Fetch a bulk global score data</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScoreValue[] Fetch(int limit)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">limit</span></td>
+        <td><p>Size of score list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.Scores.ScoreValue.html">ScoreValue</a>[]</td>
+        <td><p>Scores based on sort direction</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>Throwed if <code data-dev-comment-type="paramref" class="paramref">limit</code> is less than 0 or bigest than 100</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.GameJoltAPIException.html">GameJoltAPIException</a></td>
+        <td><p>Throwed if GameJolt Game API return a non-success response</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_Scores_ScoreTable_Fetch_System_String_.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.Scores.ScoreTable.Fetch(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Scores/ScoreTable.cs/#L55">View Source</a>
+  </span>
+  <a id="CodeReactor_CRGameJolt_Scores_ScoreTable_Fetch_" data-uid="CodeReactor.CRGameJolt.Scores.ScoreTable.Fetch*"></a>
+  <h4 id="CodeReactor_CRGameJolt_Scores_ScoreTable_Fetch_System_String_" data-uid="CodeReactor.CRGameJolt.Scores.ScoreTable.Fetch(System.String)">Fetch(String)</h4>
+  <div class="markdown level1 summary"><p>Fetch score data about <code data-dev-comment-type="paramref" class="paramref">guest</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScoreValue Fetch(string guest)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">guest</span></td>
+        <td><p>Guest name used as reference to search score</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.Scores.ScoreValue.html">ScoreValue</a></td>
+        <td><p>Score data in <a class="xref" href="CodeReactor.CRGameJolt.Scores.ScoreValue.html">ScoreValue</a> format</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="CodeReactor_CRGameJolt_Scores_ScoreTable_Fetch_System_String__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="CodeReactor.CRGameJolt.Scores.ScoreValue.html#CodeReactor_CRGameJolt_Scores_ScoreValue__ctor_CodeReactor_CRGameJolt_Scores_ScoreTable_System_String_CodeReactor_CRGameJolt_Connector_WebCaller_">ScoreValue(ScoreTable, String, WebCaller)</a></div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_Scores_ScoreTable_GetRank_System_Int32_.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.Scores.ScoreTable.GetRank(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Scores/ScoreTable.cs/#L172">View Source</a>
+  </span>
+  <a id="CodeReactor_CRGameJolt_Scores_ScoreTable_GetRank_" data-uid="CodeReactor.CRGameJolt.Scores.ScoreTable.GetRank*"></a>
+  <h4 id="CodeReactor_CRGameJolt_Scores_ScoreTable_GetRank_System_Int32_" data-uid="CodeReactor.CRGameJolt.Scores.ScoreTable.GetRank(System.Int32)">GetRank(Int32)</h4>
+  <div class="markdown level1 summary"><p>Get the relative position of a sort in table</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetRank(int sort)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">sort</span></td>
+        <td><p>Sort to calculate the relative position</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The relative position in table</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.GameJoltAPIException.html">GameJoltAPIException</a></td>
+        <td><p>Throwed if GameJolt Game API return a non-success response</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_Scores_ScoreTable_Update.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.Scores.ScoreTable.Update%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Scores/ScoreTable.cs/#L183">View Source</a>
+  </span>
+  <a id="CodeReactor_CRGameJolt_Scores_ScoreTable_Update_" data-uid="CodeReactor.CRGameJolt.Scores.ScoreTable.Update*"></a>
+  <h4 id="CodeReactor_CRGameJolt_Scores_ScoreTable_Update" data-uid="CodeReactor.CRGameJolt.Scores.ScoreTable.Update">Update()</h4>
+  <div class="markdown level1 summary"><p>A method that can be used to reload or update a local or online data</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Update()</code></pre>
+  </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.GameJoltAPIException.html">GameJoltAPIException</a></td>
+        <td><p>Throwed if GameJolt Game API return a non-success response</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_Scores_ScoreTable_WorseThan_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.Scores.ScoreTable.WorseThan(System.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Scores/ScoreTable.cs/#L109">View Source</a>
+  </span>
+  <a id="CodeReactor_CRGameJolt_Scores_ScoreTable_WorseThan_" data-uid="CodeReactor.CRGameJolt.Scores.ScoreTable.WorseThan*"></a>
+  <h4 id="CodeReactor_CRGameJolt_Scores_ScoreTable_WorseThan_System_Int32_System_Int32_" data-uid="CodeReactor.CRGameJolt.Scores.ScoreTable.WorseThan(System.Int32,System.Int32)">WorseThan(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Fetch a bulk global score data based that are worse than <code data-dev-comment-type="paramref" class="paramref">sort</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScoreValue[] WorseThan(int sort, int limit)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">sort</span></td>
+        <td><p>Sort used as reference</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">limit</span></td>
+        <td><p>Size of score list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.Scores.ScoreValue.html">ScoreValue</a>[]</td>
+        <td><p>Scores based on sort direction</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>Throwed if <code data-dev-comment-type="paramref" class="paramref">limit</code> is less than 0 or bigest than 100</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.GameJoltAPIException.html">GameJoltAPIException</a></td>
+        <td><p>Throwed if GameJolt Game API return a non-success response</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="CodeReactor.CRGameJolt.IGJObject.html">IGJObject</a>
+  </div>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="CodeReactor.CRGameJolt.Scores.ScoreValue.html">ScoreValue</a></div>
+      <div><span class="xref">CodeReactor.CRGameJolt.Scores.TableManager</span></div>
+      <div><a class="xref" href="CodeReactor.CRGameJolt.Connector.WebCaller.html">WebCaller</a></div>
+      <div><a class="xref" href="CodeReactor.CRGameJolt.IGJObject.html">IGJObject</a></div>
+      <div><a class="xref" href="CodeReactor.CRGameJolt.Users.GameJoltMe.html">GameJoltMe</a></div>
+  </div>
 </article>
           </div>
           
@@ -153,7 +829,7 @@
                     <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/new/master/apiSpec/new?filename=CodeReactor_CRGameJolt_Scores_ScoreTable.md&amp;value=---%0Auid%3A%20CodeReactor.CRGameJolt.Scores.ScoreTable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Scores/ScoreTable.cs/#L3" class="contribution-link">View Source</a>
+                    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/Scores/ScoreTable.cs/#L17" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

@@ -1351,6 +1351,89 @@ references:
   commentId: T:CodeReactor.CRGameJolt.Scores.ScoreTable
   fullName: CodeReactor.CRGameJolt.Scores.ScoreTable
   nameWithType: ScoreTable
+- uid: CodeReactor.CRGameJolt.Scores.ScoreTable.#ctor(System.Int32,CodeReactor.CRGameJolt.Connector.WebCaller)
+  name: ScoreTable(Int32, WebCaller)
+  href: api/CodeReactor.CRGameJolt.Scores.ScoreTable.html#CodeReactor_CRGameJolt_Scores_ScoreTable__ctor_System_Int32_CodeReactor_CRGameJolt_Connector_WebCaller_
+  commentId: M:CodeReactor.CRGameJolt.Scores.ScoreTable.#ctor(System.Int32,CodeReactor.CRGameJolt.Connector.WebCaller)
+  fullName: CodeReactor.CRGameJolt.Scores.ScoreTable.ScoreTable(System.Int32, CodeReactor.CRGameJolt.Connector.WebCaller)
+  nameWithType: ScoreTable.ScoreTable(Int32, WebCaller)
+- uid: CodeReactor.CRGameJolt.Scores.ScoreTable.#ctor*
+  name: ScoreTable
+  href: api/CodeReactor.CRGameJolt.Scores.ScoreTable.html#CodeReactor_CRGameJolt_Scores_ScoreTable__ctor_
+  commentId: Overload:CodeReactor.CRGameJolt.Scores.ScoreTable.#ctor
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Scores.ScoreTable.ScoreTable
+  nameWithType: ScoreTable.ScoreTable
+- uid: CodeReactor.CRGameJolt.Scores.ScoreTable.Add(System.String,System.Int32,System.String,CodeReactor.CRGameJolt.Users.GameJoltMe)
+  name: Add(String, Int32, String, GameJoltMe)
+  href: api/CodeReactor.CRGameJolt.Scores.ScoreTable.html#CodeReactor_CRGameJolt_Scores_ScoreTable_Add_System_String_System_Int32_System_String_CodeReactor_CRGameJolt_Users_GameJoltMe_
+  commentId: M:CodeReactor.CRGameJolt.Scores.ScoreTable.Add(System.String,System.Int32,System.String,CodeReactor.CRGameJolt.Users.GameJoltMe)
+  fullName: CodeReactor.CRGameJolt.Scores.ScoreTable.Add(System.String, System.Int32, System.String, CodeReactor.CRGameJolt.Users.GameJoltMe)
+  nameWithType: ScoreTable.Add(String, Int32, String, GameJoltMe)
+- uid: CodeReactor.CRGameJolt.Scores.ScoreTable.Add(System.String,System.Int32,System.String,System.String)
+  name: Add(String, Int32, String, String)
+  href: api/CodeReactor.CRGameJolt.Scores.ScoreTable.html#CodeReactor_CRGameJolt_Scores_ScoreTable_Add_System_String_System_Int32_System_String_System_String_
+  commentId: M:CodeReactor.CRGameJolt.Scores.ScoreTable.Add(System.String,System.Int32,System.String,System.String)
+  fullName: CodeReactor.CRGameJolt.Scores.ScoreTable.Add(System.String, System.Int32, System.String, System.String)
+  nameWithType: ScoreTable.Add(String, Int32, String, String)
+- uid: CodeReactor.CRGameJolt.Scores.ScoreTable.Add*
+  name: Add
+  href: api/CodeReactor.CRGameJolt.Scores.ScoreTable.html#CodeReactor_CRGameJolt_Scores_ScoreTable_Add_
+  commentId: Overload:CodeReactor.CRGameJolt.Scores.ScoreTable.Add
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Scores.ScoreTable.Add
+  nameWithType: ScoreTable.Add
+- uid: CodeReactor.CRGameJolt.Scores.ScoreTable.BetterThan(System.Int32,System.Int32)
+  name: BetterThan(Int32, Int32)
+  href: api/CodeReactor.CRGameJolt.Scores.ScoreTable.html#CodeReactor_CRGameJolt_Scores_ScoreTable_BetterThan_System_Int32_System_Int32_
+  commentId: M:CodeReactor.CRGameJolt.Scores.ScoreTable.BetterThan(System.Int32,System.Int32)
+  fullName: CodeReactor.CRGameJolt.Scores.ScoreTable.BetterThan(System.Int32, System.Int32)
+  nameWithType: ScoreTable.BetterThan(Int32, Int32)
+- uid: CodeReactor.CRGameJolt.Scores.ScoreTable.BetterThan*
+  name: BetterThan
+  href: api/CodeReactor.CRGameJolt.Scores.ScoreTable.html#CodeReactor_CRGameJolt_Scores_ScoreTable_BetterThan_
+  commentId: Overload:CodeReactor.CRGameJolt.Scores.ScoreTable.BetterThan
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Scores.ScoreTable.BetterThan
+  nameWithType: ScoreTable.BetterThan
+- uid: CodeReactor.CRGameJolt.Scores.ScoreTable.Fetch(CodeReactor.CRGameJolt.Users.GameJoltMe)
+  name: Fetch(GameJoltMe)
+  href: api/CodeReactor.CRGameJolt.Scores.ScoreTable.html#CodeReactor_CRGameJolt_Scores_ScoreTable_Fetch_CodeReactor_CRGameJolt_Users_GameJoltMe_
+  commentId: M:CodeReactor.CRGameJolt.Scores.ScoreTable.Fetch(CodeReactor.CRGameJolt.Users.GameJoltMe)
+  fullName: CodeReactor.CRGameJolt.Scores.ScoreTable.Fetch(CodeReactor.CRGameJolt.Users.GameJoltMe)
+  nameWithType: ScoreTable.Fetch(GameJoltMe)
+- uid: CodeReactor.CRGameJolt.Scores.ScoreTable.Fetch(System.Int32)
+  name: Fetch(Int32)
+  href: api/CodeReactor.CRGameJolt.Scores.ScoreTable.html#CodeReactor_CRGameJolt_Scores_ScoreTable_Fetch_System_Int32_
+  commentId: M:CodeReactor.CRGameJolt.Scores.ScoreTable.Fetch(System.Int32)
+  fullName: CodeReactor.CRGameJolt.Scores.ScoreTable.Fetch(System.Int32)
+  nameWithType: ScoreTable.Fetch(Int32)
+- uid: CodeReactor.CRGameJolt.Scores.ScoreTable.Fetch(System.String)
+  name: Fetch(String)
+  href: api/CodeReactor.CRGameJolt.Scores.ScoreTable.html#CodeReactor_CRGameJolt_Scores_ScoreTable_Fetch_System_String_
+  commentId: M:CodeReactor.CRGameJolt.Scores.ScoreTable.Fetch(System.String)
+  fullName: CodeReactor.CRGameJolt.Scores.ScoreTable.Fetch(System.String)
+  nameWithType: ScoreTable.Fetch(String)
+- uid: CodeReactor.CRGameJolt.Scores.ScoreTable.Fetch*
+  name: Fetch
+  href: api/CodeReactor.CRGameJolt.Scores.ScoreTable.html#CodeReactor_CRGameJolt_Scores_ScoreTable_Fetch_
+  commentId: Overload:CodeReactor.CRGameJolt.Scores.ScoreTable.Fetch
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Scores.ScoreTable.Fetch
+  nameWithType: ScoreTable.Fetch
+- uid: CodeReactor.CRGameJolt.Scores.ScoreTable.GetRank(System.Int32)
+  name: GetRank(Int32)
+  href: api/CodeReactor.CRGameJolt.Scores.ScoreTable.html#CodeReactor_CRGameJolt_Scores_ScoreTable_GetRank_System_Int32_
+  commentId: M:CodeReactor.CRGameJolt.Scores.ScoreTable.GetRank(System.Int32)
+  fullName: CodeReactor.CRGameJolt.Scores.ScoreTable.GetRank(System.Int32)
+  nameWithType: ScoreTable.GetRank(Int32)
+- uid: CodeReactor.CRGameJolt.Scores.ScoreTable.GetRank*
+  name: GetRank
+  href: api/CodeReactor.CRGameJolt.Scores.ScoreTable.html#CodeReactor_CRGameJolt_Scores_ScoreTable_GetRank_
+  commentId: Overload:CodeReactor.CRGameJolt.Scores.ScoreTable.GetRank
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Scores.ScoreTable.GetRank
+  nameWithType: ScoreTable.GetRank
 - uid: CodeReactor.CRGameJolt.Scores.ScoreTable.Id
   name: Id
   href: api/CodeReactor.CRGameJolt.Scores.ScoreTable.html#CodeReactor_CRGameJolt_Scores_ScoreTable_Id
@@ -1364,6 +1447,45 @@ references:
   isSpec: "True"
   fullName: CodeReactor.CRGameJolt.Scores.ScoreTable.Id
   nameWithType: ScoreTable.Id
+- uid: CodeReactor.CRGameJolt.Scores.ScoreTable.Update
+  name: Update()
+  href: api/CodeReactor.CRGameJolt.Scores.ScoreTable.html#CodeReactor_CRGameJolt_Scores_ScoreTable_Update
+  commentId: M:CodeReactor.CRGameJolt.Scores.ScoreTable.Update
+  fullName: CodeReactor.CRGameJolt.Scores.ScoreTable.Update()
+  nameWithType: ScoreTable.Update()
+- uid: CodeReactor.CRGameJolt.Scores.ScoreTable.Update*
+  name: Update
+  href: api/CodeReactor.CRGameJolt.Scores.ScoreTable.html#CodeReactor_CRGameJolt_Scores_ScoreTable_Update_
+  commentId: Overload:CodeReactor.CRGameJolt.Scores.ScoreTable.Update
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Scores.ScoreTable.Update
+  nameWithType: ScoreTable.Update
+- uid: CodeReactor.CRGameJolt.Scores.ScoreTable.WebCaller
+  name: WebCaller
+  href: api/CodeReactor.CRGameJolt.Scores.ScoreTable.html#CodeReactor_CRGameJolt_Scores_ScoreTable_WebCaller
+  commentId: P:CodeReactor.CRGameJolt.Scores.ScoreTable.WebCaller
+  fullName: CodeReactor.CRGameJolt.Scores.ScoreTable.WebCaller
+  nameWithType: ScoreTable.WebCaller
+- uid: CodeReactor.CRGameJolt.Scores.ScoreTable.WebCaller*
+  name: WebCaller
+  href: api/CodeReactor.CRGameJolt.Scores.ScoreTable.html#CodeReactor_CRGameJolt_Scores_ScoreTable_WebCaller_
+  commentId: Overload:CodeReactor.CRGameJolt.Scores.ScoreTable.WebCaller
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Scores.ScoreTable.WebCaller
+  nameWithType: ScoreTable.WebCaller
+- uid: CodeReactor.CRGameJolt.Scores.ScoreTable.WorseThan(System.Int32,System.Int32)
+  name: WorseThan(Int32, Int32)
+  href: api/CodeReactor.CRGameJolt.Scores.ScoreTable.html#CodeReactor_CRGameJolt_Scores_ScoreTable_WorseThan_System_Int32_System_Int32_
+  commentId: M:CodeReactor.CRGameJolt.Scores.ScoreTable.WorseThan(System.Int32,System.Int32)
+  fullName: CodeReactor.CRGameJolt.Scores.ScoreTable.WorseThan(System.Int32, System.Int32)
+  nameWithType: ScoreTable.WorseThan(Int32, Int32)
+- uid: CodeReactor.CRGameJolt.Scores.ScoreTable.WorseThan*
+  name: WorseThan
+  href: api/CodeReactor.CRGameJolt.Scores.ScoreTable.html#CodeReactor_CRGameJolt_Scores_ScoreTable_WorseThan_
+  commentId: Overload:CodeReactor.CRGameJolt.Scores.ScoreTable.WorseThan
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.Scores.ScoreTable.WorseThan
+  nameWithType: ScoreTable.WorseThan
 - uid: CodeReactor.CRGameJolt.Scores.ScoreValue
   name: ScoreValue
   href: api/CodeReactor.CRGameJolt.Scores.ScoreValue.html
