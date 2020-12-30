@@ -13,6 +13,8 @@ namespace CodeReactor.CRGameJolt.Scores
     /// <seealso cref="ScoreTable"/>
     /// <seealso cref="TableManager"/>
     /// <seealso cref="Connector.WebCaller"/>
+    /// <seealso cref="IGJObject"/>
+    /// <seealso cref="GameJoltMe"/>
     public class ScoreValue : IGJObject
     {
         /// <value>
