@@ -12,6 +12,7 @@ namespace CodeReactor.CRGameJolt.Scores
     /// <seealso cref="ScoreElementNotFoundException"/>
     /// <seealso cref="ScoreTable"/>
     /// <seealso cref="TableManager"/>
+    /// <seealso cref="Connector.WebCaller"/>
     public class ScoreValue : IGJObject
     {
         /// <value>
