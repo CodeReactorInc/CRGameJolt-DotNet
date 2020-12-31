@@ -190,7 +190,19 @@ namespace CodeReactor.CRGameJolt
         /// <exception cref="GameJoltAPIException">Throwed if GameJolt Game API return a non-success response</exception>
         public void LoginFromFile(string path)
         {
-            LoginFromFile(new FileStream(path, FileMode.Open));
+            using (FileStream fs = new FileStream(path, FileMode.Open)) LoginFromFile(fs);
+        }
+
+        /// <summary>
+        /// Request update of all initialized instances associated with this class
+        /// </summary>
+        /// <exception cref="GameJoltAPIException">Throwed if GameJolt Game API return a non-success response</exception>
+        public void UpdateAll()
+        {
+            if (_globalDataStorage != null) _globalDataStorage.Update();
+            if (_userDataStorage != null) _userDataStorage.Update();
+            if (UserLogged != null) UserLogged.Update();
+            if (_tables != null) _tables.Update();
         }
     }
 }
