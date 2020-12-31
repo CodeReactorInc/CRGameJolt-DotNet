@@ -1342,6 +1342,19 @@ references:
   isSpec: "True"
   fullName: CodeReactor.CRGameJolt.GameJolt.Time
   nameWithType: GameJolt.Time
+- uid: CodeReactor.CRGameJolt.GameJolt.UpdateAll
+  name: UpdateAll()
+  href: api/CodeReactor.CRGameJolt.GameJolt.html#CodeReactor_CRGameJolt_GameJolt_UpdateAll
+  commentId: M:CodeReactor.CRGameJolt.GameJolt.UpdateAll
+  fullName: CodeReactor.CRGameJolt.GameJolt.UpdateAll()
+  nameWithType: GameJolt.UpdateAll()
+- uid: CodeReactor.CRGameJolt.GameJolt.UpdateAll*
+  name: UpdateAll
+  href: api/CodeReactor.CRGameJolt.GameJolt.html#CodeReactor_CRGameJolt_GameJolt_UpdateAll_
+  commentId: Overload:CodeReactor.CRGameJolt.GameJolt.UpdateAll
+  isSpec: "True"
+  fullName: CodeReactor.CRGameJolt.GameJolt.UpdateAll
+  nameWithType: GameJolt.UpdateAll
 - uid: CodeReactor.CRGameJolt.GameJolt.UserDataStorage
   name: UserDataStorage
   href: api/CodeReactor.CRGameJolt.GameJolt.html#CodeReactor_CRGameJolt_GameJolt_UserDataStorage
