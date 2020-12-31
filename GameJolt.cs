@@ -4,6 +4,7 @@ using CodeReactor.CRGameJolt.Scores;
 using CodeReactor.CRGameJolt.Users;
 using System;
 using System.IO;
+using System.Xml.Linq;
 
 namespace CodeReactor.CRGameJolt
 {
@@ -27,6 +28,20 @@ namespace CodeReactor.CRGameJolt
         /// The user logged in GameJolt Game API
         /// </value>
         public GameJoltMe UserLogged { get; private set; }
+
+        /// <value>
+        /// Get the atual time from GameJolt server
+        /// </value>
+        /// <exception cref="GameJoltAPIException">Throwed if GameJolt Game API return a non-success response</exception>
+        public DateTime Time
+        {
+            get
+            {
+                XElement response = WebCaller.GetAsXML("time", new string[] { }).Element("response");
+                if (response.Element("success").Value != "true") throw new GameJoltAPIException(response.Element("message").Value);
+                return new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc).AddSeconds(int.Parse(response.Element("timestamp").Value));
+            }
+        }
 
         /// <value>
         /// Private version of <see cref="GlobalDataStorage"/> but without a soft get
