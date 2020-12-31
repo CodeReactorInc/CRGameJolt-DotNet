@@ -24,7 +24,7 @@ namespace CodeReactor.CRGameJolt.Connector
         /// <value>
         /// If isn't null, <see cref="GetAsText(string, string[])"/> gonna write the URL and data downloaded
         /// </value>
-        public StreamWriter Debug { get; set; }
+        public TextWriter Debug { get; set; }
 
         /// <summary>
         /// Create a <see cref="WebCaller"/> with a <see cref="Connector.URLConstructor"/> and a custom web protocol
