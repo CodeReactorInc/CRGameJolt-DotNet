@@ -84,8 +84,8 @@ namespace CodeReactor.CRGameJolt.Users
             SignedUp = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc).AddSeconds(int.Parse(user.Element("signed_up_timestamp").Value));
             LastLoggedIn = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc).AddSeconds(int.Parse(user.Element("last_logged_in_timestamp").Value));
             Status = ConvertToUserStatus(user.Element("status").Value);
-            DeveloperName = response.Element("developer_name").Value;
-            DeveloperWebsite = response.Element("developer_website").Value;
+            DeveloperName = user.Element("developer_name").Value;
+            DeveloperWebsite = user.Element("developer_website").Value;
             DeveloperDescription = user.Element("developer_description").Value;
         }
 
@@ -108,8 +108,8 @@ namespace CodeReactor.CRGameJolt.Users
             SignedUp = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc).AddSeconds(int.Parse(user.Element("signed_up_timestamp").Value));
             LastLoggedIn = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc).AddSeconds(int.Parse(user.Element("last_logged_in_timestamp").Value));
             Status = ConvertToUserStatus(user.Element("status").Value);
-            DeveloperName = response.Element("developer_name").Value;
-            DeveloperWebsite = response.Element("developer_website").Value;
+            DeveloperName = user.Element("developer_name").Value;
+            DeveloperWebsite = user.Element("developer_website").Value;
             DeveloperDescription = user.Element("developer_description").Value;
         }
 
@@ -171,8 +171,8 @@ namespace CodeReactor.CRGameJolt.Users
             SignedUp = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc).AddSeconds(int.Parse(user.Element("signed_up_timestamp").Value));
             LastLoggedIn = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc).AddSeconds(int.Parse(user.Element("last_logged_in_timestamp").Value));
             Status = ConvertToUserStatus(user.Element("status").Value);
-            DeveloperName = response.Element("developer_name").Value;
-            DeveloperWebsite = response.Element("developer_website").Value;
+            DeveloperName = user.Element("developer_name").Value;
+            DeveloperWebsite = user.Element("developer_website").Value;
             DeveloperDescription = user.Element("developer_description").Value;
         }
     }
