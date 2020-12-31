@@ -102,7 +102,7 @@ namespace CodeReactor.CRGameJolt.Users
         public bool Check()
         {
             XElement response = WebCaller.GetAsXML("sessions/check", new string[] { "username=" + WebUtility.UrlEncode(User.Username), "user_token=" + WebUtility.UrlEncode(User.UserToken) }).Element("response");
-            return (response.Element("success").Value != "true");
+            return (response.Element("success").Value == "true");
         }
 
         /// <summary>
