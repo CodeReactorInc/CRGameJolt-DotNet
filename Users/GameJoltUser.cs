@@ -76,16 +76,17 @@ namespace CodeReactor.CRGameJolt.Users
             WebCaller = webCaller;
             XElement response = WebCaller.GetAsXML("users", new string[] { "username=" + WebUtility.UrlEncode(username) }).Element("response");
             if (response.Element("success").Value != "true") throw new GameJoltAPIException(response.Element("message").Value);
-            Id = int.Parse(response.Element("id").Value);
-            Type = ConvertToUserType(response.Element("type").Value);
-            Username = response.Element("username").Value;
-            AvatarURL = response.Element("avatar_url").Value;
-            SignedUp = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc).AddSeconds(int.Parse(response.Element("signed_up_timestamp").Value));
-            LastLoggedIn = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc).AddSeconds(int.Parse(response.Element("last_logged_in_timestamp").Value));
-            Status = ConvertToUserStatus(response.Element("status").Value);
+            XElement user = response.Element("users").Element("user");
+            Id = int.Parse(user.Element("id").Value);
+            Type = ConvertToUserType(user.Element("type").Value);
+            Username = user.Element("username").Value;
+            AvatarURL = user.Element("avatar_url").Value;
+            SignedUp = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc).AddSeconds(int.Parse(user.Element("signed_up_timestamp").Value));
+            LastLoggedIn = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc).AddSeconds(int.Parse(user.Element("last_logged_in_timestamp").Value));
+            Status = ConvertToUserStatus(user.Element("status").Value);
             DeveloperName = response.Element("developer_name").Value;
             DeveloperWebsite = response.Element("developer_website").Value;
-            DeveloperDescription = response.Element("developer_description").Value;
+            DeveloperDescription = user.Element("developer_description").Value;
         }
 
         /// <summary>
@@ -99,16 +100,17 @@ namespace CodeReactor.CRGameJolt.Users
             WebCaller = webCaller;
             XElement response = WebCaller.GetAsXML("users", new string[] { "user_id=" + WebUtility.UrlEncode(userid.ToString()) }).Element("response");
             if (response.Element("success").Value != "true") throw new GameJoltAPIException(response.Element("message").Value);
-            Id = int.Parse(response.Element("id").Value);
-            Type = ConvertToUserType(response.Element("type").Value);
-            Username = response.Element("username").Value;
-            AvatarURL = response.Element("avatar_url").Value;
-            SignedUp = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc).AddSeconds(int.Parse(response.Element("signed_up_timestamp").Value));
-            LastLoggedIn = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc).AddSeconds(int.Parse(response.Element("last_logged_in_timestamp").Value));
-            Status = ConvertToUserStatus(response.Element("status").Value);
+            XElement user = response.Element("users").Element("user");
+            Id = int.Parse(user.Element("id").Value);
+            Type = ConvertToUserType(user.Element("type").Value);
+            Username = user.Element("username").Value;
+            AvatarURL = user.Element("avatar_url").Value;
+            SignedUp = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc).AddSeconds(int.Parse(user.Element("signed_up_timestamp").Value));
+            LastLoggedIn = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc).AddSeconds(int.Parse(user.Element("last_logged_in_timestamp").Value));
+            Status = ConvertToUserStatus(user.Element("status").Value);
             DeveloperName = response.Element("developer_name").Value;
             DeveloperWebsite = response.Element("developer_website").Value;
-            DeveloperDescription = response.Element("developer_description").Value;
+            DeveloperDescription = user.Element("developer_description").Value;
         }
 
         /// <summary>
@@ -161,16 +163,17 @@ namespace CodeReactor.CRGameJolt.Users
         {
             XElement response = WebCaller.GetAsXML("users", new string[] { "user_id=" + WebUtility.UrlEncode(Id.ToString()) }).Element("response");
             if (response.Element("success").Value != "true") throw new GameJoltAPIException(response.Element("message").Value);
-            Id = int.Parse(response.Element("id").Value);
-            Type = ConvertToUserType(response.Element("type").Value);
-            Username = response.Element("username").Value;
-            AvatarURL = response.Element("avatar_url").Value;
-            SignedUp = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc).AddSeconds(int.Parse(response.Element("signed_up_timestamp").Value));
-            LastLoggedIn = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc).AddSeconds(int.Parse(response.Element("last_logged_in_timestamp").Value));
-            Status = ConvertToUserStatus(response.Element("status").Value);
+            XElement user = response.Element("users").Element("user");
+            Id = int.Parse(user.Element("id").Value);
+            Type = ConvertToUserType(user.Element("type").Value);
+            Username = user.Element("username").Value;
+            AvatarURL = user.Element("avatar_url").Value;
+            SignedUp = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc).AddSeconds(int.Parse(user.Element("signed_up_timestamp").Value));
+            LastLoggedIn = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc).AddSeconds(int.Parse(user.Element("last_logged_in_timestamp").Value));
+            Status = ConvertToUserStatus(user.Element("status").Value);
             DeveloperName = response.Element("developer_name").Value;
             DeveloperWebsite = response.Element("developer_website").Value;
-            DeveloperDescription = response.Element("developer_description").Value;
+            DeveloperDescription = user.Element("developer_description").Value;
         }
     }
 }
