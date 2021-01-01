@@ -2631,19 +2631,19 @@ references:
   isSpec: "True"
   fullName: CodeReactor.CRGameJolt.Users.Trophies.Trophy.Trophy
   nameWithType: Trophy.Trophy
-- uid: CodeReactor.CRGameJolt.Users.Trophies.Trophy.Achived
-  name: Achived
-  href: api/CodeReactor.CRGameJolt.Users.Trophies.Trophy.html#CodeReactor_CRGameJolt_Users_Trophies_Trophy_Achived
-  commentId: P:CodeReactor.CRGameJolt.Users.Trophies.Trophy.Achived
-  fullName: CodeReactor.CRGameJolt.Users.Trophies.Trophy.Achived
-  nameWithType: Trophy.Achived
-- uid: CodeReactor.CRGameJolt.Users.Trophies.Trophy.Achived*
-  name: Achived
-  href: api/CodeReactor.CRGameJolt.Users.Trophies.Trophy.html#CodeReactor_CRGameJolt_Users_Trophies_Trophy_Achived_
-  commentId: Overload:CodeReactor.CRGameJolt.Users.Trophies.Trophy.Achived
+- uid: CodeReactor.CRGameJolt.Users.Trophies.Trophy.Achieved
+  name: Achieved
+  href: api/CodeReactor.CRGameJolt.Users.Trophies.Trophy.html#CodeReactor_CRGameJolt_Users_Trophies_Trophy_Achieved
+  commentId: P:CodeReactor.CRGameJolt.Users.Trophies.Trophy.Achieved
+  fullName: CodeReactor.CRGameJolt.Users.Trophies.Trophy.Achieved
+  nameWithType: Trophy.Achieved
+- uid: CodeReactor.CRGameJolt.Users.Trophies.Trophy.Achieved*
+  name: Achieved
+  href: api/CodeReactor.CRGameJolt.Users.Trophies.Trophy.html#CodeReactor_CRGameJolt_Users_Trophies_Trophy_Achieved_
+  commentId: Overload:CodeReactor.CRGameJolt.Users.Trophies.Trophy.Achieved
   isSpec: "True"
-  fullName: CodeReactor.CRGameJolt.Users.Trophies.Trophy.Achived
-  nameWithType: Trophy.Achived
+  fullName: CodeReactor.CRGameJolt.Users.Trophies.Trophy.Achieved
+  nameWithType: Trophy.Achieved
 - uid: CodeReactor.CRGameJolt.Users.Trophies.Trophy.Add
   name: Add()
   href: api/CodeReactor.CRGameJolt.Users.Trophies.Trophy.html#CodeReactor_CRGameJolt_Users_Trophies_Trophy_Add
