@@ -64,6 +64,7 @@ namespace CodeReactor.CRGameJolt.DataStorage
                 foreach (XElement key in response.Element("keys").Elements("key"))
                 {
                     data[index] = key.Element("key").Value;
+                    index++;
                 }
                 return data;
             }
