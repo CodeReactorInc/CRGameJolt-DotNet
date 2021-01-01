@@ -44,7 +44,7 @@ namespace CodeReactor.CRGameJolt.Users.Trophies
         /// <value>
         /// Is true if the <see cref="User"/> already has the trophy
         /// </value>
-        public bool Achived { get; private set; }
+        public bool Achieved { get; private set; }
 
         /// <value>
         /// Is the user used to verify if the user already has the trophy
@@ -84,7 +84,7 @@ namespace CodeReactor.CRGameJolt.Users.Trophies
             if (trophy.Element("description") == null) throw new TrophyElementNotFoundException("trophy.description doesn't exists");
             if (trophy.Element("image_url") == null) throw new TrophyElementNotFoundException("trophy.image_url doesn't exists");
             if (trophy.Element("difficulty") == null) throw new TrophyElementNotFoundException("trophy.difficulty doesn't exists");
-            if (trophy.Element("achived") == null) throw new TrophyElementNotFoundException("trophy.achived doesn't exists");
+            if (trophy.Element("achieved") == null) throw new TrophyElementNotFoundException("trophy.achieved doesn't exists");
 
             if (!int.TryParse(trophy.Element("id").Value, out _)) throw new TrophyElementNotFoundException("trophy.id ins't a int");
 
@@ -93,7 +93,7 @@ namespace CodeReactor.CRGameJolt.Users.Trophies
             Description = trophy.Element("description").Value;
             ImageURL = trophy.Element("image_url").Value;
             Difficulty = StringToTrophyDifficulty(trophy.Element("difficulty").Value);
-            Achived = trophy.Element("achived").Value != "false";
+            Achieved = trophy.Element("achieved").Value != "false";
         }
 
         /// <summary>
@@ -155,7 +155,7 @@ namespace CodeReactor.CRGameJolt.Users.Trophies
             Description = trophy.Element("description").Value;
             ImageURL = trophy.Element("image_url").Value;
             Difficulty = StringToTrophyDifficulty(trophy.Element("difficulty").Value);
-            Achived = trophy.Element("achived").Value != "false";
+            Achieved = trophy.Element("achieved").Value != "false";
         }
     }
 }
