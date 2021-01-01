@@ -1,7 +1,5 @@
 ﻿using CodeReactor.CRGameJolt.Users;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CodeReactor.CRGameJolt.Test.ConsoleMenu
 {
@@ -42,11 +40,13 @@ namespace CodeReactor.CRGameJolt.Test.ConsoleMenu
                             Console.WriteLine("Fetching user info...");
                             ShowInfo(MainMenu.Instance.Memory.GameJolt.FetchUser(userid));
                             MainMenu.Instance.Start();
-                        } catch (FormatException)
+                        }
+                        catch (FormatException)
                         {
                             Console.WriteLine("Invalid number, try again");
                             Collect();
-                        } catch (GameJoltAPIException)
+                        }
+                        catch (GameJoltAPIException)
                         {
                             Console.WriteLine("User not found");
                             MainMenu.Instance.Start();
@@ -71,6 +71,7 @@ namespace CodeReactor.CRGameJolt.Test.ConsoleMenu
 
         public static void ShowInfo(GameJoltUser user)
         {
+            Console.WriteLine("-------------------------------");
             Console.WriteLine("Username: " + user.Username);
             Console.WriteLine("User ID: " + user.Id);
             Console.WriteLine("Avatar URL: " + user.AvatarURL);
