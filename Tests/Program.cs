@@ -1,19 +1,21 @@
-﻿using CodeReactor.CRGameJolt.Test.Configuration;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Text;
-using System.IO;
+﻿using CodeReactor.CRGameJolt.DataStorage;
+using CodeReactor.CRGameJolt.Test.Configuration;
 using CodeReactor.CRGameJolt.Test.ConsoleMenu;
-using CodeReactor.CRGameJolt.DataStorage;
+using System;
+using System.Diagnostics;
+using System.IO;
 using System.Net;
 
 namespace CodeReactor.CRGameJolt.Test
 {
     public class Program
     {
+        public static StreamWriter DebugStream { get; set; }
+
         public static void Main(string[] args)
         {
+            Console.WriteLine("Adding exit event handler...");
+            AppDomain.CurrentDomain.ProcessExit += new EventHandler(CatchExit);
             Console.WriteLine("Starting a instance of CentralMemory...");
             CentralMemory memory = new CentralMemory();
             Console.WriteLine("Trying to read Options.xml...");
@@ -48,9 +50,10 @@ namespace CodeReactor.CRGameJolt.Test
             Console.WriteLine("Creating a instance of GameJolt...");
             memory.GameJolt = new GameJolt(memory.Options.GameId, memory.Options.GameKey);
             Console.WriteLine("Setting WebCaller.log as Debugger on WebCaller...");
-            memory.GameJolt.WebCaller.Debug = new StreamWriter(new FileStream(Path.GetDirectoryName(Process.GetCurrentProcess().MainModule.FileName) + "/WebCaller.log", FileMode.Create));
+            memory.GameJolt.WebCaller.Debug = DebugStream = new StreamWriter(new FileStream(Path.GetDirectoryName(Process.GetCurrentProcess().MainModule.FileName) + "/WebCaller.log", FileMode.Create));
             Console.WriteLine("Trying to send a test payload to Global Data Storage...");
-            try { 
+            try
+            {
                 memory.GameJolt.GlobalDataStorage["last_test"] = new DataStorageValue(DateTimeOffset.Now.ToUnixTimeMilliseconds().ToString());
             }
             catch (WebException)
@@ -88,7 +91,8 @@ namespace CodeReactor.CRGameJolt.Test
             try
             {
                 memory.Options.Save();
-            } catch (Exception e)
+            }
+            catch (Exception e)
             {
                 Console.WriteLine("A Exception has throwed: " + e.ToString());
                 Environment.Exit(1);
@@ -97,6 +101,13 @@ namespace CodeReactor.CRGameJolt.Test
 
             MainMenu mainMenu = new MainMenu(memory);
             mainMenu.Start();
+        }
+
+        public static void CatchExit(object sender, EventArgs e)
+        {
+            Console.WriteLine("Closing Debugger stream...");
+            if (DebugStream != null) DebugStream.Close();
+            Console.WriteLine("Closed Debugged stream");
         }
     }
 }

@@ -1,7 +1,5 @@
 ﻿using CodeReactor.CRGameJolt.Scores;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CodeReactor.CRGameJolt.Test.ConsoleMenu
 {
@@ -21,7 +19,7 @@ namespace CodeReactor.CRGameJolt.Test.ConsoleMenu
                 switch (o)
                 {
                     case 1:
-                        foreach(ScoreTable table in manager.Tables)
+                        foreach (ScoreTable table in manager.Tables)
                         {
                             Console.WriteLine("------------------------------");
                             Console.WriteLine("Table ID: " + table.Id);
@@ -49,7 +47,8 @@ namespace CodeReactor.CRGameJolt.Test.ConsoleMenu
                         {
                             Console.WriteLine("Invalid number, try again");
                             Collect();
-                        } catch (GameJoltAPIException)
+                        }
+                        catch (GameJoltAPIException)
                         {
                             Console.WriteLine("Can't find the table, try again");
                             Collect();

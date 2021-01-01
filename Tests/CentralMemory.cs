@@ -1,8 +1,4 @@
 ﻿using CodeReactor.CRGameJolt.Test.Configuration;
-using CodeReactor.CRGameJolt.Users;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading;
 
 namespace CodeReactor.CRGameJolt.Test

@@ -1,7 +1,5 @@
 ﻿using CodeReactor.CRGameJolt.Scores;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CodeReactor.CRGameJolt.Test.ConsoleMenu
 {
@@ -43,7 +41,8 @@ namespace CodeReactor.CRGameJolt.Test.ConsoleMenu
                             table.Add(score, sort, extradata, MainMenu.Instance.Memory.GameJolt.UserLogged);
                             Console.WriteLine("Score added");
                             Collect(table);
-                        } catch (FormatException)
+                        }
+                        catch (FormatException)
                         {
                             Console.WriteLine("Invalid number, try again");
                             Collect(table);
@@ -86,7 +85,8 @@ namespace CodeReactor.CRGameJolt.Test.ConsoleMenu
                         try
                         {
                             ShowScore(table.Fetch(guest));
-                        } catch (GameJoltAPIException e)
+                        }
+                        catch (GameJoltAPIException e)
                         {
                             Console.WriteLine(e.Message);
                         }
@@ -99,7 +99,7 @@ namespace CodeReactor.CRGameJolt.Test.ConsoleMenu
                             int limit = int.Parse(Console.ReadLine());
                             try
                             {
-                                foreach(ScoreValue value in table.Fetch(limit))
+                                foreach (ScoreValue value in table.Fetch(limit))
                                 {
                                     ShowScore(value);
                                 }
@@ -112,7 +112,8 @@ namespace CodeReactor.CRGameJolt.Test.ConsoleMenu
                             {
                                 Console.WriteLine("Invalid limit provided");
                             }
-                        } catch (FormatException)
+                        }
+                        catch (FormatException)
                         {
                             Console.WriteLine("Invalid number, try again");
                         }
@@ -215,7 +216,8 @@ namespace CodeReactor.CRGameJolt.Test.ConsoleMenu
             if (score.Guest != null)
             {
                 Console.WriteLine("Guest: " + score.Guest);
-            } else
+            }
+            else
             {
 
                 Console.WriteLine("Username: " + score.User);

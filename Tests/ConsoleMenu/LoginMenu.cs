@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CodeReactor.CRGameJolt.Test.ConsoleMenu
 {
@@ -25,11 +23,13 @@ namespace CodeReactor.CRGameJolt.Test.ConsoleMenu
                 MainMenu.Instance.Memory.Options.UserToken = token;
                 MainMenu.Instance.Memory.Options.Save();
                 MainMenu.Instance.Start();
-            } catch (GameJoltAPIException)
+            }
+            catch (GameJoltAPIException)
             {
                 Console.WriteLine("Invalid user information");
                 MainMenu.Instance.Start();
-            } catch (Exception e)
+            }
+            catch (Exception e)
             {
                 Console.WriteLine("A Exception has throwed: " + e.ToString());
                 Environment.Exit(1);

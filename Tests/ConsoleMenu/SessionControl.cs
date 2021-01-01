@@ -1,8 +1,6 @@
 ﻿using CodeReactor.CRGameJolt.Users;
 using System;
 using System.Threading;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CodeReactor.CRGameJolt.Test.ConsoleMenu
 {
@@ -47,12 +45,14 @@ namespace CodeReactor.CRGameJolt.Test.ConsoleMenu
                                     try
                                     {
                                         MainMenu.Instance.Memory.AutopingThread.Abort();
-                                    } catch (PlatformNotSupportedException) { }
+                                    }
+                                    catch (PlatformNotSupportedException) { }
                                 }
                                 MainMenu.Instance.Memory.AutopingThread = null;
                                 Console.WriteLine("Autoping disabled");
                                 Collect();
-                            } else
+                            }
+                            else
                             {
                                 MainMenu.Instance.Memory.Autoping = true;
                                 MainMenu.Instance.Memory.AutopingThread = new Thread(Autoping);
@@ -87,7 +87,8 @@ namespace CodeReactor.CRGameJolt.Test.ConsoleMenu
                     Console.WriteLine("Invalid number, try again");
                     Collect();
                 }
-            } else
+            }
+            else
             {
                 Console.WriteLine("1. Open session");
                 Console.WriteLine("2. Back");
