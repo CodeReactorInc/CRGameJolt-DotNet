@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CodeReactor.CRGameJolt.Test.ConsoleMenu
 {
@@ -33,7 +31,7 @@ namespace CodeReactor.CRGameJolt.Test.ConsoleMenu
             {
                 int o = int.Parse(Console.ReadLine());
 
-                switch(o)
+                switch (o)
                 {
                     case 1:
                         UserInfo.Collect();
@@ -51,12 +49,28 @@ namespace CodeReactor.CRGameJolt.Test.ConsoleMenu
                         TableSelector.Collect();
                         break;
                     case 4:
+                        if (Memory.GameJolt.UserLogged == null)
+                        {
+                            Console.WriteLine("Please, make login");
+                            Start();
+                            return;
+                        }
+                        TrophyController.Collect();
                         break;
                     case 5:
+                        if (Memory.GameJolt.UserLogged == null)
+                        {
+                            Console.WriteLine("Please, make login");
+                            Start();
+                            return;
+                        }
+                        DataStorageMenu.Collect(Memory.GameJolt.UserDataStorage);
                         break;
                     case 6:
+                        DataStorageMenu.Collect(Memory.GameJolt.GlobalDataStorage);
                         break;
                     case 7:
+                        FriendProcessor.Collect();
                         break;
                     case 8:
                         Console.WriteLine("Requesting time for GameJolt...");
@@ -77,7 +91,8 @@ namespace CodeReactor.CRGameJolt.Test.ConsoleMenu
                         break;
                 }
 
-            } catch (FormatException)
+            }
+            catch (FormatException)
             {
                 Console.WriteLine("Invalid number, try again");
                 Start();
