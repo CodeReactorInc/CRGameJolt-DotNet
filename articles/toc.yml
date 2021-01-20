@@ -1,2 +1,6 @@
 - name: Introduction
   href: intro.md
+- name: Download
+  href: download.md
+- name: Examples
+  href: example.md
