@@ -5,22 +5,30 @@
     <Authors>NatsumiUIX</Authors>
     <Company>Code Reactor</Company>
     <Product>CRGameJolt</Product>
-    <Description>The library from CR Series to manage and connect your .Net programs to GameJolt Game API</Description>
+    <Description>Uses and control everything in the GameJolt Game API using this library from CR Series</Description>
     <Copyright>© 2020 Code Reactor.  All rights reserved.</Copyright>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/CodeReactorInc/CRGameJolt-DotNet</PackageProjectUrl>
     <RepositoryUrl>https://github.com/CodeReactorInc/CRGameJolt-DotNet.git</RepositoryUrl>
     <PackageTags>CRGameJolt, GameJolt, Game API</PackageTags>
-    <PackageReleaseNotes>First Release</PackageReleaseNotes>
+    <PackageReleaseNotes>First Release
+
+This release add support for everything in GameJolt Game API version v1.2</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <RootNamespace>CodeReactor.CRGameJolt</RootNamespace>
     <OutputType>Library</OutputType>
+    <RepositoryType>git</RepositoryType>
+    <PackageIcon>CRGamejolt.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Remove="Tests\**" />
     <EmbeddedResource Remove="Tests\**" />
     <None Remove="Tests\**" />
+    <None Include="..\..\..\Imagens\Code Reactor\CRGamejolt.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
