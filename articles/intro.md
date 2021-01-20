@@ -12,7 +12,7 @@ Every runtime that support **.Net Standard 2.0** can use the NuGet Package or DL
 
 ## Binaries download
 
-Precompiled binaries can be download from [download tab](download.html) or from [GitHub releases](https://github.com/CodeReactorInc/CRGameJolt-DotNet/releases)
+Precompiled binaries can be download from [download tab](download.md) or from [GitHub releases](https://github.com/CodeReactorInc/CRGameJolt-DotNet/releases)
 
 ## Source download
 

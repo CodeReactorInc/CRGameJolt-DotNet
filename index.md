@@ -12,7 +12,7 @@ Created in .Net Standard 2.0 to has the maximum of compatibility with another .N
 
 ## How to download
 
-CRGameJolt for DotNet has precompiled binaries for NuGet, Unity Packages and DLL, you can see all options on [GitHub release page](https://github.com/CodeReactorInc/CRGameJolt-DotNet/releases) or in [download tab](articles/download.html)
+CRGameJolt for DotNet has precompiled binaries for NuGet, Unity Packages and DLL, you can see all options on [GitHub release page](https://github.com/CodeReactorInc/CRGameJolt-DotNet/releases) or in [download tab](articles/download.md)
 
 ### Warning
 
