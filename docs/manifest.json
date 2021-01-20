@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html",
-          "hash": "z+qqipd6oxFRfNXOCObIIw=="
+          "hash": "oIGxCafHYsmMnmjpVsc+Yg=="
         }
       },
       "is_incremental": false,
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.DataStorage.UserDataStorage.html",
-          "hash": "VlZvXTiog6vpV9SAU8SumQ=="
+          "hash": "XZUo0lhOvKTtV7FJZq+Bbw=="
         }
       },
       "is_incremental": false,
@@ -273,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Scores.ScoreTable.html",
-          "hash": "kVPp07nYTyaQtHL/0qZ5Dw=="
+          "hash": "kHsniUZu8uP7zuB32a32KQ=="
         }
       },
       "is_incremental": false,
@@ -285,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Scores.ScoreValue.html",
-          "hash": "7eUK+lN2iWVdl4mi06+C4g=="
+          "hash": "6Vjm8xgXnwt6XtWUihmW4w=="
         }
       },
       "is_incremental": false,
@@ -297,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Scores.TableManager.html",
-          "hash": "7XW4PawXFj6zUzVgR9y0ww=="
+          "hash": "31X2jsZLrD7LP8AepsSisg=="
         }
       },
       "is_incremental": false,
@@ -321,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Users.FriendList.html",
-          "hash": "j4ZN5lgYMICeyBloyfsxxA=="
+          "hash": "38ak6+0OUhSRg22E+6zYTg=="
         }
       },
       "is_incremental": false,
@@ -333,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Users.GameJoltMe.html",
-          "hash": "BF/J+WoSMb4Dxdn5UkhNRA=="
+          "hash": "dfox1DRZ0R2OgFRbzL8Yeg=="
         }
       },
       "is_incremental": false,
@@ -345,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Users.GameJoltUser.html",
-          "hash": "QIz6txAacX2mWChCH6jSwA=="
+          "hash": "iVPKBey9OLqsfasg+wDD3Q=="
         }
       },
       "is_incremental": false,
@@ -369,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Users.SessionManager.html",
-          "hash": "JPHFlFqnQeVGU8rKAckG4Q=="
+          "hash": "iV6hBu5wE9AUpxpf8/6/Rw=="
         }
       },
       "is_incremental": false,
@@ -405,7 +405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Users.Trophies.TrophiesManager.html",
-          "hash": "OF2WhnQk9UK9N+5LIr+DTQ=="
+          "hash": "Fo77bXUNdREa6RQYAWeabA=="
         }
       },
       "is_incremental": false,
@@ -417,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Users.Trophies.Trophy.html",
-          "hash": "o3nyAxg/SQsAw6iPn+mCOw=="
+          "hash": "gmUKFWgqABvmk00oOYyj9Q=="
         }
       },
       "is_incremental": false,
@@ -569,10 +569,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/CRGamejolt.ico",
+      "source_relative_path": "images/CRGameJolt.ico",
       "output": {
         "resource": {
-          "relative_path": "images/CRGamejolt.ico"
+          "relative_path": "images/CRGameJolt.ico"
         }
       },
       "is_incremental": false,
@@ -580,10 +580,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/CRGamejolt.png",
+      "source_relative_path": "images/CRGameJolt.png",
       "output": {
         "resource": {
-          "relative_path": "images/CRGamejolt.png"
+          "relative_path": "images/CRGameJolt.png"
         }
       },
       "is_incremental": false,
@@ -591,10 +591,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/CRGamejoltLogo.png",
+      "source_relative_path": "images/CRGameJoltLogo.png",
       "output": {
         "resource": {
-          "relative_path": "images/CRGamejoltLogo.png"
+          "relative_path": "images/CRGameJoltLogo.png"
         }
       },
       "is_incremental": false,
@@ -629,11 +629,11 @@
     {
       "status": {
         "can_incremental": false,
-        "details": "Cannot build incrementally because config changed.",
+        "details": "Disable incremental build by force rebuild option.",
         "incrementalPhase": "build",
         "total_file_count": 0,
         "skipped_file_count": 0,
-        "full_build_reason_code": "ConfigChanged"
+        "full_build_reason_code": "ForceRebuild"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
@@ -666,8 +666,8 @@
     },
     {
       "status": {
-        "can_incremental": true,
-        "details": "Can support incremental post processing.",
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0

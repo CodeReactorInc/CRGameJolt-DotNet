@@ -186,7 +186,24 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td></td>
+        <td><p>The count of values inside of Game Jolt Data Storage</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.GameJoltAPIException.html">GameJoltAPIException</a></td>
+        <td><p>Throwed if GameJolt Game API return a non-success response</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -218,7 +235,8 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">key</span></td>
-        <td></td>
+        <td><p>Key used in Data Storage</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -233,7 +251,24 @@
     <tbody>
       <tr>
         <td><a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html">DataStorageValue</a></td>
-        <td></td>
+        <td><p>Data retrived from Data Storage</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.GameJoltAPIException.html">GameJoltAPIException</a></td>
+        <td><p>Throwed if GameJolt Game API return a non-success response</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -263,7 +298,24 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span>[]</td>
-        <td></td>
+        <td><p>All keys available and valid in Data Storage</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.GameJoltAPIException.html">GameJoltAPIException</a></td>
+        <td><p>Throwed if GameJolt Game API return a non-success response</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -324,7 +376,8 @@
     <tbody>
       <tr>
         <td><a class="xref" href="CodeReactor.CRGameJolt.Connector.WebCaller.html">WebCaller</a></td>
-        <td></td>
+        <td><p>A shared and modificable <a class="xref" href="CodeReactor.CRGameJolt.Connector.WebCaller.html">WebCaller</a> instance</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -339,7 +392,8 @@
   </span>
   <a id="CodeReactor_CRGameJolt_DataStorage_UserDataStorage_Add_" data-uid="CodeReactor.CRGameJolt.DataStorage.UserDataStorage.Add*"></a>
   <h4 id="CodeReactor_CRGameJolt_DataStorage_UserDataStorage_Add_System_String_System_Int32_" data-uid="CodeReactor.CRGameJolt.DataStorage.UserDataStorage.Add(System.String,System.Int32)">Add(String, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Send a update request with add operation and make a sum in value</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -358,12 +412,14 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">key</span></td>
-        <td></td>
+        <td><p>The key to be updated</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">newvalue</span></td>
-        <td></td>
+        <td><p>New value provided for Data Storage with the operation</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -378,7 +434,29 @@
     <tbody>
       <tr>
         <td><a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html">DataStorageValue</a></td>
-        <td></td>
+        <td><p>The value updated</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.GameJoltAPIException.html">GameJoltAPIException</a></td>
+        <td><p>Throwed if GameJolt Game API return a non-success response</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException.html">InvalidDataTypeException</a></td>
+        <td><p>Throwed if <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html#CodeReactor_CRGameJolt_DataStorage_DataStorageValue_Type">Type</a> is a <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DSValueType.html#CodeReactor_CRGameJolt_DataStorage_DSValueType_INTEGER">INTEGER</a></p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -391,7 +469,8 @@
   </span>
   <a id="CodeReactor_CRGameJolt_DataStorage_UserDataStorage_Append_" data-uid="CodeReactor.CRGameJolt.DataStorage.UserDataStorage.Append*"></a>
   <h4 id="CodeReactor_CRGameJolt_DataStorage_UserDataStorage_Append_System_String_System_String_" data-uid="CodeReactor.CRGameJolt.DataStorage.UserDataStorage.Append(System.String,System.String)">Append(String, String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Send a update request with append operation and make a append in value</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -410,12 +489,14 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">key</span></td>
-        <td></td>
+        <td><p>The key to be updated</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">newvalue</span></td>
-        <td></td>
+        <td><p>New value provided for Data Storage with the operation</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -430,7 +511,29 @@
     <tbody>
       <tr>
         <td><a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html">DataStorageValue</a></td>
-        <td></td>
+        <td><p>The value updated</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.GameJoltAPIException.html">GameJoltAPIException</a></td>
+        <td><p>Throwed if GameJolt Game API return a non-success response</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException.html">InvalidDataTypeException</a></td>
+        <td><p>Throwed if <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html#CodeReactor_CRGameJolt_DataStorage_DataStorageValue_Type">Type</a> is a <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DSValueType.html#CodeReactor_CRGameJolt_DataStorage_DSValueType_STRING">STRING</a></p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -443,7 +546,8 @@
   </span>
   <a id="CodeReactor_CRGameJolt_DataStorage_UserDataStorage_Divide_" data-uid="CodeReactor.CRGameJolt.DataStorage.UserDataStorage.Divide*"></a>
   <h4 id="CodeReactor_CRGameJolt_DataStorage_UserDataStorage_Divide_System_String_System_Int32_" data-uid="CodeReactor.CRGameJolt.DataStorage.UserDataStorage.Divide(System.String,System.Int32)">Divide(String, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Send a update request with divide operation and make a divide in value</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -462,12 +566,14 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">key</span></td>
-        <td></td>
+        <td><p>The key to be updated</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">newvalue</span></td>
-        <td></td>
+        <td><p>New value provided for Data Storage with the operation</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -482,7 +588,29 @@
     <tbody>
       <tr>
         <td><a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html">DataStorageValue</a></td>
-        <td></td>
+        <td><p>The value updated</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.GameJoltAPIException.html">GameJoltAPIException</a></td>
+        <td><p>Throwed if GameJolt Game API return a non-success response</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException.html">InvalidDataTypeException</a></td>
+        <td><p>Throwed if <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html#CodeReactor_CRGameJolt_DataStorage_DataStorageValue_Type">Type</a> is a <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DSValueType.html#CodeReactor_CRGameJolt_DataStorage_DSValueType_INTEGER">INTEGER</a></p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -495,7 +623,8 @@
   </span>
   <a id="CodeReactor_CRGameJolt_DataStorage_UserDataStorage_Multiply_" data-uid="CodeReactor.CRGameJolt.DataStorage.UserDataStorage.Multiply*"></a>
   <h4 id="CodeReactor_CRGameJolt_DataStorage_UserDataStorage_Multiply_System_String_System_Int32_" data-uid="CodeReactor.CRGameJolt.DataStorage.UserDataStorage.Multiply(System.String,System.Int32)">Multiply(String, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Send a update request with multiply operation and make a multiply in value</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -514,12 +643,14 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">key</span></td>
-        <td></td>
+        <td><p>The key to be updated</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">newvalue</span></td>
-        <td></td>
+        <td><p>New value provided for Data Storage with the operation</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -534,7 +665,29 @@
     <tbody>
       <tr>
         <td><a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html">DataStorageValue</a></td>
-        <td></td>
+        <td><p>The value updated</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.GameJoltAPIException.html">GameJoltAPIException</a></td>
+        <td><p>Throwed if GameJolt Game API return a non-success response</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException.html">InvalidDataTypeException</a></td>
+        <td><p>Throwed if <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html#CodeReactor_CRGameJolt_DataStorage_DataStorageValue_Type">Type</a> is a <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DSValueType.html#CodeReactor_CRGameJolt_DataStorage_DSValueType_INTEGER">INTEGER</a></p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -547,7 +700,8 @@
   </span>
   <a id="CodeReactor_CRGameJolt_DataStorage_UserDataStorage_Prepend_" data-uid="CodeReactor.CRGameJolt.DataStorage.UserDataStorage.Prepend*"></a>
   <h4 id="CodeReactor_CRGameJolt_DataStorage_UserDataStorage_Prepend_System_String_System_String_" data-uid="CodeReactor.CRGameJolt.DataStorage.UserDataStorage.Prepend(System.String,System.String)">Prepend(String, String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Send a update request with prepend operation and make a prepend in value</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -566,12 +720,14 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">key</span></td>
-        <td></td>
+        <td><p>The key to be updated</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">newvalue</span></td>
-        <td></td>
+        <td><p>New value provided for Data Storage with the operation</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -586,7 +742,29 @@
     <tbody>
       <tr>
         <td><a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html">DataStorageValue</a></td>
-        <td></td>
+        <td><p>The value updated</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.GameJoltAPIException.html">GameJoltAPIException</a></td>
+        <td><p>Throwed if GameJolt Game API return a non-success response</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException.html">InvalidDataTypeException</a></td>
+        <td><p>Throwed if <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html#CodeReactor_CRGameJolt_DataStorage_DataStorageValue_Type">Type</a> is a <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DSValueType.html#CodeReactor_CRGameJolt_DataStorage_DSValueType_STRING">STRING</a></p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -599,7 +777,8 @@
   </span>
   <a id="CodeReactor_CRGameJolt_DataStorage_UserDataStorage_Remove_" data-uid="CodeReactor.CRGameJolt.DataStorage.UserDataStorage.Remove*"></a>
   <h4 id="CodeReactor_CRGameJolt_DataStorage_UserDataStorage_Remove_System_String_" data-uid="CodeReactor.CRGameJolt.DataStorage.UserDataStorage.Remove(System.String)">Remove(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Remove a value from Data Storage using a key</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -618,7 +797,24 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">key</span></td>
-        <td></td>
+        <td><p>The key used to remove</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.GameJoltAPIException.html">GameJoltAPIException</a></td>
+        <td><p>Throwed if GameJolt Game API return a non-success response</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -631,7 +827,8 @@
   </span>
   <a id="CodeReactor_CRGameJolt_DataStorage_UserDataStorage_Subtract_" data-uid="CodeReactor.CRGameJolt.DataStorage.UserDataStorage.Subtract*"></a>
   <h4 id="CodeReactor_CRGameJolt_DataStorage_UserDataStorage_Subtract_System_String_System_Int32_" data-uid="CodeReactor.CRGameJolt.DataStorage.UserDataStorage.Subtract(System.String,System.Int32)">Subtract(String, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Send a update request with subtract operation and make a subtract in value</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -650,12 +847,14 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">key</span></td>
-        <td></td>
+        <td><p>The key to be updated</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">newvalue</span></td>
-        <td></td>
+        <td><p>New value provided for Data Storage with the operation</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -670,7 +869,29 @@
     <tbody>
       <tr>
         <td><a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html">DataStorageValue</a></td>
-        <td></td>
+        <td><p>The value updated</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.GameJoltAPIException.html">GameJoltAPIException</a></td>
+        <td><p>Throwed if GameJolt Game API return a non-success response</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException.html">InvalidDataTypeException</a></td>
+        <td><p>Throwed if <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html#CodeReactor_CRGameJolt_DataStorage_DataStorageValue_Type">Type</a> is a <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.DSValueType.html#CodeReactor_CRGameJolt_DataStorage_DSValueType_INTEGER">INTEGER</a></p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -683,12 +904,29 @@
   </span>
   <a id="CodeReactor_CRGameJolt_DataStorage_UserDataStorage_Update_" data-uid="CodeReactor.CRGameJolt.DataStorage.UserDataStorage.Update*"></a>
   <h4 id="CodeReactor_CRGameJolt_DataStorage_UserDataStorage_Update" data-uid="CodeReactor.CRGameJolt.DataStorage.UserDataStorage.Update">Update()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>A method that can be used to reload or update a local or online data</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Update()</code></pre>
   </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeReactor.CRGameJolt.GameJoltAPIException.html">GameJoltAPIException</a></td>
+        <td><p>Throwed if GameJolt Game API return a non-success response</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html">IGJDataStorage</a>
