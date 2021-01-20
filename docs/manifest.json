@@ -9,10 +9,10 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "vMJ/NHXRf56Wzn9JZrjWkQ=="
+          "hash": "9dNALQx1hL69X8EpQj9pmw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -21,10 +21,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Connector.APIVersion.html",
-          "hash": "Londm98axg8/MKv/PS8LLg=="
+          "hash": "IlvqLYzm8kWxemen1rnVeg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -33,10 +33,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Connector.InvalidAPIVersionException.html",
-          "hash": "6QcLun/Rv3/zdWpGDtWFXQ=="
+          "hash": "GtIoflv8x1lItkQHlJG0bQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -45,10 +45,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Connector.InvalidSignatureTypeException.html",
-          "hash": "pdzW3LJ9mSkkBGHEyp+z3Q=="
+          "hash": "KeDdoHlVd6mKqvdJcU/8Hw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -57,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Connector.InvalidWebProtocolException.html",
-          "hash": "ABmRQkcTPbexNYfmsCb4lQ=="
+          "hash": "bNJex9SJVHUCJlCY5NxNkw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -69,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Connector.SignatureType.html",
-          "hash": "wja8SKi1Nj3s0lgg4TpYmA=="
+          "hash": "6qVqahKoztEwZ5MCJtt/nA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -81,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Connector.URLConstructor.html",
-          "hash": "8Vc7Iu7KwwNpyddCmRyssw=="
+          "hash": "PLHSmcO+I93O1u12yDPPWw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -93,10 +93,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Connector.WebCaller.html",
-          "hash": "O69hCbWWYh7RnK5boDX+LQ=="
+          "hash": "g1BAcZ5waT8Pz+RvuJX5DA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -105,10 +105,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Connector.WebProtocol.html",
-          "hash": "dTmxKjoEbspdWUG2IH+m+g=="
+          "hash": "x0KVtxjWYyz19HY3FJr+sQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -117,10 +117,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Connector.html",
-          "hash": "DSkAObqoILeHUTfiaU9luQ=="
+          "hash": "LFF1/iWg3TVhHynJnQ6rBw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -129,10 +129,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.DataStorage.DSValueType.html",
-          "hash": "hLNYUm+SoyUKDKYINkfPzw=="
+          "hash": "O5JZ7P7JbVwYUxmWQZv8JQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -141,10 +141,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.DataStorage.DataStorageValue.html",
-          "hash": "b4PL8kxHjFDLiCNXYprmkQ=="
+          "hash": "njHO1JlbixEAV88Tdkhm1Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -153,10 +153,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.DataStorage.GlobalDataStorage.html",
-          "hash": "oIGxCafHYsmMnmjpVsc+Yg=="
+          "hash": "LAnSwBF60S4zCHK2J6fIrg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -165,10 +165,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.DataStorage.IGJDataStorage.html",
-          "hash": "sXUYhgYPvni47wPLBpvWOw=="
+          "hash": "Gal1y+tZmvX/krmBkY8BPQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -177,10 +177,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.DataStorage.InvalidDataTypeException.html",
-          "hash": "WQ+fdIURUaINpvfQj6oFdA=="
+          "hash": "gFVG+gbOgWvPTbDQSY0X1Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -189,10 +189,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.DataStorage.NoDataStorageException.html",
-          "hash": "pNMCjKMrDAJeQs6GjuWrOg=="
+          "hash": "KgbnA5tejBvYElHBRYPP5g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -201,10 +201,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.DataStorage.UserDataStorage.html",
-          "hash": "XZUo0lhOvKTtV7FJZq+Bbw=="
+          "hash": "33fhfhRxnFZSVZ0oAeEeTg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -213,10 +213,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.DataStorage.html",
-          "hash": "5fgVuYpSaVt1KFj1SxoYZQ=="
+          "hash": "sJKeSuOQNF5yeWJYYgw4UQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -225,10 +225,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.GameJolt.html",
-          "hash": "d5U63tTCEcgT9CpV7+cKcg=="
+          "hash": "uw/z28QKyXwWBGvYHaJAbA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -237,10 +237,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.GameJoltAPIException.html",
-          "hash": "2WA19sN7vNkt8s54nLR9bg=="
+          "hash": "OXOUFcEyLoJsVLkeAWOFqA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -249,10 +249,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.IGJObject.html",
-          "hash": "x4X7iKef0ZVGXO/Rc3hzXA=="
+          "hash": "sYTqx+8U6Fjort0zdFMtTA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -261,10 +261,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Scores.ScoreElementNotFoundException.html",
-          "hash": "yXg8JuGKZIFQV1rVOJytRA=="
+          "hash": "BcmpDAM41/ltclMQniB0LQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -273,10 +273,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Scores.ScoreTable.html",
-          "hash": "kHsniUZu8uP7zuB32a32KQ=="
+          "hash": "nYGQ202rZ8UpezN6mjN3lw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -285,10 +285,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Scores.ScoreValue.html",
-          "hash": "6Vjm8xgXnwt6XtWUihmW4w=="
+          "hash": "hyQXIXbv0wCQ0lXhW4W64g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -297,10 +297,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Scores.TableManager.html",
-          "hash": "31X2jsZLrD7LP8AepsSisg=="
+          "hash": "CEAvBfN9PgLmb1AXUA/GPQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -309,10 +309,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Scores.html",
-          "hash": "TP1bV6UyiErVvqmo2F3l6g=="
+          "hash": "UA3JGvSvkVr2gGm4RUVkwg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -321,10 +321,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Users.FriendList.html",
-          "hash": "38ak6+0OUhSRg22E+6zYTg=="
+          "hash": "09KcxFAsprk6U0puYXPiiQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -333,10 +333,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Users.GameJoltMe.html",
-          "hash": "dfox1DRZ0R2OgFRbzL8Yeg=="
+          "hash": "jw04ygsy0epXwbK9Ia+zhA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -345,10 +345,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Users.GameJoltUser.html",
-          "hash": "iVPKBey9OLqsfasg+wDD3Q=="
+          "hash": "jK8zKMY0tv5EE3IPjhev7g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -357,10 +357,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Users.InvalidSessionStatusException.html",
-          "hash": "Luai40rpWmw6eGlGqucM2w=="
+          "hash": "XexHRWabk00k+sY6/vXOtg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -369,10 +369,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Users.SessionManager.html",
-          "hash": "iV6hBu5wE9AUpxpf8/6/Rw=="
+          "hash": "85TkNayYW9C+Czyv8AIo8w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -381,10 +381,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Users.SessionStatus.html",
-          "hash": "WmaVZkOw6D70Hv6pNJ6yiw=="
+          "hash": "wQ71SzGfenDQcM0J8hDz6w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -393,10 +393,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Users.Trophies.InvalidTrophyDifficultyException.html",
-          "hash": "8P0VpESxK7ovovOcaG3XwQ=="
+          "hash": "9ASuQbS3m3vs5b2ZlKHS/A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -405,10 +405,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Users.Trophies.TrophiesManager.html",
-          "hash": "Fo77bXUNdREa6RQYAWeabA=="
+          "hash": "yblfwDcrsEb6xUaj+r1SmQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -417,10 +417,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Users.Trophies.Trophy.html",
-          "hash": "gmUKFWgqABvmk00oOYyj9Q=="
+          "hash": "8rpYF4KTDVbhV2/L6PZlWw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -429,10 +429,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Users.Trophies.TrophyDifficulty.html",
-          "hash": "cbAuytEcPC2Sicnx5KcYEQ=="
+          "hash": "KFyc1YoN8qLfuCczjtd7qw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -441,10 +441,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Users.Trophies.TrophyElementNotFoundException.html",
-          "hash": "oWIlAas8say/KQVbUH+qog=="
+          "hash": "eIXZuPEQASTXbOciWl0aQw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -453,10 +453,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Users.Trophies.html",
-          "hash": "whw7OMg3sJpOfZuZlWuz9A=="
+          "hash": "mQ5fb3ine86KdCjFgvvSEA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -465,10 +465,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Users.UserNotLoggedException.html",
-          "hash": "J7q3KUvSkiDjG6Ath1c0Qw=="
+          "hash": "jGlPRM3LbU/zK3BFsC8Scg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -477,10 +477,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Users.UserStatus.html",
-          "hash": "Zc0Q2IKjrP94n6fDft8irA=="
+          "hash": "X993/K2BBPjUjTErl7bahA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -489,10 +489,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Users.UserType.html",
-          "hash": "Wv/KFPR8Sji30ySJ+o+pzQ=="
+          "hash": "l/TJkyIWHawBqH7XymccLw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -501,10 +501,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.Users.html",
-          "hash": "xOg4Zk+jvUXOERwqt4XWkw=="
+          "hash": "C7HhhUAczPAsyGuuRQ8dJQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -513,10 +513,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeReactor.CRGameJolt.html",
-          "hash": "jF44mVEpocIywcmxxkUvwQ=="
+          "hash": "yy9zPCz7YuB0sKh6B5ZYEw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -525,10 +525,10 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "i3D3E0aje4wVhDdEp7LNwA=="
+          "hash": "E8GppwU86escMywc3rDCYQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -549,10 +549,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "bRveCI1dYScxp83bTOkPRQ=="
+          "hash": "BbC/6ScPngm4pKHmwVM69g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -591,10 +591,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/CRGameJoltLogo.png",
+      "source_relative_path": "images/Logo.png",
       "output": {
         "resource": {
-          "relative_path": "images/CRGameJoltLogo.png"
+          "relative_path": "images/Logo.png"
         }
       },
       "is_incremental": false,
@@ -606,10 +606,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "LWcu6cqDlpguSrG5UOuOqA=="
+          "hash": "ezfmViAcuLjsEgnHkvhrfA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -628,23 +628,25 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because config changed.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ConfigChanged"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 4,
-          "skipped_file_count": 4
+          "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 42,
-          "skipped_file_count": 42
+          "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
