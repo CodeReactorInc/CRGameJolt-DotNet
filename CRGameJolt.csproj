@@ -19,12 +19,16 @@ This release add support for everything in GameJolt Game API version v1.2</Packa
     <OutputType>Library</OutputType>
     <RepositoryType>git</RepositoryType>
     <PackageIcon>CRGamejolt.png</PackageIcon>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Remove="Tests\**" />
+    <Compile Remove="Unity\**" />
     <EmbeddedResource Remove="Tests\**" />
+    <EmbeddedResource Remove="Unity\**" />
     <None Remove="Tests\**" />
+    <None Remove="Unity\**" />
     <None Include="..\..\..\Imagens\Code Reactor\CRGamejolt.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
