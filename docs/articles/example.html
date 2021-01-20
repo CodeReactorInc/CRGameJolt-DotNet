@@ -5,16 +5,16 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>CRGameJolt for DotNet | CRGameJolt </title>
+    <title>Examples | CRGameJolt </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="CRGameJolt for DotNet | CRGameJolt ">
+    <meta name="title" content="Examples | CRGameJolt ">
     <meta name="generator" content="docfx 2.56.6.0">
     
-    <link rel="shortcut icon" href="images/CRGameJolt.ico">
-    <link rel="stylesheet" href="styles/docfx.vendor.css">
-    <link rel="stylesheet" href="styles/docfx.css">
-    <link rel="stylesheet" href="styles/main.css">
-    <meta property="docfx:navrel" content="toc.html">
+    <link rel="shortcut icon" href="../images/CRGameJolt.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     
@@ -34,8 +34,8 @@
                 <span class="icon-bar"></span>
               </button>
               
-              <a class="navbar-brand" href="index.html">
-                <img id="logo" class="svg" src="images/Logo.png" alt="">
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/Logo.png" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -57,22 +57,40 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        <div class="article row grid">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="crgamejolt-for-dotnet">CRGameJolt for DotNet</h1>
+<h1 id="examples">Examples</h1>
 
-<p>Threadsafe library for .Net created in C# has the function to connect your game in GameJolt Game API and use systems like Trophies, Data Storage and a loot of another things from GameJolt</p>
-<h2 id="help-to-maintain-this-project">Help to maintain this project</h2>
-<p>The project are created with LGPL 3.0 and are open source, you are free to modify and help us to maintain this project, you only need create a account on GitHub and create a pull request on <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet">GitHub repository</a></p>
-<h2 id="runtime-support">Runtime support</h2>
-<p>Created in .Net Standard 2.0 to has the maximum of compatibility with another .Net projects, but, you can recompile for another runtime that has classes like WebClient and XML Linq</p>
-<h2 id="how-to-download">How to download</h2>
-<p>CRGameJolt for DotNet has precompiled binaries for NuGet, Unity Packages and DLL, you can see all options on <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/releases">GitHub release page</a> or in <a href="articles/download.html">download tab</a></p>
-<h3 id="warning">Warning</h3>
-<p>Any version downloaded from Unity Assets Store is unofficial, only the Unity Package file from GitHub Releases are from Code Reactor</p>
-<h2 id="reporting-bugs">Reporting bugs</h2>
-<p><a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/issues">Report bugs or issues in here</a></p>
+<p>Very easy to use, you only need initialize only one class and she gonna take control of the rest</p>
+<h2 id="using-global-data-storage-without-logging">Using Global Data Storage without logging</h2>
+<pre><code class="lang-csharp">GameJolt gameJolt = new GameJolt(gameId, apiToken);
+gameJolt.GlobalDataStorage[&quot;key&quot;] = new DataStorageValue(&quot;Value&quot;);
+</code></pre>
+<h2 id="giving-trophies-to-a-user">Giving trophies to a user</h2>
+<pre><code class="lang-csharp">GameJolt gameJolt = new GameJolt(gameId, apiToken);
+gameJolt.Login(username, userToken);
+gameJolt.UserLogged.Trophies[userId].Add();
+</code></pre>
+<h2 id="adding-a-score-in-gamejolt-game-api">Adding a score in GameJolt Game API</h2>
+<pre><code class="lang-csharp">GameJolt gameJolt = new GameJolt(gameId, apiToken);
+gameJolt.Login(username, userToken);
+gameJolt.Tables.Primary.Add(&quot;20 Points&quot;, 20, null, gameJolt.UserLogged);
+</code></pre>
+<h2 id="creating-a-session">Creating a session</h2>
+<pre><code class="lang-csharp">GameJolt gameJolt = new GameJolt(gameId, apiToken);
+gameJolt.Login(username, userToken);
+gameJolt.UserLogged.Session.Open();
+Thread.Sleep(SessionManager.Timeout);
+gameJolt.UserLogged.Session.Ping();
+</code></pre>
 </article>
           </div>
           
@@ -81,7 +99,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/CodeReactorInc/CRGameJolt-DotNet/blob/master/articles/example.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
@@ -108,8 +126,8 @@
       </footer>
     </div>
     
-    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="styles/docfx.js"></script>
-    <script type="text/javascript" src="styles/main.js"></script>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
   </body>
 </html>
